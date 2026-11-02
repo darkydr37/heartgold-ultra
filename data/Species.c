@@ -27789,8 +27789,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_NONE,
+                .common = ITEM_SPELL_TAG,
+                .rare = ITEM_GRISEOUS_ORB,
             },
             .genderRatio = 255,
             .hatchCycles = 120,
@@ -27960,8 +27960,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_NONE,
+                .common = ITEM_SITRUS_BERRY,
+                .rare = ITEM_MYSTIC_WATER,
             },
             .genderRatio = 255,
             .hatchCycles = 10,
@@ -28017,8 +28017,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 1,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_NONE,
+                .common = ITEM_BLACK_GLASSES,
+                .rare = ITEM_DREAD_PLATE,
             },
             .genderRatio = 255,
             .hatchCycles = 120,
@@ -28075,7 +28075,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
             },
             .wildHeldItems = {
                 .common = ITEM_LUM_BERRY,
-                .rare = ITEM_NONE,
+                .rare = ITEM_GRACIDEA,
             },
             .genderRatio = 255,
             .hatchCycles = 120,
@@ -28131,8 +28131,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_NONE,
+                .common = ITEM_SITRUS_BERRY,
+                .rare = ITEM_BLANK_PLATE,
             },
             .genderRatio = 255,
             .hatchCycles = 120,
@@ -43920,8 +43920,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_NONE,
+                .common = ITEM_SPELL_TAG,
+                .rare = ITEM_PRISON_BOTTLE,
             },
             .genderRatio = 255,
             .hatchCycles = 120,
@@ -53496,7 +53496,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 3,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_METAL_COAT,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 255,
@@ -53553,7 +53553,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 3,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_METAL_COAT,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 255,
@@ -72648,8 +72648,8 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 0,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
-                .rare = ITEM_NONE,
+                .common = ITEM_SPELL_TAG,
+                .rare = ITEM_PRISON_BOTTLE,
             },
             .genderRatio = 255,
             .hatchCycles = 120,
@@ -75156,7 +75156,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .speed = 3,
             },
             .wildHeldItems = {
-                .common = ITEM_NONE,
+                .common = ITEM_METAL_COAT,
                 .rare = ITEM_NONE,
             },
             .genderRatio = 255,
