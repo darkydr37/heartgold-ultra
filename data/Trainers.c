@@ -69,19 +69,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Say, you’ve got a lot of nerve,\\ncoming here...\\n",
+                .text = "Hé toi, t’as du cran\\nde venir ici...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "That’s ridiculous. There’s no way\\nI could lose to a wimp like you!\\n",
+                .text = "Ridicule ! Impossible que je perde\\ncontre un minus comme toi !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\nUseless Pokémon!\\rListen, you. You won only because my\\nPokémon were weak.\\n",
+                .text = "...Pff !\\nPokémon inutiles !\\rÉcoute-moi bien. T’as gagné seulement\\nparce que mes Pokémon étaient faibles.\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\nI knew you were lying.\\n",
+                .text = "...Pff !\\nJe savais que tu racontais\\nn’importe quoi.\\n",
             },
         },
     },
@@ -127,7 +127,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [4] = {
-        .name = "Wade",
+        .name = "Francis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -168,7 +168,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I caught a bunch of Pokémon.\\nLet me battle with you!\\r",
+                .text = "J’ai attrapé plein de Pokémon.\\nLaisse-moi me battre avec toi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -176,11 +176,11 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You can catch Pokémon even if you have\\nsix with you.\\rIf you catch one, it’ll go to your Box\\nautomatically.\\n",
+                .text = "Tu peux attraper des Pokémon même si tu\\nen as déjà six.\\rSi tu en attrapes un, il ira dans\\nton PC automatiquement.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I was waiting for you. Let’s battle!\\r",
+                .text = "Je t’attendais. Combattons !\\r",
             },
         },
     },
@@ -227,21 +227,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Oh, you are a cute little Trainer!\\nI like you, but I won’t hold back!\\r",
+                .text = "Oh, tu es un petit Dresseur trop mignon !\\nJe t’aime bien, mais je vais pas me retenir !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Let’s see...\\nOops, it’s over?\\n",
+                .text = "Voyons voir...\\nOups, c’est déjà fini ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Wow, you must be good to beat me!\\nKeep it up!\\n",
+                .text = "Wow, tu dois être doué pour m’avoir battue !\\nContinue comme ça !\\n",
             },
         },
     },
 
     [6] = {
-        .name = "Keith",
+        .name = "Nicolas",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POLICEMAN,
@@ -275,21 +275,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What’s with you?\\nWhat are you doing?\\r",
+                .text = "Qu’est-ce que tu veux, toi ?\\nQu’est-ce que tu fabriques ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You don’t have to worry about the night\\nwhen you’re with strong Pokémon.\\n",
+                .text = "Pas besoin d’avoir peur la nuit\\nquand on a des Pokémon puissants.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The group stealing other people’s\\nPokémon seems to be growing lately.\\fYou should be careful, too.\\n",
+                .text = "Le groupe qui vole les Pokémon des gens\\nsemble devenir plus actif, dernièrement.\\fToi aussi, fais attention.\\n",
             },
         },
     },
 
     [7] = {
-        .name = "Irwin",
+        .name = "Anthony",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_JUGGLER,
@@ -330,25 +330,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Behold my dexterity and grace!\\r",
+                .text = "Admire mon adresse et ma grâce !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew! That was a jolt!\\n",
+                .text = "Ouf ! Quel choc !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I was going to dazzle you with my prize\\nPokémon. But your prowess\\felectrified me!\\n",
+                .text = "J’allais t’éblouir avec mes Pokémon\\nprécieux. Mais ta puissance m’a\\félectrisé !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Yo! I’ve been waiting!\\r",
+                .text = "Yo ! Je t’attendais !\\r",
             },
         },
     },
 
     [8] = {
-        .name = "Joey",
+        .name = "Farouk",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -368,25 +368,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I just lost, so I’m trying to find\\nmore Pokémon.\\rWait! You look weak! Come on,\\nlet’s battle!\\r",
+                .text = "Je viens de perdre, alors je cherche\\nd’autres Pokémon.\\rAttends ! Tu as l’air faible ! Allez,\\ncombattons !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh...\\nI’m out of Pokémon that can fight.\\n",
+                .text = "Oh...\\nJe n’ai plus de Pokémon en état de se battre.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I knew it--if you don’t have many\\nPokémon, battles are harder!\\fI need to catch more Pokémon!\\n",
+                .text = "Je le savais, si tu n’as pas beaucoup de\\nPokémon, les combats sont plus durs !\\fJe dois en attraper plus !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve been waiting!\\nLet’s battle now!\\r",
+                .text = "Je t’attendais !\\nCombattons maintenant !\\r",
             },
         },
     },
 
     [9] = {
-        .name = "Elaine",
+        .name = "Simone",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -420,21 +420,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you going to Cianwood?\\rHow about a quick battle first?\\r",
+                .text = "Tu vas à Irisia ?\\rEt si on faisait un petit combat avant ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost that one!\\n",
+                .text = "J’ai perdu celui-là !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’d say I’m a better swimmer than you.\\nYeah!\\n",
+                .text = "Je dirais que je nage mieux que toi.\\nOuais !\\n",
             },
         },
     },
 
     [10] = {
-        .name = "Amy & Mimi",
+        .name = "Lia & Liz",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -475,41 +475,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Amy: Hey, are you challenging the\\nLeader? No way!\\r",
+                .text = "Amy: Hé, tu veux défier le\\nChampion ? Pas possible !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Amy: Oh, goodness!",
+                .text = "Amy: Oh, mince !",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Amy: You’re really strong!",
+                .text = "Amy: Tu es vraiment fort !",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Amy: You have only one Pokémon?\\nThat’s kind of lonely...",
+                .text = "Amy: Tu n’as qu’un seul Pokémon ?\\nC’est un peu triste...",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Mimi: If you insist, we’ll be\\nyour opponents.\\r",
+                .text = "Mimi: Si tu insistes, on sera\\ntes adversaires.\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Mimi: I’m feeling a bit dizzy...\\n",
+                .text = "Mimi: J’ai un peu la tête qui tourne...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Mimi: Our bug Pokémon lost! Oh, what\\na shame.\\n",
+                .text = "Mimi: Nos Pokémon Insecte ont perdu ! Oh, quel\\ndommage.\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Mimi: It’s a little unfair to battle\\nsomeone who has only one Pokémon.\\n",
+                .text = "Mimi: C’est un peu injuste de combattre\\nquelqu’un qui n’a qu’un seul Pokémon.\\n",
             },
         },
     },
 
     [11] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_KIMONO_GIRL,
@@ -543,7 +543,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [12] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -584,21 +584,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Quit taking SlowpokeTails?\\rIf we listened to you, Team Rocket’s\\nrep would be ruined!\\r",
+                .text = "Arrêter de prendre des Queues Ramoloss ?\\rSi on t’écoutait, la réputation de la\\nTeam Rocket serait ruinée !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Just...\\nToo strong...\\n",
+                .text = "Juste...\\nTrop fort...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We need the money, but selling\\nSlowpokeTails?\\rIt’s tough being a Team Rocket Grunt!\\n",
+                .text = "On a besoin d’argent, mais vendre des\\nQueues Ramoloss ?\\rC’est dur d’être un sbire de la Team Rocket !\\n",
             },
         },
     },
 
     [13] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET_F,
@@ -632,21 +632,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Stop taking SlowpokeTails?\\rWhat?! You want us to disobey a direct\\norder from Executive Proton?\\rIf you want to stop us, you’ll have to\\ndefeat us all! Go ahead and try!\\r",
+                .text = "Arrêter de prendre des Queues Ramoloss ?\\rQuoi ?! Tu veux qu’on désobéisse à un ordre\\ndirect de l’Admin Proton ?\\rSi tu veux nous arrêter, tu devras tous\\nnous battre ! Vas-y, essaie !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You rotten brat!\\n",
+                .text = "Sale morveux !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "SlowpokeTails grow back fast!\\rBesides, it was an order from Proton,\\nso I’m more concerned about that!\\n",
+                .text = "Les Queues Ramoloss repoussent vite !\\rEt puis, c’était un ordre de Proton,\\nalors c’est ça qui m’inquiète le plus !\\n",
             },
         },
     },
 
     [14] = {
-        .name = "Duncan",
+        .name = "Elmer",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BURGLAR,
@@ -687,15 +687,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Fork over your goods!\\r",
+                .text = "Allez, donne-moi tes affaires !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Mercy!\\n",
+                .text = "Pitié !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Steal and sell!\\nThat’s basic in crime, kid!\\n",
+                .text = "Voler et revendre !\\nC’est la base du crime, gamin !\\n",
             },
         },
     },
@@ -754,21 +754,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Ah!\\nThe weather’s as fine as ever.\\r",
+                .text = "Ah !\\nLe temps est toujours aussi beau.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "It’s sunny, but in my heart,\\nit’s rainy...\\n",
+                .text = "Il fait soleil, mais dans mon cœur,\\nil pleut...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "When it rains, it’s hard to get fired up.\\nI just simmer...\\n",
+                .text = "Quand il pleut, je n’arrive pas\\nà me motiver. Je mijote juste...\\n",
             },
         },
     },
 
     [16] = {
-        .name = "Simon",
+        .name = "Vladimir",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -809,21 +809,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You have to warm up before going into\\nthe water.\\rThat’s basic.\\r",
+                .text = "Faut s’échauffer avant d’aller dans\\nl’eau.\\rC’est la base.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "OK! I give up!\\n",
+                .text = "OK ! J’abandonne !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Cianwood City is a good distance away\\nfrom here.\\n",
+                .text = "Irisia est encore loin d’ici.\\n",
             },
         },
     },
 
     [17] = {
-        .name = "Kenji",
+        .name = "Jacky",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -857,25 +857,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I was training here alone.\\nBehold the result of my hard work!\\r",
+                .text = "Je m’entraînais ici tout seul.\\nAdmire le résultat de mes efforts !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Waaaargh!\\n",
+                .text = "Waaaargh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "This calls for extreme measures. I must\\ntake to the hills and train in solitude.\\n",
+                .text = "Il me faut des mesures extrêmes. Je dois\\nme retirer dans les montagnes et m’entraîner en solitaire.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve been studying while waiting for you\\nto come back...\\rLet me show you the results!\\r",
+                .text = "J’ai étudié en attendant ton retour...\\rLaisse-moi te montrer les résultats !\\r",
             },
         },
     },
 
     [18] = {
-        .name = "Justin",
+        .name = "César",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -916,21 +916,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Whoa!\\rYou made me lose that fish!\\r",
+                .text = "Whoa !\\rTu m’as fait perdre ce poisson !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Sploosh!\\n",
+                .text = "Splooosh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Calm, collected...\\rThe essence of fishing and Pokémon is\\nthe same.\\n",
+                .text = "Calme, posé...\\rLa pêche et les Pokémon, c’est la même\\nphilosophie.\\n",
             },
         },
     },
 
     [19] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -964,7 +964,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [20] = {
-        .name = "Falkner",
+        .name = "Albert",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_FALKNER,
@@ -1031,21 +1031,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "The wind is finally with us!\\n",
+                .text = "Le vent est enfin avec nous !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "We can still fly!\\n",
+                .text = "On peut encore voler !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I understand...\\nI’ll bow out gracefully.\\n",
+                .text = "Je comprends...\\nJe me retire avec élégance.\\n",
             },
         },
     },
 
     [21] = {
-        .name = "Bugsy",
+        .name = "Hector",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_BUGSY,
@@ -1112,21 +1112,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Even though it’s my last Pokémon,\\nBug Pokémon are tough!\\n",
+                .text = "Même si c’est mon dernier Pokémon,\\nles Pokémon Insecte sont coriaces !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Hang in there! Just a little more!\\n",
+                .text = "Tiens bon ! Encore un petit effort !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aw, that’s the end of it...\\n",
+                .text = "Ah, c’est la fin...\\n",
             },
         },
     },
 
     [22] = {
-        .name = "Carrie",
+        .name = "Jennifer",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_LASS,
@@ -1147,21 +1147,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You shouldn’t let your guard down just\\n’cause I don’t look tough!\\r",
+                .text = "Tu devrais pas baisser ta garde juste\\nparce que j’ai pas l’air costaud !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gosh...\\nI thought you were weak...\\n",
+                .text = "Oh là là...\\nJe pensais que t’étais faible...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Who do you think are stronger--\\nboys or girls?\\n",
+                .text = "À ton avis, qui sont les plus forts-\\nles garçons ou les filles ?\\n",
             },
         },
     },
 
     [23] = {
-        .name = "Larry",
+        .name = "Raynal",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -1188,21 +1188,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I roam far and wide in search of\\nPokémon.\\rAre you looking for Pokémon, too?\\nThen you’re my collecting rival!\\r",
+                .text = "Je parcours le monde à la recherche de\\nPokémon.\\rTu cherches des Pokémon, toi aussi ?\\nAlors tu es mon rival de collection !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ugh. My poor Pokémon...\\n",
+                .text = "Ugh. Mes pauvres Pokémon...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Every Friday, you can hear Pokémon\\nroars from deep inside the cave.\\n",
+                .text = "Chaque vendredi, on peut entendre des\\nrugissements de Pokémon au fond de la grotte.\\n",
             },
         },
     },
 
     [24] = {
-        .name = "Alan",
+        .name = "Aimé",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -1236,25 +1236,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can properly prepare for any\\nPokémon adversary!\\r",
+                .text = "Je peux me préparer correctement pour\\nn’importe quel adversaire Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Huh...?\\nWas my prediction incorrect?\\n",
+                .text = "Hein...?\\nMa prédiction était fausse ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Sniffle... I study for five hours\\nstraight every day...\\rIf you only read the textbook, I guess\\nyou miss out on a lot.\\n",
+                .text = "Snif... J’étudie cinq heures d’affilée\\ntous les jours...\\rSi tu lis seulement le manuel, tu rates\\nplein de choses.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve prepared perfectly, waiting\\nfor you!\\r",
+                .text = "Je me suis préparé parfaitement, en\\nt’attendant !\\r",
             },
         },
     },
 
     [25] = {
-        .name = "Russel",
+        .name = "Abélard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -1295,21 +1295,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You’re headed to Azalea, are you?\\nLet my Pokémon see if you are good\\fenough to battle.\\r",
+                .text = "Tu vas à Écorcia, hein ?\\nLaisse mes Pokémon voir si tu es assez\\fbon pour te battre.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, oh, oh!\\n",
+                .text = "Oh, oh, oh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All right, then! I’ve decided.\\rI’m not leaving until my Pokémon\\nget tougher!\\n",
+                .text = "Très bien ! J’ai décidé.\\rJe ne partirai pas tant que mes Pokémon\\nne seront pas plus forts !\\n",
             },
         },
     },
 
     [26] = {
-        .name = "Roland",
+        .name = "Raymond",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -1343,21 +1343,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "That glance...\\nIt’s intriguing.\\r",
+                .text = "Ce regard...\\nIntrigant.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Hmmm. This is disappointing.\\n",
+                .text = "Hmmm. Décevant.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you don’t want to battle, just avoid\\neye contact.\\n",
+                .text = "Si tu ne veux pas te battre, évite juste\\nle contact visuel.\\n",
             },
         },
     },
 
     [27] = {
-        .name = "Liz",
+        .name = "Elisabeth",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -1384,25 +1384,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Uh-huh. Yeah, and you know...\\rPardon? Pokémon battle?\\nI’m on the phone.\\rOh, all right.\\nI’ll accept your challenge!\\r",
+                .text = "Uh-huh. Oui, et tu sais...\\rPardon ? Un combat Pokémon ?\\nJe suis au téléphone.\\rBon, d’accord.\\nJ’accepte ton défi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Pfft.\\nBefore I could get serious, I lost!\\n",
+                .text = "Pfft.\\nAvant même de devenir sérieux, j’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "At least I can complain over the phone.\\n",
+                .text = "Au moins, je peux râler au téléphone.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "You’re late! Let’s get started now!\\r",
+                .text = "Tu es en retard ! Allez, on commence !\\r",
             },
         },
     },
 
     [28] = {
-        .name = "Jake",
+        .name = "Jack",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -1439,21 +1439,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m making my final preparations for the\\nPokémon League.\\r",
+                .text = "Je fais mes derniers préparatifs pour la\\nLigue Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I blew it!\\n",
+                .text = "J’ai tout gâché !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s going to be tough to win at the\\nLeague. I need to do some more\\rtraining. I hear that the League’s Elite\\nFour are tougher than Gym Leaders.\\n",
+                .text = "Ça va être dur de gagner à la Ligue.\\nJe dois encore m’entraîner.\\rOn dit que le Conseil 4 est encore plus\\nfort que les Champions d’Arène.\\n",
             },
         },
     },
 
     [29] = {
-        .name = "Rod",
+        .name = "Elie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -1494,21 +1494,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Ho ho!\\rYou some kind of big shot? We’ll see\\fwhat happens if you get pushed around\\nup here. Think you’ll stagger and fall?\\rPeople here are training night and\\nday to become bird Pokémon masters.\\rBring it on!\\r",
+                .text = "Ho ho !\\rTu te prends pour un dur ? On va voir\\fce qui t’arrive si on te bouscule\\nici-haut. Tu crois que tu vas vaciller ?\\rIci, les gens s’entraînent jour et nuit\\npour devenir des maîtres des Pokémon Oiseaux.\\rAllez, approche !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gaaah!\\n",
+                .text = "Gaaah !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Falkner’s skills are for real!\\rDon’t get cocky!",
+                .text = "Les talents de Falkner sont bien réels !\\rNe prends pas la grosse tête !",
             },
         },
     },
 
     [30] = {
-        .name = "Whitney",
+        .name = "Blanche",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_WHITNEY,
@@ -1575,11 +1575,11 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "H-hey! Just one left?\\nBut... I ain’t losin’, you hear?\\n",
+                .text = "H-hé ! Plus qu’un seul ?\\nMais... je vais pas perdre, tu m’entends !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Poor me!\\n",
+                .text = "Pauvre de moi !\\n",
             },
             {
                 .type = TRMSG_LOSE,
@@ -1589,7 +1589,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [31] = {
-        .name = "Morty",
+        .name = "Mortimer",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_MORTY,
@@ -1656,21 +1656,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "No, it’s not over yet--not yet!\\nI still believe we can do it!\\n",
+                .text = "Non, ce n’est pas fini-pas encore !\\nJe crois toujours qu’on peut y arriver !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "We’ve got more discipline than\\nanyone else!\\n",
+                .text = "On a plus de discipline que\\nn’importe qui !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "How is this possible...\\n",
+                .text = "Comment est-ce possible...\\n",
             },
         },
     },
 
     [32] = {
-        .name = "Pryce",
+        .name = "Frédo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_PRYCE,
@@ -1737,15 +1737,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Humph... You are quite the Trainer.\\n",
+                .text = "Pff... Tu es un sacré Dresseur.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Willow is my middle name.\\nWillow is flexible and not easily broken.\\fI’m not giving up yet.\\n",
+                .text = "Saule est mon deuxième prénom.\\nLe saule plie mais ne rompt pas.\\fJe n’abandonne pas encore.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Hmm. Seems as if my luck has run out.\\n",
+                .text = "Hmm. On dirait que ma chance m’a quitté.\\n",
             },
         },
     },
@@ -1818,15 +1818,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Properly tempered steel won’t be made\\nrusty by things like this!\\n",
+                .text = "Un acier bien trempé ne rouille pas\\npour si peu !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Steel will hang on to the very last!\\n",
+                .text = "L’acier tient jusqu’au tout dernier instant !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Well done...\\n",
+                .text = "Bien joué...\\n",
             },
         },
     },
@@ -1899,21 +1899,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "We haven’t lost yet!\\n",
+                .text = "On n’a pas encore perdu !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "No... Not...yet...\\n",
+                .text = "Non... Pas...encore...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "We...lost...\\n",
+                .text = "On...a perdu...\\n",
             },
         },
     },
 
     [35] = {
-        .name = "Clair",
+        .name = "Sandra",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_CLAIR,
@@ -1980,21 +1980,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "One Pokémon left?\\nThis is where the real battle begins!\\n",
+                .text = "Un seul Pokémon ?\\nC’est maintenant que le vrai combat commence !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "You’re kidding, right?\\nI’m supposed to win! I already decided!\\n",
+                .text = "Tu plaisantes, hein ?\\nC’est moi qui dois gagner ! Je l’ai déjà décidé !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost? ...\\rI don’t believe it.\\nThere must be some mistake...\\n",
+                .text = "J’ai perdu ? ...\\rJ’y crois pas.\\nIl doit y avoir une erreur...\\n",
             },
         },
     },
 
     [36] = {
-        .name = "Joyce",
+        .name = "Cathy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -2031,21 +2031,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Since you’ve come this far, you must be\\ngood. I’m going to give this battle\\feverything I’ve got!\\r",
+                .text = "Si tu es arrivé jusqu’ici, tu dois être\\nbon. Je vais donner tout ce que j’ai\\fdans ce combat !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No! I don’t believe this!\\n",
+                .text = "Non ! Je n’y crois pas !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ve defeated eight Gym Leaders, so I\\nwas feeling confident.\\rI’ll have to try harder next time.\\n",
+                .text = "J’ai battu huit Champions, alors j’étais\\nconfiant.\\rJe devrai faire mieux la prochaine fois.\\n",
             },
         },
     },
 
     [37] = {
-        .name = "Preston",
+        .name = "Tancred",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -2086,15 +2086,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I travel the world to train my Pokémon.\\nNow, I wish to battle with you.\\r",
+                .text = "Je parcours le monde pour entraîner mes Pokémon.\\nMaintenant, je souhaite me battre avec toi.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Aww... I must train some more...\\n",
+                .text = "...Aww... Je dois encore m’entraîner...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Jasmine used to use Rock Pokémon\\nlike ONIX.\\n",
+                .text = "Jasmine utilisait autrefois des Pokémon Roche\\ncomme ONIX.\\n",
             },
         },
     },
@@ -2134,21 +2134,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Have you forgotten anything?\\r",
+                .text = "Tu n’as rien oublié ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Kyaaah!\\n",
+                .text = "Kyaaah !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Before I became a teacher, I used to\\nforget a lot of things.\\n",
+                .text = "Avant de devenir prof, j’oubliais\\nplein de choses.\\n",
             },
         },
     },
 
     [39] = {
-        .name = "Eugene",
+        .name = "Jacob",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -2189,21 +2189,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I just got back to Olivine.\\nSo, how about a Pokémon battle?\\r",
+                .text = "Je viens juste de rentrer d’Oliville.\\nAlors, un petit combat Pokémon ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Awaaargh!\\n",
+                .text = "Awaaargh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My Pokémon were caught and raised\\noverseas. They’re my companions on\\fthose long voyages.\\n",
+                .text = "Mes Pokémon ont été capturés et élevés\\nà l’étranger. Ce sont mes compagnons de\\flongs voyages.\\n",
             },
         },
     },
 
     [40] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -2237,7 +2237,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [41] = {
-        .name = "Clyde",
+        .name = "Django",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_GUITARIST,
@@ -2271,21 +2271,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m going to audition my songs at\\nGoldenrod’s Radio Tower.\\r",
+                .text = "Je vais auditionner mes chansons à\\nla Tour Radio de Doublonville.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yowza!\\nTotal distortion!\\n",
+                .text = "Yowza !\\nDistorsion totale !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Speaking of the Radio Tower, what is\\nBuena’s password for today?\\n",
+                .text = "En parlant de la Tour Radio, c’est quoi\\nle mot de passe de Buena aujourd’hui ?\\n",
             },
         },
     },
 
     [42] = {
-        .name = "Nathan",
+        .name = "Jason",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -2319,7 +2319,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hmmm...\\nThis is a strange place.\\r",
+                .text = "Hmmm...\\nCet endroit est étrange.\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -2327,13 +2327,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I like thinking here.\\n",
+                .text = "J’aime réfléchir ici.\\n",
             },
         },
     },
 
     [43] = {
-        .name = "Chow",
+        .name = "Quentin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -2367,21 +2367,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We stand guard in this tower.\\rHere, we express our gratitude to\\nshow our respect for all Pokémon.\\r",
+                .text = "Nous montons la garde dans cette tour.\\rIci, nous exprimons notre gratitude pour\\nmontrer notre respect envers tous les Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Th-thank you!\\n",
+                .text = "M-merci !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All living beings coexist through\\ncooperation.\\rWe must always be thankful for this.\\n",
+                .text = "Tous les êtres vivants coexistent grâce\\nà la coopération.\\rNous devons toujours en être reconnaissants.\\n",
             },
         },
     },
 
     [44] = {
-        .name = "Derek",
+        .name = "Djamil",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -2418,25 +2418,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Is it OK to brag about my Pokémon?\\r",
+                .text = "Je peux me vanter de mes Pokémon ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I couldn’t brag...\\n",
+                .text = "J’ai même pas pu me vanter...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m not listening to your bragging!\\nWe Pokéfans have a policy of not\\flistening to other people brag!\\n",
+                .text = "Je t’écoute pas te vanter !\\nNous, les Pokéfans, on a une règle : on\\fécoute pas les autres se vanter !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve been waiting!\\nI’ve been wanting to brag to you!\\r\\n",
+                .text = "Je t’attendais !\\nJ’avais trop envie de me vanter auprès de toi !\\r\\n",
             },
         },
     },
 
     [45] = {
-        .name = "Ruth",
+        .name = "Tatiana",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_POKEFAN,
@@ -2473,21 +2473,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Such darling Pokémon. Let’s show our\\nPokémon together at the same time.\\r",
+                .text = "Tes Pokémon sont adorables. Montrons nos\\nPokémon en même temps.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I don’t mind losing.\\n",
+                .text = "Ça me dérange pas de perdre.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Do you know about baby Pokémon?\\nI’ll bet they’re just adorable!\\n",
+                .text = "Tu connais les bébés Pokémon ?\\nJe parie qu’ils sont trop mignons !\\n",
             },
         },
     },
 
     [46] = {
-        .name = "Martha",
+        .name = "Marthe",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -2521,21 +2521,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I shall win!\\r",
+                .text = "Je vais gagner !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I... I... I lost!\\n",
+                .text = "Je... je... j’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The one who most wants to win--will!\\n",
+                .text = "Celui qui veut le plus gagner-gagne !\\n",
             },
         },
     },
 
     [47] = {
-        .name = "Mikey",
+        .name = "Mandé",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -2576,21 +2576,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You’re a Pokémon Trainer, right?\\nThen you have to battle!\\r",
+                .text = "Tu es un Dresseur Pokémon, non ?\\nAlors tu dois te battre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "That’s strange.\\nI won before.\\n",
+                .text = "C’est étrange.\\nJ’avais gagné avant.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Becoming a good Trainer is really tough.\\nI’m going to battle other people to\\fget better.\\n",
+                .text = "Devenir un bon Dresseur est vraiment difficile.\\nJe vais affronter d’autres gens pour\\fprogresser.\\n",
             },
         },
     },
 
     [48] = {
-        .name = "Rob",
+        .name = "Aymeric",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -2623,25 +2623,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My bug Pokémon are tough.\\nPrepare to lose!\\r",
+                .text = "Mes Pokémon Insecte sont coriaces.\\nPrépare-toi à perdre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was whipped...\\n",
+                .text = "J’ai été balayé...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m going to look for stronger\\nbug Pokémon.\\n",
+                .text = "Je vais chercher des Pokémon Insecte\\nencore plus forts.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "My bug Pokémon have been waiting\\nfor you!\\r",
+                .text = "Mes Pokémon Insecte t’attendaient\\nimpatiemment !\\r",
             },
         },
     },
 
     [49] = {
-        .name = "Albert",
+        .name = "Roméo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -2682,21 +2682,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I haven’t seen you around before.\\nSo you think you’re pretty tough?\\r",
+                .text = "Je ne t’ai jamais vu dans le coin.\\nTu te crois fort ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re strong!\\n",
+                .text = "Tu es fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m going to try to be the best with my\\nprized Pokémon. I’m not using the\\fsame tough Pokémon as everyone else.\\n",
+                .text = "Je veux devenir le meilleur avec mes\\nPokémon préférés. Je n’utilise pas les\\fPokémon costauds que tout le monde prend.\\n",
             },
         },
     },
 
     [50] = {
-        .name = "Abe",
+        .name = "Ben",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -2737,21 +2737,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can’t believe how ridiculously high\\nthis is! But from up here, you can tell\\fwhat it feels like to be a bird Pokémon!\\rLet me see if you’re good enough to\\nface Falkner!\\r",
+                .text = "J’en reviens pas comme c’est haut ici !\\nMais d’ici, on sent vraiment\\fce que vit un Pokémon Oiseau !\\rVoyons si t’es assez bon pour affronter\\nFalkner !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "This can’t be true!\\n",
+                .text = "C’est pas possible !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Even though you’re a rookie Trainer,\\nyou’re not bothered by these heights\\fat all... You’re really something!\\n",
+                .text = "Même si t’es un Dresseur débutant,\\ntu sembles pas du tout gêné par la hauteur...\\fTu es vraiment impressionnant !\\n",
             },
         },
     },
 
     [51] = {
-        .name = "Nico",
+        .name = "Horst",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -2799,21 +2799,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "However hard we battle, the tower will\\nstand strong.\\r",
+                .text = "Peu importe la force de nos combats, la tour\\nrestera solide.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I fought hard, but I’m too weak.\\n",
+                .text = "Je me suis battu dur, mais je suis trop faible.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The flexible pillar protects the tower,\\neven from earthquakes.\\n",
+                .text = "Le pilier flexible protège la tour,\\nmême des tremblements de terre.\\n",
             },
         },
     },
 
     [52] = {
-        .name = "Edmond",
+        .name = "Briand",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -2854,21 +2854,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I sway like leaves in the wind...\\r",
+                .text = "Je me balance comme des feuilles\\nau vent...\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, I’m weak!\\n",
+                .text = "Oh, je suis faible !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I tried to copy BELLSPROUT’s gentle\\nmovements for battle...\\rBut I didn’t train well enough.\\n",
+                .text = "J’ai essayé d’imiter les mouvements doux\\nde CHETIFLOR pour combattre...\\rMais je ne me suis pas assez entraîné.\\n",
             },
         },
     },
 
     [53] = {
-        .name = "Jin",
+        .name = "Alfonse",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -2902,21 +2902,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I train to find enlightenment\\nin Pokémon!\\r",
+                .text = "Je m’entraîne pour trouver l’illumination\\ndans les Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "This little squirt sure made me hurt!\\n",
+                .text = "Ce petit morveux m’a bien fait mal !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "As Pokémon grow stronger, so does\\nthe Trainer.\\rNo, wait. As the Trainer grows\\nstronger, so do the Pokémon.\\n",
+                .text = "Quand les Pokémon deviennent plus forts,\\nle Dresseur aussi.\\rNon, attends. Quand le Dresseur devient\\nplus fort, les Pokémon aussi.\\n",
             },
         },
     },
 
     [54] = {
-        .name = "Troy",
+        .name = "Batiste",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -2957,21 +2957,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Let me see how much you trust\\nyour Pokémon.\\r",
+                .text = "Voyons à quel point tu fais confiance\\nà tes Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yes, your trust is real!\\n",
+                .text = "Oui, ta confiance est réelle !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It is not far to the Elder.\\n",
+                .text = "L’Ancien n’est plus très loin.\\n",
             },
         },
     },
 
     [55] = {
-        .name = "Neal",
+        .name = "Achille",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -3005,21 +3005,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The Elder’s TM lights even\\npitch-black darkness.\\r",
+                .text = "La CT de l’Ancien éclaire même\\nles ténèbres les plus profondes.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "It is my head that is bright!\\n",
+                .text = "C’est ma tête qui brille !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Let there be light on your journey.\\n",
+                .text = "Que la lumière guide ton voyage.\\n",
             },
         },
     },
 
     [56] = {
-        .name = "Gordon",
+        .name = "Momo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -3053,21 +3053,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I found some good Pokémon in the grass!\\nI think they’ll do it for me!\\r",
+                .text = "J’ai trouvé de bons Pokémon dans l’herbe !\\nJe pense qu’ils feront l’affaire !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Shucks. I thought I could win.\\n",
+                .text = "Zut. Je pensais pouvoir gagner.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Each Pokémon has its own nature.\\nThey seem different every time I catch\\fone. So there must be many natures!\\n",
+                .text = "Chaque Pokémon a sa propre nature.\\nIls semblent différents à chaque fois que\\fje les attrape. Il doit y avoir plein de natures !\\n",
             },
         },
     },
 
     [57] = {
-        .name = "Ralph",
+        .name = "Auffray",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -3101,25 +3101,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m really good at fishing, but I’m even\\nbetter at Pokémon!\\r",
+                .text = "Je suis très bon pêcheur, mais je suis encore\\nmeilleur avec les Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Tch! I tried to rush things...\\n",
+                .text = "Tch ! J’ai voulu aller trop vite...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Fishing is a lifelong passion.\\nPokémon are lifelong friends!\\n",
+                .text = "La pêche est une passion pour la vie.\\nLes Pokémon sont des amis pour la vie !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Oh look, a kid challenger!\\nThis old man ain’t losing today!\\r",
+                .text = "Oh tiens, un jeune challenger !\\nCe vieux pêcheur ne perdra pas aujourd’hui !\\r",
             },
         },
     },
 
     [58] = {
-        .name = "Arnold",
+        .name = "Martial",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -3153,21 +3153,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m bored by fishing. Let’s battle!\\r",
+                .text = "La pêche m’ennuie. Allons nous battre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Utter failure...\\n",
+                .text = "Échec total...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ll just go back to fishing...\\n",
+                .text = "Je vais juste retourner pêcher...\\n",
             },
         },
     },
 
     [59] = {
-        .name = "Kyle",
+        .name = "Olive",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -3201,25 +3201,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do you remember?\\r",
+                .text = "Tu te souviens ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You do remember?\\n",
+                .text = "Tu t’en souviens ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The tug you feel on the fishing line when\\nyou hook a Pokémon...\\rThat’s the best feeling ever for an\\nangler like me.\\n",
+                .text = "La petite secousse sur la ligne quand\\ntu accroches un Pokémon...\\rC’est la meilleure sensation pour un\\npêcheur comme moi.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Ooooh! You did remember it!\\r",
+                .text = "Ooooh ! Tu t’en souvenais !\\r",
             },
         },
     },
 
     [60] = {
-        .name = "Henry",
+        .name = "Loïc",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -3260,21 +3260,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My Pokémon?\\nFreshly caught!\\r",
+                .text = "Mes Pokémon ?\\nTout juste attrapés !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Splash?\\n",
+                .text = "Splash ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Freshly caught Pokémon are no match\\nfor properly raised ones.\\n",
+                .text = "Les Pokémon fraîchement attrapés ne valent\\npas ceux bien entraînés.\\n",
             },
         },
     },
 
     [61] = {
-        .name = "Anthony",
+        .name = "Olwen",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -3301,25 +3301,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I came through the cave, but I still\\nhave plenty of energy left.\\r",
+                .text = "Je viens de traverser la grotte, mais j’ai\\nencore plein d’énergie.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa! You’ve got more zip than me!\\n",
+                .text = "Whoa ! Tu as plus de peps que moi !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We Hikers are at our best in\\nthe mountains.\\n",
+                .text = "Nous, les Montagnards, on est au top\\ndans les montagnes.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "All righty, then!\\nMy Pokémon and I are raring to go!\\r",
+                .text = "Très bien !\\nMes Pokémon et moi sommes prêts !\\r",
             },
         },
     },
 
     [62] = {
-        .name = "Samuel",
+        .name = "Gontran",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -3360,21 +3360,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "This is where I do my training!\\r",
+                .text = "C’est ici que je m’entraîne !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa!\\n",
+                .text = "Whoa !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you fail in practice, then you have\\nto try harder! I’m aiming to be a\\fGym Leader!\\n",
+                .text = "Si tu échoues à l’entraînement, tu dois\\ntravailler encore plus ! Je vise à devenir\\fChampion d’Arène !\\n",
             },
         },
     },
 
     [63] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -3437,25 +3437,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m the best in my class at Pokémon.\\r",
+                .text = "Je suis le meilleur de ma classe en Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No! There are better Trainers...\\n",
+                .text = "Non ! Il y a des Dresseurs meilleurs...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m trying hard so I can be the star in\\nmy class.\\n",
+                .text = "Je travaille dur pour devenir la star\\nde ma classe.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve been waiting!\\r",
+                .text = "Je t’attendais !\\r",
             },
         },
     },
 
     [65] = {
-        .name = "Gina",
+        .name = "Albertine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -3496,25 +3496,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you a Trainer? Let’s have a\\npractice battle.\\r",
+                .text = "Tu es un Dresseur ? Faisons un combat\\nd’entraînement.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no!\\nI just can’t win...\\n",
+                .text = "Oh, non !\\nJe n’arrive jamais à gagner...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You’re too strong to be a\\npractice partner.\\n",
+                .text = "Tu es trop fort pour être un\\npartenaire d’entraînement.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "You’re here! You’re here! I’ve never\\nhad a practice partner before!\\r",
+                .text = "Tu es là ! Tu es là ! Je n’ai jamais eu\\nde partenaire d’entraînement avant !\\r",
             },
         },
     },
 
     [66] = {
-        .name = "Todd",
+        .name = "Matthias",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -3548,25 +3548,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m confident in my ability to raise\\nPokémon. Want to see?\\r",
+                .text = "Je suis sûr de mes talents pour élever\\nles Pokémon. Tu veux voir ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Didn’t I train enough?\\n",
+                .text = "Je n’ai pas assez entraîné ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Hmm... Maybe I should take them to\\nPokémon Day Care? What should I do?\\n",
+                .text = "Hmm... Peut-être que je devrais les mettre\\na la Pension ? Que faire...\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey, you’re back!\\rBattle my carefully trained Pokémon!\\r",
+                .text = "Hé, te revoilà !\\rAffronte mes Pokémon soigneusement entraînés !\\r",
             },
         },
     },
 
     [67] = {
-        .name = "Benny",
+        .name = "Foulque",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -3607,21 +3607,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Bug Pokémon evolve young. So they get\\nstronger that much faster.\\r",
+                .text = "Les Pokémon Insecte évoluent jeunes. Du coup,\\nils deviennent forts très vite.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Just evolving isn’t enough!\\n",
+                .text = "Évoluer ne suffit pas !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you want to meet the Gym Leader, you\\nhave to move the web using the switch.\\n",
+                .text = "Si tu veux voir le Champion, tu dois\\nbouger la toile avec l’interrupteur.\\n",
             },
         },
     },
 
     [68] = {
-        .name = "Al",
+        .name = "Jean-Loïc",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -3662,21 +3662,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You’ve come all this way, crossing the\\nweb like a bug Pokémon!\\rAllow me to teach you the charms of bug\\nPokémon!\\r",
+                .text = "Tu es venu jusqu’ici, en traversant la\\ntoile comme un Pokémon Insecte !\\rLaisse-moi te montrer les charmes des\\nPokémon Insecte !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You proved how tough you are...\\n",
+                .text = "Tu as prouvé ta solidité...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Just being in this Gym, I feel like I’ve\\nturned into a bug Pokémon!\\n",
+                .text = "Rien qu’en étant dans cette Arène, j’ai\\nl’impression de devenir un Pokémon Insecte !\\n",
             },
         },
     },
 
     [69] = {
-        .name = "Josh",
+        .name = "Arnaud",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -3710,21 +3710,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You saved all the SLOWPOKE?\\nWhew, you’re mighty!\\rBut my grown-up Pokémon are pretty\\ntough, too!\\r",
+                .text = "Tu as sauvé tous les RAMOLOSS ?\\nOuf, t’es costaud !\\rMais mes Pokémon adultes sont plutôt\\nbalèzes aussi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Urrgggh!\\n",
+                .text = "Urrgggh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you move the web with the switch,\\nyou’ll be able to figure out where\\fthe lift is going.\\n",
+                .text = "Si tu bouges la toile avec l’interrupteur,\\ntu comprendras où\\fmonte l’ascenseur.\\n",
             },
         },
     },
 
     [70] = {
-        .name = "Samantha",
+        .name = "Carla",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -3753,21 +3753,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Give it your best shot, or I’ll take\\nyou down!\\r",
+                .text = "Donne tout ce que t’as, ou je te mets K.O. !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No!\\nOh, MEOWTH, I’m so sorry!\\n",
+                .text = "Non !\\nOh, MIAOUSS, je suis tellement désolée !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I taught MEOWTH moves for taking\\non any type...\\n",
+                .text = "J’ai appris à MIAOUSS des attaques pour\\nfaire face à n’importe quel type...\\n",
             },
         },
     },
 
     [71] = {
-        .name = "Cathy",
+        .name = "Barbara",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_LASS,
@@ -3808,21 +3808,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I like cute Pokémon better than\\nstrong Pokémon.\\rBut I have strong and cute Pokémon!\\r",
+                .text = "Je préfère les Pokémon mignons aux\\nPokémon forts.\\rMais les miens sont forts ET mignons !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no, no, no!\\n",
+                .text = "Oh, non, non, non !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m training really hard to try to beat\\nWhitney, but I’m starting to get\\fdiscouraged...\\rWhat to do...\\nWell... If I lose, I’ll just try harder\\fnext time!\\n",
+                .text = "Je m’entraîne super dur pour battre\\nBlanche, mais je commence à me\\f décourager...\\rQue faire...\\nBon... Si je perds, je m’entraînerai\\f encore plus la prochaine fois !\\n",
             },
         },
     },
 
     [72] = {
-        .name = "Bryan",
+        .name = "Greg",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -3863,21 +3863,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What kinds of Poké Balls do you use?\\r",
+                .text = "Quels types de Poké Balls utilises-tu ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yikes! Not fast enough!\\n",
+                .text = "Aïe ! Pas assez rapide !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Some Pokémon flee right away.\\nTry catching them with Kurt’s Fast Ball.\\rWhenever I find a Wht. Apricorn,\\nI take it to Kurt. He turns it into a\\fcustom Ball.\\n",
+                .text = "Certains Pokémon fuient immédiatement.\\nEssaie de les attraper avec la Speed Ball de Fargas.\\rQuand je trouve un Noigrume Blanc,\\nje le lui apporte. Il en fait une\\fBall spéciale.\\n",
             },
         },
     },
 
     [73] = {
-        .name = "Theo",
+        .name = "Tom",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -3925,21 +3925,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What are you here for? Just to stand\\naround and gawk? I suggest you leave!\\r",
+                .text = "Pourquoi es-tu là ? Juste pour rester\\nplanté à regarder ? Je te conseille de partir !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You really are concerned...\\n",
+                .text = "Tu es vraiment inquiet...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "How in the world do you go up?\\rI want to visit the sick Pokémon, but I\\ncan’t get up there...\\n",
+                .text = "Comment on fait pour monter, au juste ?\\rJe veux aller voir les Pokémon malades, mais je\\nn’arrive pas à y accéder...\\n",
             },
         },
     },
 
     [74] = {
-        .name = "Ivan",
+        .name = "Yvan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -3980,21 +3980,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ve been getting Pokémon data off my\\nradio. I think I’m good.\\r",
+                .text = "J’ai récupéré des infos Pokémon sur ma\\nradio. Je pense être prêt.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I give up!\\n",
+                .text = "J’abandonne !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Music on the radio changes the moods of\\nwild Pokémon.\\n",
+                .text = "La musique à la radio change l’humeur\\ndes Pokémon sauvages.\\n",
             },
         },
     },
 
     [75] = {
-        .name = "Elliot",
+        .name = "Amilcar",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -4035,15 +4035,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m gonna show my girlfriend I’m\\nhot stuff!\\r",
+                .text = "Je vais montrer à ma copine que je suis\\nun vrai champion !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I wish you would have lost for me...\\n",
+                .text = "J’aurais aimé que tu perdes pour moi...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I was humiliated in front of\\nmy girlfriend...\\n",
+                .text = "J’ai été humilié devant\\nma copine...\\n",
             },
         },
     },
@@ -4070,21 +4070,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My boyfriend’s weak, so I can’t rely\\non him.\\r",
+                .text = "Mon petit ami est faible, je ne peux pas\\ncompter sur lui.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, my! You’re so strong!\\n",
+                .text = "Oh là là ! Tu es si fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I can count more on my Pokémon than on\\nmy boyfriend.\\n",
+                .text = "Je peux compter davantage sur mes Pokémon\\nque sur mon petit ami.\\n",
             },
         },
     },
 
     [77] = {
-        .name = "Kim",
+        .name = "Kala",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -4118,21 +4118,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you going to the Gym? Me, too!\\r",
+                .text = "Tu vas à l’Arène ? Moi aussi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh. I couldn’t win...\\n",
+                .text = "Oh. Je n’ai pas réussi...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The Gym Badges are pretty.\\nI collect them.\\n",
+                .text = "Les Badges d’Arène sont jolis.\\nJe les collectionne.\\n",
             },
         },
     },
 
     [78] = {
-        .name = "Arnie",
+        .name = "Henri",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -4166,25 +4166,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ll go anywhere if bug Pokémon\\nappear there.\\r",
+                .text = "J’irai n’importe où si des Pokémon\\nInsecte apparaissent là-bas.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. So you can battle that way.\\n",
+                .text = "Je vois. Tu combats comme ça.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My VENONAT won me the Bug-Catching\\nContest at the National Park.\\n",
+                .text = "Mon Mimitoss m’a fait gagner le\\nConcours de Capture au Parc Naturel.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "As long as I’ve got bug Pokémon, it\\ndoesn’t matter how long I have to wait.\\fI know I won’t get bored!\\r",
+                .text = "Tant que j’ai des Pokémon Insecte, peu\\nimporte combien de temps j’attends.\\fJe ne m’ennuierai jamais !\\r",
             },
         },
     },
 
     [79] = {
-        .name = "Ken",
+        .name = "Amaury",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -4225,21 +4225,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m visiting my grandma to catch me\\nsome bugs!\\r",
+                .text = "Je rends visite à ma mamie pour attraper\\ndes insectes !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ooh, wow!\\nYou’re tough!\\n",
+                .text = "Ooh, wow !\\nTu es fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ll catch all the Pokémon you can find\\nonly in Johto!\\n",
+                .text = "Je vais attraper tous les Pokémon qu’on ne trouve\\nqu’à Johto !\\n",
             },
         },
     },
 
     [80] = {
-        .name = "Dirk",
+        .name = "Baptiste",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POLICEMAN,
@@ -4280,21 +4280,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Danger lurks in the night!\\r",
+                .text = "Le danger rôde la nuit !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoops!\\n",
+                .text = "Oups !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You know, nighttime is fun in its own\\nway. But don’t overdo it, OK?\\n",
+                .text = "Tu sais, la nuit a son charme.\\nMais n’en fais pas trop, d’accord ?\\n",
             },
         },
     },
 
     [81] = {
-        .name = "Tori & Til",
+        .name = "Lison & Lisa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -4335,35 +4335,35 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Tori: Let’s battle!\\r",
+                .text = "Tori : Allez, combattons !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tori: I lost...\\n",
+                .text = "Tori : J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Tori: Even though I teamed up with Til,\\nwe still lost...\\n",
+                .text = "Tori : Même en équipe avec Til,\\non a perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Tori: Let’s have a Pokémon battle when\\nyou’ve got at least two Pokémon.\\n",
+                .text = "Tori : On combattra quand tu auras au\\nmoins deux Pokémon.\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Til: All right, I’m bringing out\\na Pokémon.\\r",
+                .text = "Til : Très bien, je sors\\nun Pokémon.\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Til: I lost...\\n",
+                .text = "Til : J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Til: Even though Tori tried very hard\\nfor me, we still lost...\\n",
+                .text = "Til : Même si Tori s’est donnée à fond,\\non a quand même perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Til: We can’t battle you if you’ve only\\ngot one Pokémon...\\n",
+                .text = "Til : On ne peut pas te combattre si tu\\nn’as qu’un seul Pokémon...\\n",
             },
         },
     },
@@ -4410,21 +4410,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Fly high into the sky, my beloved\\nbird Pokémon!\\r",
+                .text = "Envole-toi, mon précieux\\nPokémon Oiseau !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I feel like just flying away now.\\n",
+                .text = "J’ai juste envie de m’envoler, maintenant.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I plan to train in Cianwood City to teach\\nmy Pokémon how to Fly.\\n",
+                .text = "Je compte m’entraîner à Oliville pour\\napprendre Vol à mes Pokémon.\\n",
             },
         },
     },
 
     [83] = {
-        .name = "Cindy",
+        .name = "Sandy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -4445,13 +4445,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, dear!\\nI wanted to win!\\n",
+                .text = "Oh, mince !\\nJe voulais gagner !\\n",
             },
         },
     },
 
     [84] = {
-        .name = "Barry",
+        .name = "René",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -4472,13 +4472,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "My disguise was awesome!\\nGrrr!\\n",
+                .text = "Mon déguisement était génial !\\nGrrr !\\n",
             },
         },
     },
 
     [85] = {
-        .name = "Paula",
+        .name = "Anna",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -4519,21 +4519,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "No inflatable tube for me.\\nI’m hanging on to a sea Pokémon!\\r",
+                .text = "Pas de bouée pour moi.\\nJe m’accroche à un Pokémon marin !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ooh, I’m feeling dizzy!\\n",
+                .text = "Ooh, j’ai la tête qui tourne !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "While I float like this, the waves carry\\nme along.\\n",
+                .text = "Quand je flotte comme ça, les vagues\\nm’emportent.\\n",
             },
         },
     },
 
     [86] = {
-        .name = "Randall",
+        .name = "Boris",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -4570,21 +4570,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, you’re young and fit!\\nDon’t ride your Pokémon! Swim!\\r",
+                .text = "Hé, t’es jeune et en forme !\\nNe monte pas sur ton Pokémon ! Nage !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Uh-oh. I lost...\\n",
+                .text = "Oh non... J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Swimming exercises your entire body.\\nIt’s healthy.\\n",
+                .text = "Nager fait travailler tout ton corps.\\nC’est super bon pour la santé.\\n",
             },
         },
     },
 
     [87] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -4618,7 +4618,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [88] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -4666,7 +4666,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [89] = {
-        .name = "Grace",
+        .name = "Rika",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -4707,21 +4707,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Not sure of your way?\\nDefeat me if you want a hint!\\r",
+                .text = "Tu n’es pas sûr du chemin ?\\nBats-moi si tu veux un indice !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wh-what?\\n",
+                .text = "Qu-quoi ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Having trouble finding your way around?\\nThe path is right before our eyes!\\n",
+                .text = "Tu galères à t’orienter ?\\nLe chemin est juste sous nos yeux !\\n",
             },
         },
     },
 
     [90] = {
-        .name = "Kaylee",
+        .name = "Ludmila",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -4758,15 +4758,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m on my way to the Whirl Islands.\\nI’m going exploring with friends.\\r",
+                .text = "Je vais vers les Îles Tourbillon.\\nJe pars explorer avec des amis.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Is that how you do it?\\n",
+                .text = "Ah, c’est comme ça qu’on fait ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "There’s supposed to be a big Pokémon\\ndeep beneath the Whirl Islands.\\fI wonder what it could be?\\n",
+                .text = "Il paraît qu’un grand Pokémon vit tout\\nen bas des Îles Tourbillon.\\fJe me demande lequel...\\n",
             },
         },
     },
@@ -4809,21 +4809,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You look so elegant riding\\nyour Pokémon.\\r",
+                .text = "Tu es tellement élégant sur le dos\\nde ton Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’m crushed...\\n",
+                .text = "Je suis anéanti...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Wasn’t there a hit song about a boy\\nriding a LAPRAS?\\n",
+                .text = "Il y avait pas une chanson célèbre sur\\nun garçon qui chevauchait un LOKHLASS ?\\n",
             },
         },
     },
 
     [92] = {
-        .name = "Denise",
+        .name = "Ute",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -4857,21 +4857,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The weather is so beautiful, I’m in\\na daze!\\r",
+                .text = "Il fait tellement beau que je suis\\ntout étourdi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ohhh!\\n",
+                .text = "Ohhh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "A sunburn is the worst for skin.\\rBut I don’t use sunblock.\\nI won’t pollute the water.\\n",
+                .text = "Les coups de soleil, c’est terrible pour\\nla peau.\\rMais j’utilise pas de crème solaire.\\nJe veux pas polluer l’eau.\\n",
             },
         },
     },
 
     [93] = {
-        .name = "Kara",
+        .name = "Birgit",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -4912,15 +4912,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "If you need to rest, just tread water.\\nYou’ll get your breath back so you can\\fkeep on going strong.\\r",
+                .text = "Si tu dois te reposer, pédale dans l’eau.\\nTu reprendras ton souffle et tu pourras\\fcontinuer à fond.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh! You have more energy than I do.\\n",
+                .text = "Oh ! T’as plus d’énergie que moi.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I heard roars from deep inside\\nthe islands.\\n",
+                .text = "J’ai entendu des rugissements venant\\ndu fond des îles.\\n",
             },
         },
     },
@@ -4963,21 +4963,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "At night, STARYU gather near the\\nwater’s surface.\\r",
+                .text = "La nuit, les STARYU se rassemblent près\\nde la surface.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, dear...\\n",
+                .text = "Oh mince...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The clusters of STARYU light up at the\\nsame time. It’s so beautiful,\\fit’s scary.\\n",
+                .text = "Les groupes de STARYU s’illuminent tous\\nen même temps. C’est si beau que\\fça fait peur.\\n",
             },
         },
     },
 
     [95] = {
-        .name = "Charlie",
+        .name = "Helmut",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -5018,21 +5018,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The water’s warm here. I’m loose and\\nlimber. Sure, I’ll take you on!\\r",
+                .text = "L’eau est chaude ici. Je suis détendu\\net souple. Allez, je t’affronte !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yikes! I’ve got prune skin!\\n",
+                .text = "Aïe ! J’ai la peau toute fripée !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Isn’t it relaxing, just floating\\nlike this?\\n",
+                .text = "C’est pas relaxant, de juste flotter\\ncomme ça ?\\n",
             },
         },
     },
 
     [96] = {
-        .name = "George",
+        .name = "Johan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -5087,21 +5087,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m a bit tired. If I win, lend me your\\nPokémon.\\r",
+                .text = "Je suis un peu fatigué. Si je gagne,\\ntu me prêtes ton Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Pant, pant...\\n",
+                .text = "Haa... haa...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s so far to Cianwood. But it’s no\\neasy return trip to Olivine either.\\fWhat should I do?\\n",
+                .text = "Irisia est super loin. Mais le retour\\nà Oliville est pas simple non plus.\\fQu’est-ce que je vais faire ?\\n",
             },
         },
     },
 
     [97] = {
-        .name = "Berke",
+        .name = "Sigmund",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -5135,21 +5135,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "See those islands that are blocked\\nby whirlpools?\\fThere just has to be a secret!\\r",
+                .text = "Tu vois ces îles bloquées par les\\ntourbillons ?\\fIl doit forcément y avoir un secret !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "What’s the secret to your strength?\\n",
+                .text = "C’est quoi ton secret pour être si fort ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It was a dark and stormy night...\\rI saw this giant Pokémon flying from\\nthe Whirl Islands.\\rFeathers were scattering from its\\nsilver wings.\\n",
+                .text = "C’était une nuit sombre et orageuse...\\rJ’ai vu un énorme Pokémon sortir des\\nÎles Tourbillon.\\rDes plumes tombaient de ses ailes\\nd’argent.\\n",
             },
         },
     },
 
     [98] = {
-        .name = "Ronald",
+        .name = "Otto",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -5190,15 +5190,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The waves are wild here.\\nThey tire you out as you swim.\\r",
+                .text = "Les vagues sont violentes ici.\\nElles t’épuisent quand tu nages.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’m beat!\\n",
+                .text = "Je suis crevé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The currents keep me from reaching\\nthat island.\\n",
+                .text = "Les courants m’empêchent d’atteindre\\ncette île.\\n",
             },
         },
     },
@@ -5238,21 +5238,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you seeking the secrets of the\\nWhirl Islands?\\r",
+                .text = "Tu cherches les secrets des\\nÎles Tourbillon ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ooh, you’ve got great endurance!\\n",
+                .text = "Ooh, t’as une sacrée endurance !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "A secret about the Whirl Islands...\\nIt’s pitch black inside!\\n",
+                .text = "Un secret sur les Îles Tourbillon...\\nÀ l’intérieur, c’est noir comme la nuit !\\n",
             },
         },
     },
 
     [100] = {
-        .name = "Anthony",
+        .name = "Olwen",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -5293,13 +5293,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa!\\nYou’ve got more zip than me!\\n",
+                .text = "Whoa !\\nTu as plus de peps que moi !\\n",
             },
         },
     },
 
     [101] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -5340,21 +5340,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Humph! I was standing guard up top\\nwhen some old coot yelled at me.\\rHe startled me so much that I fell\\ndown here.\\rHow about I vent my anger and take it\\nout on you!\\r",
+                .text = "Hmph ! Je montais la garde en haut\\nquand un vieux m’a crié dessus.\\rIl m’a tellement surpris que je suis tombé\\njusqu’ici.\\rEt si je passais mes nerfs sur toi ?!\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Arrgh! This is NOT my day!\\n",
+                .text = "Arrgh ! C’est vraiment pas mon jour !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Sure, we’ve been hacking the tails off\\nSLOWPOKE and selling them.\\rTeam Rocket will do anything for money!\\n",
+                .text = "Oui, on a coupé les queues des\\nRAMOLOSS et on les a vendues.\\rLa Team Rocket ferait n’importe quoi pour de l’argent !\\n",
             },
         },
     },
 
     [102] = {
-        .name = "Gaven",
+        .name = "Sean",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5391,25 +5391,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "By experiencing tough battles, you\\ngain power.\\r",
+                .text = "En vivant des combats difficiles, tu\\ndeviens plus fort.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gah! Life is even tougher!\\n",
+                .text = "Gah ! La vie est encore plus dure !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "To get to the Pokémon League, you\\nhave to get through Victory Road.\\rBut Victory Road is tough.\\nPractically nobody goes there!\\n",
+                .text = "Pour atteindre la Ligue Pokémon, tu dois\\npasser par la Route Victoire.\\rMais la Route Victoire est difficile.\\nPresque personne n’y va !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I want to see how close you are to\\nreal strength!\\r",
+                .text = "Je veux voir à quel point tu es proche\\nde la vraie force !\\r",
             },
         },
     },
 
     [103] = {
-        .name = "Blake",
+        .name = "Félix",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5446,7 +5446,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You look pretty strong.\\nLet me battle you!\\r",
+                .text = "Tu as l’air plutôt fort.\\nLaisse-moi t’affronter !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -5454,13 +5454,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you prevail on this harsh trek, the\\ntruth will be revealed!\\rHeh, sorry, I just wanted to say\\nsomething cool.\\n",
+                .text = "Si tu survis à ce périple difficile, la\\nvérité sera révélée !\\rHeh, désolé, je voulais juste dire\\nun truc stylé.\\n",
             },
         },
     },
 
     [104] = {
-        .name = "Brian",
+        .name = "Hatem",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5497,21 +5497,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hm? You’re good, aren’t you?\\r",
+                .text = "Hm ? Tu es bon, hein ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Just as I thought!\\n",
+                .text = "Comme je le pensais !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "A good Trainer can recognize other\\ngood Trainers.\\n",
+                .text = "Un bon Dresseur peut reconnaître un\\nautre bon Dresseur.\\n",
             },
         },
     },
 
     [105] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5545,7 +5545,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [106] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5579,7 +5579,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [107] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5613,7 +5613,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [108] = {
-        .name = "Ryan",
+        .name = "Jean",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5650,21 +5650,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What are your thoughts on\\nraising Pokémon?\\r",
+                .text = "Que penses-tu de l’art d’élever\\nles Pokémon ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’ve won my respect.\\n",
+                .text = "Tu as gagné mon respect.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I see you’re raising your Pokémon\\nwith care.\\rThe bond you build will save you in\\ntough situations.\\n",
+                .text = "Je vois que tu élèves tes Pokémon\\navec soin.\\rLe lien que tu crées te sauvera dans\\nles moments difficiles.\\n",
             },
         },
     },
 
     [109] = {
-        .name = "Alton",
+        .name = "Aaron",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5698,21 +5698,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "If a Trainer spots another Trainer,\\nhe or she has to make a challenge.\\fThat is our destiny.\\r",
+                .text = "Si un Dresseur en repère un autre,\\nil ou elle doit lancer un défi.\\fC’est notre destinée.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew...\\nGood battle.\\n",
+                .text = "Ouf...\\nBeau combat.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Pokémon and their Trainer become\\npowerful through constant battling.\\n",
+                .text = "Les Pokémon et leur Dresseur deviennent\\npuissants grâce aux combats répétés.\\n",
             },
         },
     },
 
     [110] = {
-        .name = "Paulo",
+        .name = "Pablo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5753,21 +5753,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Your first battle against dragons?\\nI’ll show you how tough they are!\\r",
+                .text = "Ton premier combat contre des dragons ?\\nJe vais te montrer à quel point ils sont coriaces !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "That’s too bad.\\n",
+                .text = "Dommage.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You’ve met the Dragon Tamer Lance?\\nI don’t believe you.\\n",
+                .text = "Tu as rencontré le Maître des Dragons Peter ?\\nJ’y crois pas.\\n",
             },
         },
     },
 
     [111] = {
-        .name = "Mike",
+        .name = "Manolo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5801,21 +5801,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My chance of losing?\\nNot even one percent!\\r",
+                .text = "Mes chances de perdre ?\\nMême pas un pour cent !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "That’s odd.\\n",
+                .text = "C’est étrange.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I know my shortcomings now.\\nThanks for showing me!\\n",
+                .text = "Je connais mes faiblesses maintenant.\\nMerci de me les avoir montrées !\\n",
             },
         },
     },
 
     [112] = {
-        .name = "Cody",
+        .name = "Yves",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -5856,21 +5856,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "It’s not as if we all use Dragon-type\\nPokémon. It’s about more than that--\\rWe’re interested in strong Pokémon.\\nThat’s my theme!\\r",
+                .text = "On n’utilise pas tous des Pokémon Dragon.\\nC’est plus que ça-\\rOn aime les Pokémon puissants.\\nC’est ça, mon style !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Just what I expected.\\n",
+                .text = "Exactement ce à quoi je m’attendais.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I need to make my Pokémon stronger!\\rPokémon and Trainers both need\\nto train!\\n",
+                .text = "Je dois rendre mes Pokémon plus forts !\\rPokémon et Dresseurs doivent\\ns’entraîner !\\n",
             },
         },
     },
 
     [113] = {
-        .name = "Jamie",
+        .name = "Carina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -5907,25 +5907,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I lost to a redheaded Trainer. He was\\nreally strong, but...it was as if he\\fabsolutely had to win at any cost.\\fI felt sorry for his Pokémon.\\r",
+                .text = "J’ai perdu contre un Dresseur roux. Il était\\ntrès fort, mais... on aurait dit qu’il\\fdévait absolument gagner, quoi qu’il arrive.\\fJ’avais pitié de ses Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Pokémon aren’t tools of war.\\n",
+                .text = "Les Pokémon ne sont pas des outils de guerre.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Pokémon are invaluable, lifelong\\npartners.\\n",
+                .text = "Les Pokémon sont des partenaires\\nprécieux pour la vie.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "You get along really well with your\\nPokémon, don’t you?\\fCan you show me once more?\\r",
+                .text = "Tu t’entends vraiment bien avec tes\\nPokémon, pas vrai ?\\fTu peux me le montrer encore une fois ?\\r",
             },
         },
     },
 
     [114] = {
-        .name = "Reena",
+        .name = "Audrey",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -5966,25 +5966,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You came from New Bark Town?\\nYou must be exhausted.\\r",
+                .text = "Tu viens de Bourg Geon ?\\nTu dois être épuisé.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh! You’re much too strong!\\n",
+                .text = "Oh ! Tu es bien trop fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you’re that energetic, you can\\ndefinitely make it to the\\fPokémon League!\\n",
+                .text = "Si tu as encore autant d’énergie, tu peux\\nsans aucun doute atteindre la\\fLigue Pokémon !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "You said you came from New Bark Town,\\nright? I’ll watch and see how far\\fyou’ll go!\\r",
+                .text = "Tu as dit que tu venais de Bourg Geon,\\nc’est ça ? Je vais voir jusqu’où\\ftu peux aller !\\r",
             },
         },
     },
 
     [115] = {
-        .name = "Megan",
+        .name = "Leia",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -6021,21 +6021,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "It’s rare to see anyone come here.\\nAre you training on your own?\\r",
+                .text = "C’est rare de voir quelqu’un venir ici.\\nTu t’entraînes tout seul ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh! You’re really strong!\\n",
+                .text = "Oh ! Tu es vraiment fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m checking out pre- and\\npost-evolution Pokémon. Evolution\\freally does make Pokémon stronger.\\rBut evolved forms also learn moves\\nlater on.\\n",
+                .text = "J’étudie les Pokémon avant et après\\nevolution. L’évolution rend vraiment\\fles Pokémon plus forts.\\rMais les formes évoluées apprennent\\nleurs capacités plus tard.\\n",
             },
         },
     },
 
     [116] = {
-        .name = "Lois",
+        .name = "Sally",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -6064,21 +6064,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The red GYARADOS?\\nThat sounds scary.\\fIt must be red with rage!\\fMe?\\rI’m not angry or anything, but\\nlet’s battle!\\r",
+                .text = "Le Léviator rouge ?\\nÇa fait peur.\\fIl doit être rouge de colère !\\fMoi ?\\rJe suis pas en colère ou quoi que ce soit, mais\\nbattons-nous !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Good going!\\n",
+                .text = "Bien joué !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Come to think of it, I’ve seen a\\npink BUTTERFREE.\\n",
+                .text = "Maintenant que j’y pense, j’ai déjà vu un\\nPapilusion rose.\\n",
             },
         },
     },
 
     [117] = {
-        .name = "Lola",
+        .name = "Linda",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -6119,21 +6119,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Dragons are sacred Pokémon.\\nThey are full of life energy.\\rIf you’re not serious, you won’t\\nbe able to beat them.\\r",
+                .text = "Les dragons sont des Pokémon sacrés.\\nIls débordent d’énergie vitale.\\rSi tu n’es pas sérieux, tu ne pourras\\npas les battre.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Way to go!\\n",
+                .text = "Bien joué !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Dragons are weak against\\nDragon-type moves.\\n",
+                .text = "Les dragons sont faibles face aux\\nattaques Dragon.\\n",
             },
         },
     },
 
     [118] = {
-        .name = "Kate",
+        .name = "Irène",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -6174,21 +6174,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Kate: You sure were mean to my\\nlittle sisters!\\r",
+                .text = "Kate : Tu as été vraiment méchant avec mes\\npetites sœurs !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Kate: No! I can’t believe I lost.\\n",
+                .text = "Kate : Non ! Je ne peux pas croire que j’ai perdu.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Kate: You’re too strong. I didn’t stand\\na chance.\\rHere. You deserve this.\\n",
+                .text = "Kate : Tu es trop fort. Je n’avais aucune chance.\\rTiens. Tu le mérites.\\n",
             },
         },
     },
 
     [119] = {
-        .name = "Fran",
+        .name = "Alix",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -6222,21 +6222,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ve been training hard with Clair.\\nThere’s no way I can lose!\\r",
+                .text = "Je m’entraîne dur avec Sandra.\\nImpossible que je perde !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Oh, that’s disappointing!\\n",
+                .text = "...Oh, c’est décevant !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Oh...\\nLooks like I need more training, huh?\\n",
+                .text = "Oh...\\nOn dirait que j’ai encore besoin d’entraînement, hein ?\\n",
             },
         },
     },
 
     [120] = {
-        .name = "Irene",
+        .name = "Amy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -6263,21 +6263,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Irene: Eeek! A Trainer!\\r",
+                .text = "Irene : Aaaah ! Un Dresseur !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Irene: Ohhh! Too strong!\\n",
+                .text = "Irene : Ohhh ! Trop fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Irene: My sister Kate will get you\\nfor this!\\n",
+                .text = "Irene : Ma sœur Kate te fera payer ça !\\n",
             },
         },
     },
 
     [121] = {
-        .name = "Kelly",
+        .name = "Karin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -6318,21 +6318,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What is your battle strategy?\\nIt is foolish to use strong moves\\findiscriminately.\\r",
+                .text = "Quelle est ta stratégie de combat ?\\nC’est stupide d’utiliser des attaques puissantes\\fsans réfléchir.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Fine. I lost.\\n",
+                .text = "Très bien. J’ai perdu.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m not for overly powerful moves.\\rI want to win, but I also don’t want to\\nharm Pokémon.\\n",
+                .text = "Je ne suis pas pour les attaques trop puissantes.\\rJe veux gagner, mais je ne veux pas non plus\\nblesser les Pokémon.\\n",
             },
         },
     },
 
     [122] = {
-        .name = "Marvin",
+        .name = "Eugène",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -6369,21 +6369,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m in a slump.\\rMaybe it’s the gear I’m using.\\nLet’s battle for a change of pace!\\r",
+                .text = "Je suis dans une mauvaise passe.\\rC’est peut-être l’équipement que j’utilise.\\nAllons nous battre pour changer d’air !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost, but I feel better anyway.\\n",
+                .text = "J’ai perdu, mais je me sens mieux quand même.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Kurt’s Lure Ball is the best for\\ncatching hooked Pokémon.\\rIt’s much more effective than an\\nUltra Ball.\\n",
+                .text = "La Lure Ball de Fargas est la meilleure pour\\nattraper les Pokémon mordus.\\rElle est bien plus efficace qu’une\\nUltra Ball.\\n",
             },
         },
     },
 
     [123] = {
-        .name = "Tully",
+        .name = "Conan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -6417,25 +6417,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Let me demonstrate the power of the\\nPokémon I caught!\\r",
+                .text = "Laisse-moi te montrer la puissance des\\nPokémon que j’ai pêchés !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "What? That’s not right.\\n",
+                .text = "Hein ? C’est pas normal.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I want to become the Trainer Champ\\nusing the Pokémon I caught.\\fThat’s the best part of fishing!\\n",
+                .text = "Je veux devenir un Champion en utilisant\\nles Pokémon que j’ai attrapés.\\fC’est ça, la vraie pêche !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Me? I haven’t been waiting at all.\\nI didn’t know that fishing would be\\fso boring!\\r",
+                .text = "Moi ? J’attendais pas du tout.\\nJe savais pas que la pêche pouvait être\\fsi ennuyeuse !\\r",
             },
         },
     },
 
     [124] = {
-        .name = "Wilton",
+        .name = "Renan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -6476,25 +6476,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Aack! You made me lose a POLIWAG!\\nWhat are you going to do about it?\\r",
+                .text = "Aah ! Tu m’as fait perdre un PTITARD !\\nQu’est-ce que tu vas faire pour ça ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Just forget about it.\\n",
+                .text = "Oublie ça.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "That POLIWAG that got away...\\nIt was huge.\\rI swear it must’ve been 82 feet long!\\n",
+                .text = "Ce PTITARD qui s’est échappé...\\nIl était énorme.\\rJe te jure qu’il faisait bien 25 mètres !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey! I’ve been waiting for you!\\r...Oops, maybe I shouldn’t yell so loud.\\nThe POLIWAG ran away...\\r",
+                .text = "Hé ! Je t’attendais !\\r...Oups, je devrais peut-être éviter de crier.\\nLe PTITARD s’est enfui...\\r",
             },
         },
     },
 
     [125] = {
-        .name = "Edgar",
+        .name = "Marius",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -6531,21 +6531,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I fish until I can’t anymore.\\nI also battle until I drop.\\fThat’s my relationship with my Pokémon.\\r",
+                .text = "Je pêche jusqu’à ne plus en pouvoir.\\nJe combats aussi jusqu’à tomber.\\fC’est ma relation avec mes Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Hmmmm... This isn’t right.\\n",
+                .text = "Hmmmm... Ça ne va pas.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "That’s 100 wins to 101 losses.\\rI won’t battle again for a while.\\n",
+                .text = "Ça fait 100 victoires pour 101 défaites.\\rJe ne combattrai plus pendant un moment.\\n",
             },
         },
     },
 
     [126] = {
-        .name = "Andre",
+        .name = "Panis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -6579,21 +6579,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Let me battle with the Pokémon\\nI just caught!\\r",
+                .text = "Laisse-moi me battre avec le Pokémon\\nque je viens d’attraper !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I might be an expert angler, but I stink\\nas a Pokémon Trainer...\\n",
+                .text = "Je suis peut-être un pêcheur expert, mais je suis nul\\ncomme Dresseur Pokémon...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I won’t lose as an angler! I catch\\nPokémon all day.\\n",
+                .text = "Je ne perdrai pas en tant que pêcheur ! J’attrape\\ndes Pokémon toute la journée.\\n",
             },
         },
     },
 
     [127] = {
-        .name = "Raymond",
+        .name = "Lucas",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -6634,21 +6634,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "No matter what I do, all I catch are\\nthe same Pokémon...\\r",
+                .text = "Peu importe ce que je fais, je n’attrape\\nque les mêmes Pokémon...\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My line’s all tangled up...\\n",
+                .text = "Ma ligne est toute emmêlée...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Why can’t I catch any good Pokémon?\\n",
+                .text = "Pourquoi je n’arrive pas à attraper de bons Pokémon ?\\n",
             },
         },
     },
 
     [128] = {
-        .name = "Jonah",
+        .name = "Joseph",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -6689,21 +6689,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Even though we’re out on the sea,\\nI can’t fish! This is boring!\\fLet’s battle!\\r",
+                .text = "Même si on est en pleine mer,\\nje peux pas pêcher ! C’est trop nul !\\fAllons nous battre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I...I’m not bored anymore...\\n",
+                .text = "Je... Je ne m’ennuie plus...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I plan to fish off Vermilion’s pier.\\n",
+                .text = "Je compte pêcher depuis le quai de\\nCarmin-sur-Mer.\\n",
             },
         },
     },
 
     [129] = {
-        .name = "Shane",
+        .name = "Seb",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -6744,21 +6744,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey!\\rThis is my secret place!\\nGet lost, you outsider!\\r",
+                .text = "Hé !\\rC’est mon endroit secret !\\nDégage, intrus !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I should have used my Moon Stone...\\n",
+                .text = "J’aurais dû utiliser ma Pierre Lune...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You’re working on a Pokédex?\\rWow, you must know some pretty\\nrare Pokémon!\\fMay I please see it? Please?\\n",
+                .text = "Tu complètes un Pokédex ?\\rWow, tu dois connaître des Pokémon\\nsuper rares !\\fJe peux le voir ? S’il te plaît ?\\n",
             },
         },
     },
 
     [130] = {
-        .name = "Beckett",
+        .name = "Robert",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -6792,21 +6792,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I love Pokémon!\\rThat’s why I started--and why I’ll keep\\non collecting Pokémon!\\r",
+                .text = "J’adore les Pokémon !\\rC’est pour ça que j’ai commencé-et que je vais continuer\\nà en collectionner !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "How could you do this to me?\\n",
+                .text = "Comment as-tu pu me faire ça ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "What else do I like besides Pokémon?\\rMary, on the radio. I bet she’s cute!\\n",
+                .text = "Qu’est-ce que j’aime à part les Pokémon ?\\rMary, à la radio. Je parie qu’elle est mignonne !\\n",
             },
         },
     },
 
     [131] = {
-        .name = "Brent",
+        .name = "Wilfrid",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -6847,25 +6847,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey! Do you have any rare Pokémon?\\r",
+                .text = "Hé ! Tu as des Pokémon rares ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, my poor Pokémon! Darlings!\\n",
+                .text = "Oh, mes pauvres Pokémon ! Mes chéris !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’d be happy just to own a single\\nrare Pokémon.\\n",
+                .text = "Je serais déjà heureux d’avoir un seul\\nPokémon rare.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve been waiting!\\nDid you bring any rare Pokémon\\fwith you?\\r",
+                .text = "Je t’attendais !\\nTu as apporté des Pokémon rares\\favec toi ?\\r",
             },
         },
     },
 
     [132] = {
-        .name = "Ron",
+        .name = "Thomas",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -6899,21 +6899,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Would you get this?\\rSome red-haired kid made fun of my\\nprecious Pokémon!\\rHumph! My Pokémon’s great!\\r",
+                .text = "Tu te rends compte ?\\rUn gamin roux s’est moqué de mes\\nprécieux Pokémon !\\rHmph ! Mes Pokémon sont géniaux !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My NIDOKING was outstanding!\\n",
+                .text = "Mon NIDOKING a été incroyable !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s OK for people to like different\\ntypes of Pokémon.\\rPokémon isn’t just about having the\\nmost powerful one.\\n",
+                .text = "C’est normal que les gens aiment différents\\ntypes de Pokémon.\\rPokémon, ce n’est pas juste avoir le\\nplus puissant.\\n",
             },
         },
     },
 
     [133] = {
-        .name = "Morgan",
+        .name = "Brice",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -6954,21 +6954,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do you know Mary?\\nShe’s a popular DJ in Johto.\\r",
+                .text = "Tu connais Mary ?\\nC’est une DJ très populaire à Johto.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gyaaaah!\\n",
+                .text = "Gyaaaah !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Mary’s the best!\\nI want to be a DJ, too!\\n",
+                .text = "Mary est la meilleure !\\nJe veux devenir DJ moi aussi !\\n",
             },
         },
     },
 
     [134] = {
-        .name = "Benjamin",
+        .name = "Moïse",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -7009,21 +7009,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What’s the other side of Mt. Mortar\\nlike, do you know?\\rIf you can beat me, I’ll let you know.\\r",
+                .text = "Tu sais ce qu’il y a de l’autre côté du\\nMont Creuset ?\\rSi tu me bats, je te le dirai.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gwah ha ha!\\nI lost!\\n",
+                .text = "Gwah ha ha !\\nJ’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I said a pretty boastful lie. I’m sorry!\\rThere’s this huge waterfall in the way,\\nso I’ve never been on the other side of\\fMt. Mortar!\\n",
+                .text = "J’ai raconté un gros mensonge. Désolé !\\rIl y a une énorme cascade qui bloque le\\npassage, alors je suis jamais allé de l’autre côté\\ndu Mont Creuset !\\n",
             },
         },
     },
 
     [135] = {
-        .name = "Johnny",
+        .name = "Nestor",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -7057,21 +7057,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re on a school trip to Lavender\\nRadio Tower for social studies.\\r",
+                .text = "On est en sortie scolaire à la Tour Radio\\nde Lavanville pour les sciences sociales.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re wickedly tough!\\n",
+                .text = "Tu es incroyablement fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m tired of walking. I need to take\\na break.\\n",
+                .text = "Je suis fatigué de marcher. J’ai besoin\\nd’une pause.\\n",
             },
         },
     },
 
     [136] = {
-        .name = "Linda",
+        .name = "Mina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_LASS,
@@ -7108,13 +7108,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ooh... I lost...\\nYou’re not weak...\\n",
+                .text = "Ooh... J’ai perdu...\\nTu n’es pas faible...\\n",
             },
         },
     },
 
     [137] = {
-        .name = "Vance",
+        .name = "Alban",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -7155,25 +7155,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do you know about the legendary\\nbird Pokémon?\\r",
+                .text = "Tu connais les oiseaux\\nlégendaires Pokémon ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew! You’re hot stuff.\\n",
+                .text = "Ouf ! Tu es vraiment fort.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "ARTICUNO, ZAPDOS, and MOLTRES are the\\nthree legendary bird Pokémon.\\rI heard there are other legendary\\nbirds, though.\\n",
+                .text = "ARTIKODIN, ÉLECTHOR et SULFURA sont les\\ntrois oiseaux légendaires.\\rJ’ai entendu dire qu’il y en avait\\nd’autres.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "How has it been?\\nDid you see the legendary Pokémon?\\r",
+                .text = "Alors, comment ça va ?\\nAs-tu vu les Pokémon légendaires ?\\r",
             },
         },
     },
 
     [138] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -7227,21 +7227,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m so bored.\\nWant to battle?\\r",
+                .text = "Je m’ennuie tellement.\\nTu veux te battre ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yow! You’re too strong!\\n",
+                .text = "Aïe ! Tu es trop fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Saffron, Celadon... I hear there are\\nmany big cities in Kanto.\\n",
+                .text = "Safrania, Céladopole... J’ai entendu dire qu’il y a\\nbeaucoup de grandes villes à Kanto.\\n",
             },
         },
     },
 
     [140] = {
-        .name = "Doug",
+        .name = "Constantin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -7274,25 +7274,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Why do girls dislike bug Pokémon\\nso much?\\r",
+                .text = "Pourquoi les filles n’aiment pas les\\nPokémon Insecte ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No good!\\n",
+                .text = "Pas bon !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Bug Pokémon squish like soft, toy\\nPokémon when you squeeze their bellies.\\rI love how they feel!\\n",
+                .text = "Les Pokémon Insecte s’écrasent comme des\\npeluches quand on leur presse le ventre.\\rJ’adore cette sensation !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Have you come to understand the merits\\nof bug Pokémon?\\r",
+                .text = "Es-tu venu comprendre les qualités des\\nPokémon Insecte ?\\r",
             },
         },
     },
 
     [141] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -7312,7 +7312,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [142] = {
-        .name = "Gina",
+        .name = "Albertine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -7346,13 +7346,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no! I just can’t win...\\n",
+                .text = "Oh non ! Je n’arrive vraiment pas à gagner...\\n",
             },
         },
     },
 
     [143] = {
-        .name = "Erik",
+        .name = "Juste",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -7393,21 +7393,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Be prepared for anything!\\fLet me see if your Pokémon have been\\nraised properly!\\r",
+                .text = "Prépare-toi à tout !\\fVoyons si tes Pokémon ont été\\nbien élevés !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, I lost that!\\n",
+                .text = "Oh, j’ai perdu ça !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ll head back to Blackthorn’s Ice Path\\nand train some more.\\n",
+                .text = "Je vais retourner au Chemin Gelé d’Ébènelle\\npour m’entraîner encore.\\n",
             },
         },
     },
 
     [144] = {
-        .name = "Michael",
+        .name = "Lucien",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -7448,21 +7448,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Yo! You’re tough! But you know what?\\nWhen it comes to sheer toughness,\\fI’m the man!\\r",
+                .text = "Yo ! T’es costaud ! Mais tu sais quoi ?\\nQuand il s’agit de pure robustesse,\\fje suis l’homme de la situation !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My Pokémon weren’t tough enough!\\n",
+                .text = "Mes Pokémon n’étaient pas assez solides !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Boy, do I love HP Up! Mmmm, yum!\\rI keep drinking my Pokémon’s!\\nI can’t help it!\\n",
+                .text = "Oh là là, qu’est-ce que j’adore les PV Plus ! Mmmm, miam !\\rJe bois toujours ceux de mes Pokémon !\\nJe peux pas m’en empêcher !\\n",
             },
         },
     },
 
     [145] = {
-        .name = "Parry",
+        .name = "Noa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -7496,25 +7496,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My Pokémon are power packed!\\r",
+                .text = "Mes Pokémon débordent de puissance !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wahahah!\\nI’m the big loser!\\n",
+                .text = "Wahahah !\\nJe suis le grand perdant !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m not much good at thinking, see?\\nSo I just plow ahead with power!\\n",
+                .text = "Je suis pas très doué pour réfléchir, tu vois ?\\nAlors je fonce juste avec la force brute !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve been waiting!\\r",
+                .text = "Je t’attendais !\\r",
             },
         },
     },
 
     [146] = {
-        .name = "Timothy",
+        .name = "Firmin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -7559,21 +7559,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Why do I climb mountains?\\nBecause they’re there.\\rWhy do I train Pokémon?\\nBecause they’re there!\\r",
+                .text = "Pourquoi j’escalade les montagnes ?\\nParce qu’elles sont là.\\rPourquoi j’entraîne des Pokémon ?\\nParce qu’ils sont là !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Losses...\\nThey’re there, too!\\n",
+                .text = "Les défaites...\\nElles sont là aussi !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The best thing ever to happen to me was\\ndiscovering Pokémon.\\n",
+                .text = "La meilleure chose qui me soit arrivée, c’est\\nde découvrir les Pokémon.\\n",
             },
         },
     },
 
     [147] = {
-        .name = "Ted",
+        .name = "Laurent",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -7607,21 +7607,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m raising Pokémon, too!\\nWill you battle with me?\\r",
+                .text = "J’élève des Pokémon, moi aussi !\\nTu veux te battre avec moi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wha...?\\n",
+                .text = "Quoi... ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I did my best but came up short.\\nNo excuses--I admit I lost.\\n",
+                .text = "J’ai fait de mon mieux mais ça n’a pas suffi.\\nPas d’excuses-j’admets ma défaite.\\n",
             },
         },
     },
 
     [148] = {
-        .name = "Lloyd",
+        .name = "Stéphane",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -7664,21 +7664,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "OK! I’m No. 4. I’ll stomp you!\\r",
+                .text = "OK ! Je suis la n°4. Je vais t’écraser !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa! Too much.\\n",
+                .text = "Whoa ! Trop fort.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We both did our best.\\nI have no regrets!\\n",
+                .text = "On a tous les deux donné le meilleur.\\nJe n’ai aucun regret !\\n",
             },
         },
     },
 
     [149] = {
-        .name = "Dean",
+        .name = "Jeannot",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -7721,21 +7721,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I came to explore Rock Tunnel.\\r",
+                .text = "Je suis venu explorer le Tunnel\\nRocheux.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa! Danger, eh?\\n",
+                .text = "Whoa ! Dangereux, hein ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My Pokémon were hurt before even\\nentering Rock Tunnel.\\rI’d better take them to a Pokémon\\nCenter right away.\\n",
+                .text = "Mes Pokémon ont été blessés avant même\\nd’entrer dans le Tunnel Rocheux.\\rJe ferais mieux de les emmener au\\nCentre Pokémon tout de suite.\\n",
             },
         },
     },
 
     [150] = {
-        .name = "Sid",
+        .name = "Claude",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -7788,15 +7788,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, you!\\nDon’t litter!\\r",
+                .text = "Hé, toi !\\nNe jette rien par terre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was just pointing out...\\n",
+                .text = "Je voulais juste prévenir...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Sorry. You weren’t littering. It was\\nmy mistake.\\n",
+                .text = "Désolé. Tu ne jetais rien. C’était\\nmon erreur.\\n",
             },
         },
     },
@@ -7843,25 +7843,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I raise Pokémon, too!\\nWill you battle with me?\\r",
+                .text = "J’élève des Pokémon, moi aussi !\\nTu veux te battre avec moi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, bleah!\\n",
+                .text = "Oh, beurk !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you’ve promised to have a rematch,\\nyour opponent’s location will be marked\\fwith an “!” on the map.\\rYou can check it on your Pokégear.\\n",
+                .text = "Si tu as promis un rematch,\\nla position de ton adversaire sera marquée\\fpar un “ ! ” sur la carte.\\rTu peux vérifier sur ton Pokégear.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey, have you gone and visited many\\nGyms since then?\\r",
+                .text = "Hé, tu as visité beaucoup\\nd’Arènes depuis ?\\r",
             },
         },
     },
 
     [152] = {
-        .name = "Hope",
+        .name = "Suza",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -7904,21 +7904,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I have a feeling that I can win.\\nLet’s see if I’m right!\\r",
+                .text = "J’ai le pressentiment que je peux\\ngagner. Voyons si j’ai raison !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aww, you are too strong.\\n",
+                .text = "Arf, tu es trop fort.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I heard CLEFAIRY appear at Mt. Moon.\\nBut where could they be?\\n",
+                .text = "J’ai entendu dire que des MÉLOFÉE\\napparaissent au Mont Sélénite.\\nMais où peuvent-ils bien être ?\\n",
             },
         },
     },
 
     [153] = {
-        .name = "Sharon",
+        .name = "Tara",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -7971,7 +7971,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Um...\\nI...\\r",
+                .text = "Euh...\\nJe...\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -7979,13 +7979,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "...\\r...I’ll go train some more...\\n",
+                .text = "...\\r...Je vais aller m’entraîner encore...\\n",
             },
         },
     },
 
     [154] = {
-        .name = "Bailey",
+        .name = "Edgar",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -8033,21 +8033,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Awright! I’ll show you the power of\\nmountain Pokémon!\\r",
+                .text = "D’accord ! Je vais te montrer la puissance\\ndes Pokémon de montagne !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Mercy! You showed me your power!\\n",
+                .text = "Pitié ! Tu m’as montré ta force !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s over. I don’t mind. We Hikers are\\nlike that.\\n",
+                .text = "C’est fini. Ça ne me dérange pas. Nous, les Montagnards,\\non est comme ça.\\n",
             },
         },
     },
 
     [155] = {
-        .name = "Anthony",
+        .name = "Olwen",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -8088,13 +8088,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa!\\nYou’ve got more zip than me!\\n",
+                .text = "Whoa !\\nTu as plus de peps que moi !\\n",
             },
         },
     },
 
     [156] = {
-        .name = "Yoshi",
+        .name = "Hiro",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -8115,15 +8115,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My Pokémon and I are bound together by\\nfriendship.\\fOur bond will never be broken!\\r",
+                .text = "Mes Pokémon et moi sommes liés par\\nl’amitié.\\fNotre lien ne sera jamais brisé !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "This isn’t real!\\n",
+                .text = "C’est pas possible !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You seem to have a strong bond with\\nyour Pokémon, too!\\n",
+                .text = "On dirait que tu as un lien fort avec\\ntes Pokémon, toi aussi !\\n",
             },
         },
     },
@@ -8150,21 +8150,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We martial artists fear nothing!\\r",
+                .text = "Nous, les artistes martiaux, on ne craint rien !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "That’s shocking!\\n",
+                .text = "Incroyable !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Fighting-type Pokémon are afraid of\\nPsychic types...\\n",
+                .text = "Les Pokémon Combat ont peur des\\nPokémon Psy...\\n",
             },
         },
     },
 
     [158] = {
-        .name = "Kiyo",
+        .name = "Fei",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -8198,13 +8198,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Waaaarggh!\\nI’m beaten!\\n",
+                .text = "Waaaarggh !\\nJe suis battu !\\n",
             },
         },
     },
 
     [159] = {
-        .name = "Lung",
+        .name = "Ping",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -8245,21 +8245,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My raging fists will shatter your\\nPokémon!\\r",
+                .text = "Mes poings enragés vont briser tes\\nPokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I got shattered!\\n",
+                .text = "C’est moi qui ai été brisé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My Pokémon lost...\\nMy...my pride is shattered...\\n",
+                .text = "Mes Pokémon ont perdu...\\nMa... ma fierté est brisée...\\n",
             },
         },
     },
 
     [160] = {
-        .name = "Naoko",
+        .name = "Umeko",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_KIMONO_GIRL,
@@ -8281,13 +8281,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, you are truly strong.\\n",
+                .text = "Oh, tu es vraiment fort.\\n",
             },
         },
     },
 
     [161] = {
-        .name = "Sayo",
+        .name = "Sakura",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_KIMONO_GIRL,
@@ -8309,13 +8309,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, so close! I almost had you.\\n",
+                .text = "Oh, si près ! Je t’avais presque.\\n",
             },
         },
     },
 
     [162] = {
-        .name = "Zuki",
+        .name = "Tamao",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_KIMONO_GIRL,
@@ -8337,13 +8337,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I don’t have any Pokémon left...\\n",
+                .text = "Je n’ai plus aucun Pokémon...\\n",
             },
         },
     },
 
     [163] = {
-        .name = "Kuni",
+        .name = "Komomo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_KIMONO_GIRL,
@@ -8365,13 +8365,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, you are wonderful...\\n",
+                .text = "Oh, tu es merveilleux...\\n",
             },
         },
     },
 
     [164] = {
-        .name = "Miki",
+        .name = "Satsuki",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_KIMONO_GIRL,
@@ -8393,13 +8393,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ooh, you’re good at Pokémon, too.\\n",
+                .text = "Ooh, tu es doué avec les Pokémon, toi aussi.\\n",
             },
         },
     },
 
     [165] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -8433,7 +8433,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [166] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -8460,7 +8460,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [167] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -8487,7 +8487,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [168] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -8521,7 +8521,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [169] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -8555,7 +8555,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [170] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -8589,7 +8589,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [171] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -8623,7 +8623,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [172] = {
-        .name = "Brent",
+        .name = "Wilfrid",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -8671,13 +8671,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, my poor Pokémon! Darlings!\\n",
+                .text = "Oh, mes pauvres Pokémon ! Mes chéris !\\n",
             },
         },
     },
 
     [173] = {
-        .name = "Brent",
+        .name = "Wilfrid",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -8732,13 +8732,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, my poor Pokémon! Darlings!\\n",
+                .text = "Oh, mes pauvres Pokémon ! Mes chéris !\\n",
             },
         },
     },
 
     [174] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -8772,7 +8772,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [175] = {
-        .name = "Bethany",
+        .name = "Paulette",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -8806,7 +8806,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [176] = {
-        .name = "Margaret",
+        .name = "Agathe",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -8840,7 +8840,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [177] = {
-        .name = "Ethel",
+        .name = "Zita",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -8874,7 +8874,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [178] = {
-        .name = "Jack",
+        .name = "Timéo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -8915,25 +8915,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The world is deep. There are still lots\\nof things we don’t know.\\fBut I know more than you do!\\r",
+                .text = "Le monde est profond. Il y a encore plein\\nde choses qu’on ignore.\\fMais j’en sais plus que toi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wh-wh-what?\\n",
+                .text = "Qu-qu-quoi ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "There is a lot to learn.\\rFor example...\\nThere are more than 90 kinds of TMs.\\fAnd traded Pokémon level up faster.\\n",
+                .text = "Il y a beaucoup à apprendre.\\rPar exemple...\\nIl existe plus de 90 types de CT.\\fEt les Pokémon échangés montent de niveau plus vite.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Yay!\\nYou kept your promise and came back!\\r",
+                .text = "Youpi !\\nTu as tenu ta promesse et tu es revenu !\\r",
             },
         },
     },
 
     [179] = {
-        .name = "Kipp",
+        .name = "Cyril",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -8974,21 +8974,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hang on. I have to phone my mom.\\r",
+                .text = "Attends. Je dois appeler ma mère.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Sorry, Mom!\\nI was beaten!\\n",
+                .text = "Désolé, M’man !\\nJ’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My mom worries so much about me, I have\\nto phone her all the time.\\n",
+                .text = "Ma mère s’inquiète tellement pour moi que\\nje dois l’appeler tout le temps.\\n",
             },
         },
     },
 
     [180] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -9022,7 +9022,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [181] = {
-        .name = "William",
+        .name = "Marcel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -9056,21 +9056,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We adore our Pokémon, even if they\\ndislike us. That’s what being a\\fPokéfan is all about.\\r",
+                .text = "Nous adorons nos Pokémon, même s’ils\\nne nous aiment pas. C’est ça, être un\\fPokéfan.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "M-my Pokémon!\\n",
+                .text = "M-mon Pokémon !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I lost the battle, but my Pokémon win\\nthe prize for being the most lovely.\\n",
+                .text = "J’ai perdu le combat, mais mes Pokémon\\nremportent le prix des plus adorables.\\n",
             },
         },
     },
 
     [182] = {
-        .name = "Beverly",
+        .name = "Jade",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN,
@@ -9104,19 +9104,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My Pokémon is simply darling.\\nLet me tell you how proud my\\fdarling makes me.\\r",
+                .text = "Mon Pokémon est tout simplement adorable.\\nLaisse-moi te dire à quel point mon\\fpetit trésor me rend fier.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I can beat you in pride, but...\\n",
+                .text = "Je peux te battre en fierté, mais...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I must say, your Pokémon are quite\\ncute, too.\\n",
+                .text = "Je dois dire que tes Pokémon sont\\nplutôt mignons aussi.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve been waiting here to brag to you\\nabout my Pokémon!\\r",
+                .text = "Je t’attendais pour me vanter encore\\nde mon Pokémon !\\r",
             },
         },
     },
@@ -9159,13 +9159,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I had you fooled...\\n",
+                .text = "Je t’ai bien eu...\\n",
             },
         },
     },
 
     [184] = {
-        .name = "Krise",
+        .name = "Jezebel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_LASS,
@@ -9206,7 +9206,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hello? Why are you staring at me?\\rOh, a battle?\\r",
+                .text = "Allô ? Pourquoi tu me fixes comme ça ?\\rOh, un combat ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -9214,17 +9214,17 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I thought I did something wrong\\nbecause you kept staring at me.\\n",
+                .text = "Je croyais avoir fait quelque chose de mal\\nparce que tu me regardais sans arrêt.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "What?\\nStaring at people’s faces.\\r...Oh, didn’t I make a promise to\\nsomeone? Was that you?\\r",
+                .text = "Quoi ?\\nFixer les gens comme ça.\\r...Oh, j’avais pas promis quelque chose\\nà quelqu’un ? C’était toi ?\\r",
             },
         },
     },
 
     [185] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9251,13 +9251,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Y-you’re strong...\\n",
+                .text = "T-tu es fort...\\n",
             },
         },
     },
 
     [186] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9298,21 +9298,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Three years ago, Team Rocket was\\nforced to disband.\\rBut we’re making a comeback here!\\r",
+                .text = "Il y a trois ans, la Team Rocket a été\\nforcée de se dissoudre.\\rMais on revient en force ici !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gwah! Don’t get cute!\\n",
+                .text = "Gwah ! Ne fais pas le malin !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We won’t let you ruin our plans for\\nour comeback!\\n",
+                .text = "On ne te laissera pas ruiner nos plans\\npour notre grand retour !\\n",
             },
         },
     },
 
     [187] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9360,21 +9360,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re Team Rocket!\\nWe like to cause trouble!\\rOoh! Are you scared?\\r",
+                .text = "On est la Team Rocket !\\nOn adore semer le chaos !\\rOoh ! Tu as peur ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You think you’re a hero?\\n",
+                .text = "Tu te prends pour un héros ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We’re not always evil. We just do\\nwhatever we like.\\n",
+                .text = "On n’est pas toujours méchants. On fait juste\\nce qu’on veut.\\n",
             },
         },
     },
 
     [188] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9408,21 +9408,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, hey! Keep out of our way!\\r",
+                .text = "Hé, hé ! Ne te mets pas en travers\\nde notre chemin !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Arggh. I give up.\\n",
+                .text = "Arggh. J’abandonne.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Our Executives are trying to take this\\nplace over. They have some big plan.\\fI wonder what it is.\\n",
+                .text = "Nos Admins essaient de prendre le contrôle\\nde cet endroit. Ils ont un grand plan.\\fJe me demande ce que c’est.\\n",
             },
         },
     },
 
     [189] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9463,7 +9463,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ve been given strict orders.\\rI’m to crush anyone who challenges\\nTeam Rocket!\\r",
+                .text = "J’ai reçu des ordres stricts.\\rJe dois écraser quiconque défie\\nla Team Rocket !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -9471,13 +9471,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I failed in my duties...\\nI’ll be docked pay for this...\\n",
+                .text = "J’ai échoué dans ma mission...\\nOn va me retirer de la paie pour ça...\\n",
             },
         },
     },
 
     [190] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9504,21 +9504,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "It feels great ordering Pokémon to\\ncommit crimes.\\r",
+                .text = "C’est génial de donner des ordres aux Pokémon\\npour commettre des crimes.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re kidding!\\n",
+                .text = "Tu plaisantes ?!\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I feel lousy over losing! Bah!\\nI hate useless Pokémon!\\n",
+                .text = "Je me sens minable d’avoir perdu ! Bah !\\nJe déteste les Pokémon inutiles !\\n",
             },
         },
     },
 
     [191] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9559,21 +9559,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Why did the door open? Did you have\\nsomething to do with this?\\r",
+                .text = "Pourquoi la porte s’est ouverte ? Tu as\\nquelque chose à voir avec ça ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gulp! This is a bleak moment.\\n",
+                .text = "Gloups ! C’est un moment sombre.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "What?! You made it past our men in\\nthe Underground? How could you have?\\n",
+                .text = "Quoi ?! Tu as passé nos hommes dans\\nle Sous-Sol ? Comment t’as fait ?\\n",
             },
         },
     },
 
     [192] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9614,21 +9614,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You plan to rescue the Director?\\nSo sad that won’t be possible--\\fbecause I’m going to beat you!\\r",
+                .text = "Tu veux sauver le Directeur ?\\nDommage, ce ne sera pas possible--\\fcar je vais te battre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No! Unbelievable!\\n",
+                .text = "Non ! Incroyable !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I do not believe it! I was beaten!\\n",
+                .text = "Je n’y crois pas ! J’ai été battu !\\n",
             },
         },
     },
 
     [193] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9669,21 +9669,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Open one door, another closes. Bet you\\ncan’t get where you want to go!\\r",
+                .text = "Tu ouvres une porte, une autre se ferme. Je parie\\nque tu n’arriveras pas où tu veux aller !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Uh-oh! I was sunk by indecision!\\n",
+                .text = "Oh-oh ! J’ai coulé à cause de l’indécision !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m confused, too...\\rI’m pretty sure that the green switch\\nis the one to press last... I think?\\n",
+                .text = "Je suis perdu moi aussi...\\rJe suis presque sûr que l’interrupteur vert\\nest celui à activer en dernier... je crois ?\\n",
             },
         },
     },
 
     [194] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9710,7 +9710,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [195] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9737,21 +9737,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I don’t care if you’re lost. You show up\\nhere--you’re nothing but a victim!\\r",
+                .text = "Je me fiche que tu sois perdu. Si tu viens\\nici-tu n’es qu’une victime !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Urk! Yeah, think you’re cool, huh?\\n",
+                .text = "Urk ! Ouais, tu te crois cool, hein ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You must have ice in your veins to\\ncall out Team Rocket.\\n",
+                .text = "Tu dois avoir de la glace dans les veines pour\\naffronter la Team Rocket.\\n",
             },
         },
     },
 
     [196] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9792,21 +9792,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You’re not going any farther!\\nI don’t show mercy to my enemies,\\fespecially not brats!\\r",
+                .text = "Tu n’iras pas plus loin !\\nJe ne montre aucune pitié à mes ennemis,\\fsurtout pas aux morveux !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Blast it!\\n",
+                .text = "Zut alors !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I lost...\\rPlease forgive me, Giovanni!\\n",
+                .text = "J’ai perdu...\\rPardonne-moi, Giovanni !\\n",
             },
         },
     },
 
     [197] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -9840,21 +9840,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hyuck-hyuck-hyuck!\\nI remember you!\\rYou got me good at our hideout!\\r",
+                .text = "Hyuck-hyuck-hyuck !\\nJe me souviens de toi !\\rTu m’avais bien eu dans notre planque !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Hyuck-hyuck-hyuck!\\nSo that’s how you did it!\\n",
+                .text = "Hyuck-hyuck-hyuck !\\nAlors c’est comme ça que tu fais !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Hyuck-hyuck-hyuck!\\nThat was a blast!\\n",
+                .text = "Hyuck-hyuck-hyuck !\\nC’était génial !\\n",
             },
         },
     },
 
     [198] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET_F,
@@ -9881,21 +9881,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Ha ha ha!\\fHow boring. It was far too easy to take\\nover this place!\\rCome on, keep me amused!\\r",
+                .text = "Ha ha ha !\\fComme c’est ennuyeux. C’était bien trop facile\\nde prendre le contrôle ici !\\rAllez, divertis-moi un peu !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wh-who are you?\\n",
+                .text = "Qu-qui es-tu ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You beat me, and I won’t forget it!\\n",
+                .text = "Tu m’as battu, et je ne l’oublierai pas !\\n",
             },
         },
     },
 
     [199] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET_F,
@@ -9936,21 +9936,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you lost? No, you can’t be.\\nYou don’t have that scared look. I’ll\\fgive you something to be scared about!\\r",
+                .text = "Tu es perdu ? Non, impossible.\\nTu n’as pas l’air effrayé. Je vais\\farranger ça !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "How could you?\\n",
+                .text = "Comment as-tu pu ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Go wherever you like! Get lost!\\nSee if I care!\\n",
+                .text = "Va où tu veux ! Perds-toi !\\nComme si ça me faisait quelque chose !\\n",
             },
         },
     },
 
     [200] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET_F,
@@ -9991,13 +9991,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no! They’re so useless!\\n",
+                .text = "Oh non ! Ils sont tellement inutiles !\\n",
             },
         },
     },
 
     [201] = {
-        .name = "Andrew",
+        .name = "Evan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -10031,21 +10031,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Who’s there?\\nLeave me and my Pokémon alone!\\r",
+                .text = "Qui est là ?\\nLaisse-moi tranquille, moi et mes Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Go...\\nGo away!\\n",
+                .text = "Va...\\nVa-t’en !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Just me and my Pokémon.\\nI’m delirious with joy.\\n",
+                .text = "Juste moi et mes Pokémon.\\nJe suis fou de joie.\\n",
             },
         },
     },
 
     [202] = {
-        .name = "Calvin",
+        .name = "Denis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -10079,21 +10079,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I came all the way here to conduct my\\nPokémon research.\\rLet me demonstrate my findings in a\\nreal battle!\\r",
+                .text = "Je suis venu jusqu’ici pour mener mes\\nrecherches Pokémon.\\rLaisse-moi te montrer mes résultats dans\\nun vrai combat !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’m the one who learned something from\\nyour demonstration!\\n",
+                .text = "C’est moi qui ai appris quelque chose\\nde ta démonstration !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I should compile and announce my study\\nfindings. I might even become famous\\flike Professor Elm.\\n",
+                .text = "Je devrais compiler et publier mes résultats.\\nJe deviendrai peut-être célèbre\\fcomme le Professeur Orme.\\n",
             },
         },
     },
 
     [203] = {
-        .name = "Phillip",
+        .name = "Gérard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -10127,7 +10127,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "It’s been a while since I last saw\\nanother person.\\rDon’t be shy. Let’s battle!\\r",
+                .text = "Ça fait longtemps que je n’ai pas vu\\nquelqu’un.\\rNe sois pas timide. Combattons !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -10135,13 +10135,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ve been lost for a long time...\\rI don’t mind it here, but I am\\nsoooo hungry!\\n",
+                .text = "Je suis perdu depuis longtemps...\\rÇa ne me dérange pas, mais je suis\\ntellement affamé !\\n",
             },
         },
     },
 
     [204] = {
-        .name = "Leonard",
+        .name = "Michel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -10182,21 +10182,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What do you know!\\nA visitor!\\r",
+                .text = "Eh bien ça alors !\\nUn visiteur !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wa ha ha! You’re a feisty one!\\n",
+                .text = "Wa ha ha ! Tu as du cran !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I live down here.\\nIf you like, you can always come visit!\\n",
+                .text = "Je vis ici, sous terre.\\nSi tu veux, tu peux toujours venir me voir !\\n",
             },
         },
     },
 
     [205] = {
-        .name = "Nick",
+        .name = "Gurvan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -10233,21 +10233,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "There are two kinds of people:\\nthose with style and those without.\\rWhich kind of person are you?\\r",
+                .text = "Il y a deux types de gens :\\nceux qui ont du style et ceux qui n’en ont pas.\\rDe quel type es-tu ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’ve got dazzling style!\\n",
+                .text = "Tu as un style éblouissant !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Your Pokémon style is stunning and\\nfull of life, I admit.\\rYou’ll just keep getting better!\\n",
+                .text = "Ton style Pokémon est magnifique et\\nplein de vie, je l’admets.\\rTu vas devenir encore meilleur !\\n",
             },
         },
     },
 
     [206] = {
-        .name = "Gwen",
+        .name = "Gerry",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -10302,21 +10302,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m in training.\\nCare for a round?\\r",
+                .text = "Je suis en plein entraînement.\\nEnvie d’un combat ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aww, no! You’re too good for me.\\n",
+                .text = "Oh non ! Tu es trop fort pour moi.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m going to train by myself until\\nI improve.\\n",
+                .text = "Je vais m’entraîner seul jusqu’à\\nm’améliorer.\\n",
             },
         },
     },
 
     [207] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -10350,7 +10350,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [208] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -10384,7 +10384,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [209] = {
-        .name = "Cassie",
+        .name = "Claudia",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -10425,15 +10425,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m trying to forget my woes.\\nLet’s battle!\\r",
+                .text = "J’essaie d’oublier mes soucis.\\nAllons nous battre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My heart weeps...\\n",
+                .text = "Mon cœur pleure...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "A voyage is best for getting over a\\nbroken heart. But a Fast Ship trip is\\ftoo short for grieving.\\n",
+                .text = "Un voyage, c’est ce qu’il y a de mieux pour\\nse remettre d’un chagrin d’amour. Mais un trajet en\\fBateau Rapide, c’est trop court pour faire son deuil.\\n",
             },
         },
     },
@@ -10473,7 +10473,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [211] = {
-        .name = "Huey",
+        .name = "Logan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -10514,25 +10514,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Men of the sea are always spoiling for a\\ngood fight!\\r",
+                .text = "Les hommes de la mer sont toujours prêts pour\\nun bon combat !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Urf!\\nI lose!\\n",
+                .text = "Urf !\\nJ’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "What power! How would you like to sail\\nthe seas with me?\\n",
+                .text = "Quelle puissance ! Ça te dirait de voguer\\nsur les mers avec moi ?\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey, you’re back!\\nJust in time for me to show off!\\r",
+                .text = "Hé, te revoilà !\\nJuste à temps pour que je me la raconte un peu !\\r",
             },
         },
     },
 
     [212] = {
-        .name = "Terrell",
+        .name = "Alberto",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -10566,21 +10566,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Sailors are both kind and strong.\\nHow about you?\\r",
+                .text = "Les marins sont à la fois gentils et forts.\\nEt toi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You are both kind and strong...\\n",
+                .text = "Tu es à la fois gentil et fort...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Every time I come back to Olivine,\\nI visit the Gym.\\rThe Gym Leader’s Pokémon type\\nchanged without my noticing.\\n",
+                .text = "Chaque fois que je reviens à Oliville,\\nje passe à l’Arène.\\rLe type de Pokémon de la Championne\\navait changé sans que je m’en rende compte.\\n",
             },
         },
     },
 
     [213] = {
-        .name = "Kent",
+        .name = "Noé",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -10617,21 +10617,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Jasmine must be worried sick about the\\nPokémon here. She won’t even smile\\fthese days.\\r",
+                .text = "Jasmine doit être morte d’inquiétude pour les\\nPokémon ici. Elle ne sourit même plus\\fces temps-ci.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I can’t manage a smile, either...\\n",
+                .text = "Je n’arrive pas à sourire non plus...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Speaking of being sick, I’ve heard\\nthere’s a good Pharmacy in Cianwood.\\n",
+                .text = "En parlant de maladie, j’ai entendu dire\\nqu’il y a une bonne Pharmacie à Irisia.\\n",
             },
         },
     },
 
     [214] = {
-        .name = "Roberto",
+        .name = "Jonas",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -10672,21 +10672,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I wanted to battle Jasmine, but she’s\\nnot up to it now. So how about you?\\r",
+                .text = "Je voulais affronter Jasmine, mais elle n’est\\npas en état. Alors, pourquoi pas toi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa, whoa. You’re overwhelming!\\n",
+                .text = "Whoa, whoa. Tu es incroyable !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Being a Gym Leader isn’t just about\\nbeing strong. A Leader also needs to\\fbe compassionate.\\n",
+                .text = "Être Champion, ce n’est pas seulement être fort.\\nIl faut aussi savoir\\fêtre compatissant.\\n",
             },
         },
     },
 
     [215] = {
-        .name = "Connie",
+        .name = "Aurore",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_LASS,
@@ -10720,21 +10720,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Jasmine is this city’s Gym Leader.\\nI intend to bring her back with me.\\rNobody better get in my way!\\r",
+                .text = "Jasmine est la Championne de cette ville.\\nJ’ai bien l’intention de la ramener avec moi.\\rPersonne n’a intérêt à se mettre en travers de mon chemin !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aaack! My Pokémon!\\n",
+                .text = "Aaack ! Mes Pokémon !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Right. Anybody would be worried if his or\\nher own Pokémon were hurt.\\n",
+                .text = "C’est vrai. Tout le monde s’inquiéterait si son\\nPokémon était blessé.\\n",
             },
         },
     },
 
     [216] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -10775,21 +10775,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Heh heh. Feeling lucky, punk?\\rGo ahead, take another step.\\nWe’ve got explosives set in the floor!\\fStep on one, and--BOOM!\\r",
+                .text = "Héhé. Tu te sens chanceux, morveux ?\\rAllez, fais un pas de plus.\\nOn a placé des explosifs dans le sol !\\fMarche sur un, et-BOUM !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Kaboom!\\n",
+                .text = "Kaboom !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Where are the traps planted?\\nThat... Well...\\rI don’t even remember!\\n",
+                .text = "Où sont les pièges ?\\nEh bien... euh...\\rJe ne m’en souviens même plus !\\n",
             },
         },
     },
 
     [217] = {
-        .name = "Denis",
+        .name = "Tony",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -10830,21 +10830,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re pretty high up here. My bird\\nPokémon are in prime form.\\r",
+                .text = "On est assez haut ici. Mes Pokémon\\nOiseaux sont en pleine forme.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oops...\\nThey crashed...\\n",
+                .text = "Oups...\\nIls se sont écrasés...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My bird Pokémon trained in Cianwood.\\nSince I’ve lost, maybe we’ll go across\\fthe sea.\\n",
+                .text = "Mes Pokémon Oiseaux se sont entraînés à Olivine.\\nPuisque j’ai perdu, on ira peut-être\\ftaverser la mer.\\n",
             },
         },
     },
 
     [218] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -10878,21 +10878,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The door won’t open?\\rWell, duh. It has to have a password\\nthat only Team Rocket knows.\\r",
+                .text = "La porte ne s’ouvre pas ?\\rBen oui. Il faut un mot de passe que seule\\nla Team Rocket connaît.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "What? I lost?\\n",
+                .text = "Quoi ? J’ai perdu ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Heh, I’m just a Team Rocket Grunt.\\nI don’t know the password.\\fToo bad for you.\\n",
+                .text = "Héhé, je suis juste un sbire de la Team Rocket.\\nJe ne connais pas le mot de passe.\\fTant pis pour toi.\\n",
             },
         },
     },
 
     [219] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -10933,21 +10933,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Oh, a kid? I don’t really like this, but\\neliminate you I must.\\r",
+                .text = "Oh, un gamin ? Je n’aime pas ça, mais\\nje dois t’éliminer.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I knew I’d lose...\\n",
+                .text = "Je savais que je perdrais...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I got wiped out on the last mission by a\\nkid, too. When we were abducting\\fPokémon, this kid with long red hair and\\fmean-looking eyes just whomped me...\\n",
+                .text = "Je me suis fait écraser par un gamin lors de\\nla dernière mission aussi. Quand on enlevait\\fdes Pokémon, un gosse aux longs cheveux rouges et\\fau regard méchant m’a démoli...\\n",
             },
         },
     },
 
     [220] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -10988,7 +10988,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You rotten little pest!\\r",
+                .text = "Espèce de sale morveux !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -10996,13 +10996,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Heh, only the one who guards the boss’s\\nroom knows the password for that door.\\rWhere’s the boss’s room?\\nWho knows? Go look for yourself.\\n",
+                .text = "Héhé, seul celui qui garde la salle du boss\\nconnaît le mot de passe de cette porte.\\rOù est la salle du boss ?\\nQui sait ? Va voir toi-même.\\n",
             },
         },
     },
 
     [221] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11036,7 +11036,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [222] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11070,21 +11070,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hyuck-hyuck-hyuck!\\rYou’re challenging me to a battle?\\nHah! You’re nuts, but you have guts!\\rI like that! If you can beat me, I’ll\\ntell you a password to the boss’s room!\\r",
+                .text = "Hyuck-hyuck-hyuck!\\rTu veux m’affronter en combat ?\\nHa ! T’es cinglé, mais t’as du cran !\\rJ’aime ça ! Si tu me bats, je te donnerai\\nun des mots de passe de la salle du boss !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "The password for the boss’s door--\\rRATICATETAIL.\\n",
+                .text = "Le mot de passe de la porte du boss--\\rRATICATETAIL.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The password for the boss’s door--\\nRATICATETAIL.\\rBut if you don’t have both passwords...\\nHa ha ha!\\n",
+                .text = "Le mot de passe de la porte du boss--\\nRATICATETAIL.\\rMais si tu n’as pas les deux mots de passe...\\nHa ha ha !\\n",
             },
         },
     },
 
     [223] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11111,13 +11111,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Grr... I failed...\\n",
+                .text = "Grr... J’ai échoué...\\n",
             },
         },
     },
 
     [224] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11151,13 +11151,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Surveillance cams are in the\\nPokémon statues.\\rWe’ll keep appearing until you trip a\\nsecret switch.\\n",
+                .text = "Les caméras de surveillance sont dans les\\nstatues Pokémon.\\rOn continuera d’apparaître jusqu’à ce que tu actives\\nun interrupteur secret.\\n",
             },
         },
     },
 
     [225] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11191,7 +11191,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [226] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11218,7 +11218,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [227] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11259,21 +11259,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "How did you get this far? I guess it\\ncan’t be helped. I’ll dispose of you.\\r",
+                .text = "Comment as-tu pu arriver jusqu’ici ? Bon,\\nje n’ai pas le choix. Je vais me débarrasser de toi.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I got disposed of...\\n",
+                .text = "Je me suis fait jeter...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Team Rocket will keep going, waiting for\\nthe return of Giovanni.\\rWe’ll do whatever it takes.\\n",
+                .text = "La Team Rocket continuera, en attendant\\nle retour de Giovanni.\\rOn fera tout ce qu’il faudra.\\n",
             },
         },
     },
 
     [228] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11307,21 +11307,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Kwa ha ha!\\rConfounded by the doors, are we?\\rI’ll let you in on a secret if you can\\nbeat me!\\r",
+                .text = "Kwa ha ha !\\rLes portes te rendent fou, hein ?\\rJe te donnerai un secret si tu me bats !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Uwww...\\nI blew it.\\n",
+                .text = "Uwww...\\nJ’ai tout raté.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All right. A hint!\\rLook at the color of the door switches.\\nYou push a color switch, and the same\\fcolor door opens up...\\n",
+                .text = "Très bien. Un indice !\\rRegarde la couleur des interrupteurs.\\nTu appuies sur un interrupteur d’une couleur,\\fet la porte de la même couleur s’ouvre...\\n",
             },
         },
     },
 
     [229] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -11355,7 +11355,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [230] = {
-        .name = "Franklin",
+        .name = "Norbert",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -11398,21 +11398,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Psychic power is the power of\\nyour mind.\\r",
+                .text = "Le pouvoir Psy, c’est le pouvoir\\nde ton esprit.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Your mind has more power than mine!\\n",
+                .text = "Ton esprit est plus puissant\\nque le mien !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You made your mind stronger, not just\\nyour abilities.\\n",
+                .text = "Tu as renforcé ton esprit, pas seulement\\ntes capacités.\\n",
             },
         },
     },
 
     [231] = {
-        .name = "Edward",
+        .name = "Charles",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -11446,21 +11446,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Oh, no. I’ve lost something that’s\\nvery important.\\r",
+                .text = "Oh non. J’ai perdu quelque chose de\\ntrès important.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I...I can’t find it...\\n",
+                .text = "Je... Je ne le trouve pas...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I give up. You don’t have to look.\\nJust forget about it!\\n",
+                .text = "J’abandonne. Tu n’as pas besoin de chercher.\\nOublie ça !\\n",
             },
         },
     },
 
     [232] = {
-        .name = "Vincent",
+        .name = "Carlos",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_GUITARIST,
@@ -11513,21 +11513,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Lt. Surge saw my potential with\\nElectric-type Pokémon.\\fThink you can beat me?\\r",
+                .text = "Major Bob a vu mon potentiel avec\\nles Pokémon Électrik.\\fTu crois pouvoir me battre ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ooh, how shocking!\\n",
+                .text = "Ooh, électrisant !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The reason that Lt. Surge is protected\\nby electric fences isn’t because\\fhe’s a coward! It’s so you won’t\\funderestimate his strength!\\n",
+                .text = "Si Major Bob est protégé par des\\nclôtures électriques, ce n’est pas parce\\fqu’il a peur ! C’est pour que tu ne\\fsous-estimes pas sa force !\\n",
             },
         },
     },
 
     [233] = {
-        .name = "Eric",
+        .name = "Steven",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -11568,21 +11568,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I got booted out of the Game Corner.\\nI kept winning at the new Coin game,\\fand they thought I was cheating...\\r",
+                .text = "Ils m’ont viré du Casino.\\nJe gagnais trop au nouveau jeu de Jetons,\\fet ils ont cru que je trichais...\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Grumble...\\n",
+                .text = "...Grompf...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I guess I have to do things fair\\nand square...\\n",
+                .text = "Je suppose que je dois faire les choses\\nhonnêtement...\\n",
             },
         },
     },
 
     [234] = {
-        .name = "Eoin",
+        .name = "Sidi",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -11625,21 +11625,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Mt. Silver is in Johto, right?\\rIt must be a silver mountain!\\r",
+                .text = "Le Mont Argenté est à Johto, non ?\\rÇa doit être une montagne d’argent !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was kind of focused on the mountain\\nand forgot my Pokémon...\\n",
+                .text = "J’étais tellement concentré sur la\\nmontagne que j’ai oublié mes Pokémon...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Battles are about concentration.\\n",
+                .text = "Les combats demandent de la\\nconcentration.\\n",
             },
         },
     },
 
     [235] = {
-        .name = "Noland",
+        .name = "Evrard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -11680,21 +11680,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you alone?\\nThen let’s battle!\\r",
+                .text = "Tu es tout seul ?\\nAlors battons-nous !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "That’s too much to handle!\\n",
+                .text = "C’est trop pour moi !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I wonder if there are any mountains\\nworth climbing in Kanto?\\n",
+                .text = "Je me demande s’il y a des montagnes\\nqui valent le coup d’être escaladées à Kanto ?\\n",
             },
         },
     },
 
     [236] = {
-        .name = "Shaye",
+        .name = "Paulus",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -11739,15 +11739,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m going to Kanto to test my skills.\\r",
+                .text = "Je vais à Kanto pour tester mes compétences.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I wanted to win!\\n",
+                .text = "Je voulais gagner !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Trainers from Johto can battle with\\nKanto Gym Leaders.\\n",
+                .text = "Les Dresseurs de Johto peuvent affronter\\nles Champions de Kanto.\\n",
             },
         },
     },
@@ -11798,21 +11798,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m training to become the Champion!\\r",
+                .text = "Je m’entraîne pour devenir le Champion !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "What’s so different between us?\\n",
+                .text = "Qu’est-ce qui nous différencie autant ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m going to beat you someday!\\n",
+                .text = "Je te battrai un jour !\\n",
             },
         },
     },
 
     [238] = {
-        .name = "Stanly",
+        .name = "Gaston",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -11846,13 +11846,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Mmmmph... I just woke up.\\nI couldn’t focus...\\n",
+                .text = "Mmmmph... Je viens juste de me réveiller.\\nJe n’arrivais pas à me concentrer...\\n",
             },
         },
     },
 
     [239] = {
-        .name = "Jeff",
+        .name = "Olivier",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -11886,21 +11886,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Nothing beats a battle when I’m on\\nmy break.\\r",
+                .text = "Rien ne vaut un combat quand je suis\\nen pause.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Win or lose, my break’s over!\\n",
+                .text = "Gagné ou perdu, ma pause est finie !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I guess I can’t win if I don’t\\nget serious.\\n",
+                .text = "Je suppose que je peux pas gagner si je ne\\nme donne pas à fond.\\n",
             },
         },
     },
 
     [240] = {
-        .name = "Garrett",
+        .name = "Simbad",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -11934,21 +11934,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "This is where we sailors work!\\r",
+                .text = "C’est ici que nous, les marins, on travaille !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost on my home field...\\n",
+                .text = "J’ai perdu sur mon propre terrain...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We get different passengers from\\nVermilion City to Olivine City.\\n",
+                .text = "On transporte des passagers différents entre\\nCarmin-sur-Mer et Oliville.\\n",
             },
         },
     },
 
     [241] = {
-        .name = "Kenneth",
+        .name = "Cédric",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -11989,21 +11989,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m a sailor man!\\rBut I’m training Pokémon, so I can\\nbecome the Champion!\\r",
+                .text = "Je suis un vrai marin !\\rMais j’entraîne des Pokémon pour pouvoir\\ndevenir Champion !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My lack of training is obvious...\\n",
+                .text = "Mon manque d’entraînement saute aux yeux...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Those Badges you’re carrying...\\nLet me guess.\\rThose are the ones you get when you\\ndefeat Gym Leaders, right?\\rThat means you’re pretty strong!\\n",
+                .text = "Ces Badges que tu portes...\\nLaisse-moi deviner.\\rCe sont ceux qu’on obtient en battant\\nles Champions, pas vrai ?\\rÇa veut dire que tu es plutôt fort !\\n",
             },
         },
     },
 
     [242] = {
-        .name = "Fritz",
+        .name = "Chico",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_JUGGLER,
@@ -12048,21 +12048,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Urrf...\\nI’m seasick!\\r",
+                .text = "Urrf...\\nJ’ai le mal de mer !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I can’t move anymore...\\n",
+                .text = "Je peux plus bouger...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "No more ships for me. Next time, I’m\\ntaking the Magnet Train.\\n",
+                .text = "Plus jamais de bateau pour moi. La prochaine fois, je prends\\nle Train Magnétique.\\n",
             },
         },
     },
 
     [243] = {
-        .name = "Katie",
+        .name = "Anke",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -12082,7 +12082,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [244] = {
-        .name = "Lance",
+        .name = "Peter",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_CHAMPION,
@@ -12149,21 +12149,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "All right!\\nI thought this would never happen!\\n",
+                .text = "Très bien !\\nJe pensais que ça n’arriverait jamais !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "I never give up, no matter what.\\nYou must be the same?\\n",
+                .text = "Je n’abandonne jamais, quoi qu’il arrive.\\nToi aussi, non ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...It’s over.\\rBut it’s an odd feeling. I’m not angry\\nthat I lost. In fact, I feel happy.\\rHappy that I witnessed the rise\\nof a great new Champion!\\n",
+                .text = "...C’est fini.\\rMais c’est étrange. Je ne suis pas en colère\\nd’avoir perdu. En fait, je suis heureux.\\rHeureux d’avoir vu naître\\nun grand nouveau Champion !\\n",
             },
         },
     },
 
     [245] = {
-        .name = "Will",
+        .name = "Clément",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_WILL,
@@ -12230,21 +12230,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "We Psychics don’t give up even when\\nwe’re down to the last Pokémon.\\rThat’s what makes us so formidable!\\n",
+                .text = "Nous, les Psy, on abandonne pas même\\navec un dernier Pokémon.\\rC’est ça qui nous rend redoutables !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Until we hit zero, our power is limitless.\\nI’m not giving up yet!\\n",
+                .text = "Tant qu’on n’est pas à zéro, notre pouvoir est sans limite.\\nJe n’abandonne pas encore !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I... I can’t...believe it...\\n",
+                .text = "Je... je peux pas... y croire...\\n",
             },
         },
     },
 
     [246] = {
-        .name = "Karen",
+        .name = "Marion",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_KAREN,
@@ -12311,15 +12311,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "This is far from being backed into\\na corner!\\n",
+                .text = "On est loin d’être acculés !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "You’re no ordinary Trainer to have\\ngotten this far.\\n",
+                .text = "Tu n’es pas un Dresseur ordinaire pour\\nêtre arrivé jusqu’ici.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Well, aren’t you good.\\nI like that in a Trainer.\\n",
+                .text = "Eh bien, tu es doué.\\nJ’aime ça chez un Dresseur.\\n",
             },
         },
     },
@@ -12392,7 +12392,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "One Pokémon left?\\rHa ha ha! I’ve been counting on this\\none from the very beginning!\\n",
+                .text = "Un seul Pokémon ?\\rHa ha ha ! C’est celui sur lequel je comptais\\ndepuis le début !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
@@ -12400,13 +12400,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ah!\\nYou have proven your worth!\\n",
+                .text = "Ah !\\nTu as prouvé ta valeur !\\n",
             },
         },
     },
 
     [248] = {
-        .name = "Ed",
+        .name = "Odilon",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -12479,21 +12479,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "If you walk in tall grass wearing\\nshorts, do you get nicks and cuts?\\r",
+                .text = "Si tu marches dans les hautes herbes\\navec un short, tu te fais\\ndes égratignures ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ouch, ouch, ouch!\\n",
+                .text = "Aïe, aïe, aïe !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "They’ll really sting when you take\\na bath.\\n",
+                .text = "Ça va vraiment piquer quand tu prendras\\nun bain.\\n",
             },
         },
     },
 
     [249] = {
-        .name = "Don",
+        .name = "Jean-Raoul",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -12534,21 +12534,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Instead of a bug Pokémon, I found\\na Trainer!\\r",
+                .text = "Au lieu d’un Pokémon Insecte, j’ai trouvé\\nun Dresseur !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Argh! You’re too strong!\\n",
+                .text = "Argh ! Tu es trop fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I ran out of Poké Balls while I was\\ncatching Pokémon.\\rI should’ve bought some more...\\n",
+                .text = "Je n’ai plus de Poké Balls, j’en ai trop\\nutilisé en attrapant des Pokémon.\\rJ’aurais dû en acheter plus...\\n",
             },
         },
     },
 
     [250] = {
-        .name = "Kenji",
+        .name = "Jacky",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -12589,13 +12589,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Waaaargh!\\n",
+                .text = "Waaaargh !\\n",
             },
         },
     },
 
     [251] = {
-        .name = "Nob",
+        .name = "Ryu",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -12624,7 +12624,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Words are useless.\\nLet your fists do the talking!\\r",
+                .text = "Les mots ne servent à rien.\\nLaisse parler tes poings !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -12632,13 +12632,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I lost! \\nI’m speechless!\\n",
+                .text = "J’ai perdu !\\nJe reste sans voix !\\n",
             },
         },
     },
 
     [252] = {
-        .name = "Harold",
+        .name = "Bjon",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -12665,21 +12665,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Have you ever gone swimming in the sea\\nat night?\\r",
+                .text = "Tu as déjà nagé dans la mer\\nde nuit ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Glub...\\n",
+                .text = "Gloub...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "At night, the sea looks black. It feels\\nlike it will swallow you up.\\n",
+                .text = "La nuit, la mer est noire. On dirait\\nqu’elle va t’engloutir.\\n",
             },
         },
     },
 
     [253] = {
-        .name = "Brock",
+        .name = "Pierre",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_BROCK,
@@ -12752,21 +12752,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Ah ha ha! It itches! It itches!\\n",
+                .text = "Ah ha ha ! Ça gratte ! Ça gratte !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Ow ow ow ow ow...\\n",
+                .text = "Aïe aïe aïe aïe aïe...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like you’re the stronger one...\\n",
+                .text = "On dirait que tu es le plus fort...\\n",
             },
         },
     },
 
     [254] = {
-        .name = "Misty",
+        .name = "Ondine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_MISTY,
@@ -12839,21 +12839,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Hmm... You’re pretty good...\\n",
+                .text = "Hmm... Pas mal du tout...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Looks like you’re not just someone who\\ngets in the way...\\n",
+                .text = "On dirait que tu n’es pas juste\\nquelqu’un qui gêne le passage...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like this is it...\\n",
+                .text = "On dirait que c’est la fin...\\n",
             },
         },
     },
 
     [255] = {
-        .name = "Lt. Surge",
+        .name = "Major Bob",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_LT_SURGE,
@@ -12926,15 +12926,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "It’s not over yet. It’s just beginning!\\n",
+                .text = "Ce n’est pas fini.\\nÇa ne fait que commencer !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Oh, last one! Never give up!\\n",
+                .text = "Oh, le dernier ! N’abandonne jamais !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My electric trick...\\n",
+                .text = "Mon tour électrique...\\n",
             },
         },
     },
@@ -13013,15 +13013,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Don’t go easy on me.\\nGive me everything you’ve got!\\n",
+                .text = "Ne me ménage pas.\\nDonne-moi tout ce que t’as !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Wow, that’s a bit harsh!\\n",
+                .text = "Wow, c’est un peu violent !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like I underestimated you...\\n",
+                .text = "On dirait que je t’ai sous-estimé...\\n",
             },
         },
     },
@@ -13094,21 +13094,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "You’ve got a great battle technique!\\n",
+                .text = "Tu as une super technique de combat !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Not good. Seriously not good.\\n",
+                .text = "Pas bon. Vraiment pas bon.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...!!!\\nSo... So strong!\\n",
+                .text = "...!!!\\nSi... si fort !\\n",
             },
         },
     },
 
     [258] = {
-        .name = "Sabrina",
+        .name = "Morgane",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_SABRINA,
@@ -13181,21 +13181,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "What will happen after this?\\nI already know.\\n",
+                .text = "Que va-t-il se passer après ça ?\\nJe le sais déjà.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Was the future I saw...wrong?\\n",
+                .text = "Le futur que j’ai vu... était faux ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I get it...\\n",
+                .text = "Je comprends...\\n",
             },
         },
     },
 
     [259] = {
-        .name = "Blaine",
+        .name = "Auguste",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_BLAINE,
@@ -13262,15 +13262,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I’ll show you the spirit of this\\ncave Gym!\\n",
+                .text = "Je vais te montrer l’esprit de cette\\nArène souterraine !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "We can still do it!\\n",
+                .text = "On peut encore y arriver !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My spirit has not been defeated!\\n",
+                .text = "Mon esprit n’a pas été vaincu !\\n",
             },
         },
     },
@@ -13426,21 +13426,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Heh heh heh... You’re unprepared\\nfor this. We’ll knock you down!\\n",
+                .text = "Héhéhé... Tu n’es pas prêt\\npour ça. On va te mettre à terre !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Perhaps I’m the one who was\\nunprepared?\\n",
+                .text = "Peut-être que c’est moi qui n’étais\\npas prêt ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "This is the real power of Johto...\\n",
+                .text = "C’est ça, la vraie puissance de Johto...\\n",
             },
         },
     },
 
     [262] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -13535,19 +13535,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Out of desperation, weak people\\nsometimes do OK at fighting back.\\n",
+                .text = "Parfois, même les faibles\\nse débrouillent quand ils paniquent.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Don’t you get that I’m going easy\\non you?\\n",
+                .text = "Tu piges pas que je me retiens\\ncontre toi ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\rI’m not fighting with another weakling\\never again. It’s just too much playing\\faround.\\n",
+                .text = "...Pff !\\rJe me battrai plus jamais contre un autre faible.\\nC’est juste trop de perte de temps.\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\rI’m not fighting with another weakling\\never again. I don’t have time to waste\\flike that.\\n",
+                .text = "...Pff !\\rJe me battrai plus jamais contre un autre faible.\\nJ’ai pas de temps à perdre comme ça.\\n",
             },
         },
     },
@@ -13614,19 +13614,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. Seems it wasn’t just luck that’s\\ngotten you this far.\\n",
+                .text = "Je vois. On dirait que ce n’est pas juste la chance\\nqui t’a mené jusque-là.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Humph! You were too strong...\\n",
+                .text = "Pff ! Tu étais trop fort...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...I couldn’t win...\\rI gave it everything I had...\\rWhat you possess, and what I lack...\\nI’m beginning to understand what\\rthat Dragon Tamer said to me...\\n",
+                .text = "...Je n’ai pas pu gagner...\\rJ’ai tout donné...\\rCe que tu as, et ce qui me manque...\\nJe commence à comprendre ce que\\nce Dresseur de Dragons voulait dire...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\rI knew it. Strength is everything.\\nNothing else matters.\\n",
+                .text = "...Pff !\\rJe le savais. La force, c’est tout.\\nRien d’autre ne compte.\\n",
             },
         },
     },
@@ -13707,19 +13707,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Say, you’ve got a lot of nerve,\\ncoming here...\\n",
+                .text = "Hé toi, t’as du cran\\nde venir ici...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "That’s ridiculous. There’s no way\\nI could lose to a wimp like you!\\n",
+                .text = "Ridicule ! Impossible que je perde\\ncontre un minus comme toi !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\nUseless Pokémon!\\rListen, you. You won only because my\\nPokémon were weak.\\n",
+                .text = "...Pff !\\nPokémon inutiles !\\rÉcoute-moi bien. T’as gagné seulement parce que\\nmes Pokémon étaient faibles.\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\nI knew you were lying.\\n",
+                .text = "...Pff !\\nJe savais que tu racontais n’importe quoi.\\n",
             },
         },
     },
@@ -13786,19 +13786,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Out of desperation, weak people\\nsometimes do OK at fighting back.\\n",
+                .text = "Parfois, même les faibles\\nse débrouillent quand ils paniquent.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Don’t you get that I’m going easy\\non you?\\n",
+                .text = "Tu piges pas que je me retiens\\ncontre toi ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\rI’m not fighting with another weakling\\never again. It’s just too much playing\\faround.\\n",
+                .text = "...Pff !\\rJe me battrai plus jamais contre un autre faible.\\nC’est juste trop de perte de temps.\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\rI’m not fighting with another weakling\\never again. I don’t have time to waste\\flike that.\\n",
+                .text = "...Pff !\\rJe me battrai plus jamais contre un autre faible.\\nJ’ai pas de temps à perdre comme ça.\\n",
             },
         },
     },
@@ -13865,19 +13865,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. Seems it wasn’t just luck that’s\\ngotten you this far.\\n",
+                .text = "Je vois. On dirait que ce n’est pas juste la chance\\nqui t’a mené jusque-là.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Humph! You were too strong...\\n",
+                .text = "Pff ! Tu étais trop fort...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...I couldn’t win...\\rI gave it everything I had...\\rWhat you possess, and what I lack...\\nI’m beginning to understand what\\rthat Dragon Tamer said to me...\\n",
+                .text = "...Je n’ai pas pu gagner...\\rJ’ai tout donné...\\rCe que tu as, et ce qui me manque...\\nJe commence à comprendre ce que\\nce Dresseur de Dragons voulait dire...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\rI knew it. Strength is everything.\\nNothing else matters.\\n",
+                .text = "...Pff !\\rJe le savais. La force, c’est tout.\\nRien d’autre ne compte.\\n",
             },
         },
     },
@@ -13938,19 +13938,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Say, you’ve got a lot of nerve,\\ncoming here...\\n",
+                .text = "Hé toi, t’as du cran\\nde venir ici...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "That’s ridiculous. There’s no way\\nI could lose to a wimp like you!\\n",
+                .text = "Ridicule ! Impossible que je perde\\ncontre un minus comme toi !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\nUseless Pokémon!\\rListen, you. You won only because my\\nPokémon were weak.\\n",
+                .text = "...Pff !\\nPokémon inutiles !\\rÉcoute-moi bien. T’as gagné seulement parce que\\nmes Pokémon étaient faibles.\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\nI knew you were lying.\\n",
+                .text = "...Pff !\\nJe savais que tu racontais n’importe quoi.\\n",
             },
         },
     },
@@ -14017,19 +14017,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Out of desperation, weak people\\nsometimes do OK at fighting back.\\n",
+                .text = "Parfois, même les faibles\\nse débrouillent quand ils paniquent.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Don’t you get that I’m going easy\\non you?\\n",
+                .text = "Tu piges pas que je me retiens\\ncontre toi ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\rI’m not fighting with another weakling\\never again. It’s just too much playing\\faround.\\n",
+                .text = "...Pff !\\rJe me battrai plus jamais contre un autre faible.\\nC’est juste trop de perte de temps.\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\rI’m not fighting with another weakling\\never again. I don’t have time to waste\\flike that.\\n",
+                .text = "...Pff !\\rJe me battrai plus jamais contre un autre faible.\\nJ’ai pas de temps à perdre comme ça.\\n",
             },
         },
     },
@@ -14096,19 +14096,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Hey, hey!\\nWhy so serious?\\n",
+                .text = "Hé, hé !\\nPourquoi t’es si sérieux ?\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "No way...\\n",
+                .text = "Pas possible...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Why...\\nWhy do I lose?\\rI’ve assembled the toughest Pokémon.\\nI didn’t ease up on the gas.\\rSo why do I lose?\\n",
+                .text = "...Pourquoi...\\nPourquoi je perds ?\\rJ’ai rassemblé les Pokémon les plus costauds.\\nJ’ai jamais relâché la pression.\\rAlors pourquoi je perds ?\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Rocket history.\\nAnd I’m going to grind that Lance\\funder my heel.\\n",
+                .text = "Pff. Voilà ma vraie puissance, minus.\\rJe vais marquer l’histoire de la Team Rocket.\\nEt j’écraserai ce Lance\\fcomme un Rondoudou.\\n",
             },
         },
     },
@@ -14175,25 +14175,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. Seems it wasn’t just luck that’s\\ngotten you this far.\\n",
+                .text = "Je vois. On dirait que ce n’est pas juste la chance\\nqui t’a mené jusque-là.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Humph! You were too strong...\\n",
+                .text = "Pff ! Tu étais trop fort...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...I couldn’t win...\\rI gave it everything I had...\\rWhat you possess, and what I lack...\\nI’m beginning to understand what\\rthat Dragon Tamer said to me...\\n",
+                .text = "...Je n’ai pas pu gagner...\\rJ’ai tout donné...\\rCe que tu as, et ce qui me manque...\\nJe commence à comprendre ce que\\nce Dresseur de Dragons voulait dire...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\rI knew it. Strength is everything.\\nNothing else matters.\\n",
+                .text = "...Pff !\\rJe le savais. La force, c’est tout.\\nRien d’autre ne compte.\\n",
             },
         },
     },
 
     [273] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -14227,7 +14227,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [274] = {
-        .name = "Todd",
+        .name = "Matthias",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -14261,13 +14261,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Maybe I didn’t train enough?\\n",
+                .text = "Peut-être que je ne me suis pas assez entraîné ?\\n",
             },
         },
     },
 
     [275] = {
-        .name = "Todd",
+        .name = "Matthias",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -14308,13 +14308,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Maybe I didn’t train enough?\\n",
+                .text = "Peut-être que je ne me suis pas assez entraîné ?\\n",
             },
         },
     },
 
     [276] = {
-        .name = "Liz",
+        .name = "Elisabeth",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -14341,13 +14341,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Pfft.\\nBefore I could get serious, I lost!\\n",
+                .text = "Pff.\\nAvant même de pouvoir me donner à fond, j’ai perdu !\\n",
             },
         },
     },
 
     [277] = {
-        .name = "Liz",
+        .name = "Elisabeth",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -14381,13 +14381,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Pfft.\\nBefore I could get serious, I lost!\\n",
+                .text = "Pff.\\nAvant même de pouvoir me donner à fond, j’ai perdu !\\n",
             },
         },
     },
 
     [278] = {
-        .name = "Kenji",
+        .name = "Jacky",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -14428,13 +14428,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Waaaargh!\\n",
+                .text = "Waaaargh !\\n",
             },
         },
     },
 
     [279] = {
-        .name = "Joey",
+        .name = "Farouk",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -14461,13 +14461,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "No...\\nI’m out of Pokémon that can fight.\\n",
+                .text = "Non...\\nJe n’ai plus de Pokémon en état de se battre.\\n",
             },
         },
     },
 
     [280] = {
-        .name = "Joey",
+        .name = "Farouk",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -14512,13 +14512,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "No...\\nI’m out of Pokémon that can fight.\\n",
+                .text = "Non...\\nJe n’ai plus de Pokémon en état de se battre.\\n",
             },
         },
     },
 
     [281] = {
-        .name = "Richard",
+        .name = "Bilou",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -14552,7 +14552,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m practicing my fire breathing in the\\nBurned Tower! Don’t try this at home!\\r",
+                .text = "Je m’entraîne à cracher du feu dans la\\nTour Cendrée ! Ne fais pas ça chez toi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -14560,13 +14560,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Oops, please don’t misunderstand!\\nI’m not the reason that this tower is\\fburned up!\\n",
+                .text = "Oups, ne te méprends pas !\\nCe n’est pas moi la raison pour laquelle\\ncette tour a brûlé !\\n",
             },
         },
     },
 
     [282] = {
-        .name = "Ned",
+        .name = "Pipo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -14607,21 +14607,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Don’t worry!\\nWe fire-breathers know the true power\\fof fire better than anyone!\\r",
+                .text = "Ne t’inquiète pas !\\nNous, les cracheurs de feu, on connaît la vraie puissance\\ndu feu mieux que personne !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Thanks for such a heated battle!\\n",
+                .text = "Merci pour ce combat brûlant !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The reason this tower’s burned is\\nthat it was hit by lightning.\\rThe fire I’m breathing is tiny\\nin comparison...\\n",
+                .text = "Si cette tour a brûlé, c’est parce\\nqu’elle a été frappée par la foudre.\\rLe feu que je crache est minuscule\\nen comparaison...\\n",
             },
         },
     },
 
     [283] = {
-        .name = "Orson",
+        .name = "Hudson",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BURGLAR,
@@ -14650,21 +14650,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "They ditched this project before\\nthey finished.\\fI’m searching for leftover loot.\\r",
+                .text = "Ils ont abandonné ce projet avant de\\nle finir.\\fJe cherche le butin laissé derrière.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "So strong...\\n",
+                .text = "Si fort...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The underground warehouse?\\rWhat do you want to go there for?\\nThere’s nothing down there.\\n",
+                .text = "L’entrepôt souterrain ?\\rPourquoi veux-tu aller là-bas ?\\nIl n’y a rien du tout.\\n",
             },
         },
     },
 
     [284] = {
-        .name = "Corey",
+        .name = "Pietro",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BURGLAR,
@@ -14705,15 +14705,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Yeehaw!\\nLucky!\\r",
+                .text = "Yeehaw !\\nChanceux !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "How unlucky!\\nI lost!\\n",
+                .text = "Pas de chance !\\nJ’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I found a pretty coin here. \\nSomeone must have lost it...\\n",
+                .text = "J’ai trouvé une jolie pièce ici.\\nQuelqu’un a dû la perdre...\\n",
             },
         },
     },
@@ -14792,19 +14792,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. You weren’t coming to Kanto just\\nto show off...\\n",
+                .text = "Je vois. Tu n’es pas venu à Kanto juste\\npour frimer...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "I see you weren’t playing around,\\neither...\\n",
+                .text = "Je vois que toi non plus,\\ntu ne rigolais pas...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Humph!\\nI guess it can’t be helped...\\n",
+                .text = "Pff !\\nJe suppose qu’on n’y peut rien...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Hmm, seems my Pokémon are pretty good.\\n",
+                .text = "Hmm, on dirait que mes Pokémon\\nsont plutôt bons.\\n",
             },
         },
     },
@@ -14883,19 +14883,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. You weren’t coming to Kanto just\\nto show off...\\n",
+                .text = "Je vois. Tu n’es pas venu à Kanto juste\\npour frimer...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "I see you weren’t playing around,\\neither...\\n",
+                .text = "Je vois que toi non plus,\\ntu ne rigolais pas...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Humph!\\nI guess it can’t be helped...\\n",
+                .text = "Pff !\\nJe suppose qu’on n’y peut rien...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Hmm, seems my Pokémon are pretty good.\\n",
+                .text = "Hmm, on dirait que mes Pokémon\\nsont plutôt bons.\\n",
             },
         },
     },
@@ -14974,19 +14974,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I see. You weren’t coming to Kanto just\\nto show off...\\n",
+                .text = "Je vois. Tu n’es pas venu à Kanto juste\\npour frimer...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "I see you weren’t playing around,\\neither...\\n",
+                .text = "Je vois que toi non plus,\\ntu ne rigolais pas...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Humph!\\nI guess it can’t be helped...\\n",
+                .text = "Pff !\\nJe suppose qu’on n’y peut rien...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Hmm, seems my Pokémon are pretty good.\\n",
+                .text = "Hmm, on dirait que mes Pokémon\\nsont plutôt bons.\\n",
             },
         },
     },
@@ -15053,19 +15053,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Hey, hey!\\nWhy so serious?\\n",
+                .text = "Hé, hé !\\nPourquoi t’es si sérieux ?\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "No way...\\n",
+                .text = "Pas possible...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Why...\\nWhy do I lose?\\rI’ve assembled the toughest Pokémon.\\nI didn’t ease up on the gas.\\rSo why do I lose?\\n",
+                .text = "...Pourquoi...\\nPourquoi je perds ?\\rJ’ai rassemblé les Pokémon les plus costauds.\\nJ’ai jamais relâché la pression.\\rAlors pourquoi je perds ?\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Rocket history.\\nAnd I’m going to grind that Lance\\funder my heels.\\n",
+                .text = "Pff. Voilà ma vraie puissance, minus.\\rJe vais marquer l’histoire de la Team Rocket.\\nEt j’écraserai ce Lance\\fcomme un Rondoudou.\\n",
             },
         },
     },
@@ -15132,25 +15132,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Hey, hey!\\nWhy so serious?\\n",
+                .text = "Hé, hé !\\nPourquoi t’es si sérieux ?\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "No way...\\n",
+                .text = "Pas possible...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Why...\\nWhy do I lose?\\rI’ve assembled the toughest Pokémon.\\nI didn’t ease up on the gas.\\rSo why do I lose?\\n",
+                .text = "...Pourquoi...\\nPourquoi je perds ?\\rJ’ai rassemblé les Pokémon les plus costauds.\\nJ’ai jamais relâché la pression.\\rAlors pourquoi je perds ?\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "Humph. This is my real power, wimp.\\rI’ll make Team Rocket history.\\nAnd I’m going to grind that Lance\\funder my heel.\\n",
+                .text = "Pff. Voilà ma vraie puissance, minus.\\rJe vais marquer l’histoire de la Team Rocket.\\nEt j’écraserai ce Lance\\fcomme un Rondoudou.\\n",
             },
         },
     },
 
     [290] = {
-        .name = "Li",
+        .name = "Jehan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ELDER,
@@ -15205,21 +15205,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "So good of you to come here!\\rSprout Tower is a place of training.\\nPeople and Pokémon test their bonds\\fto build a bright future together.\\fI am the final test.\\rAllow me to check the ties between\\nyou and your Pokémon!",
+                .text = "C’est bien aimable à toi d’être venu !\\rLa Tour Chetiflor est un lieu d’entraînement.\\nLes gens et les Pokémon y testent leurs liens\\fpour construire ensemble un avenir radieux.\\fJe suis l’épreuve finale.\\rPermets-moi d’évaluer les liens entre\\ntoi et tes Pokémon !",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ah, excellent!\\n",
+                .text = "Ah, excellent !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You and your Pokémon should have no\\nproblem using this move.\\rTake this Flash TM.\\n",
+                .text = "Toi et tes Pokémon ne devriez avoir aucun\\nproblème à utiliser cette capacité.\\rPrends cette CT Flash.\\n",
             },
         },
     },
 
     [291] = {
-        .name = "Debbie",
+        .name = "Teri",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -15239,21 +15239,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m disgusted by wimpy people!\\r",
+                .text = "Les mauviettes me dégoûtent !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I could beat you at swimming...\\n",
+                .text = "Je te battrai à la nage...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s a quick swim between Fuchsia and\\nSeafoam Islands...\\rSheesh, some big man my boyfriend is!\\nWhat a wimp!\\n",
+                .text = "C’est une petite nage entre Parmanie et\\nles Îles Écume...\\rPff, mon copain soi-disant costaud !\\nQuelle mauviette !\\n",
             },
         },
     },
 
     [292] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -15273,7 +15273,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [293] = {
-        .name = "Nicole",
+        .name = "Stéfie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -15307,21 +15307,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I feel so much lighter in water.\\r",
+                .text = "Je me sens tellement plus léger dans l’eau.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no!\\n",
+                .text = "Oh, non !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Swimming exercises your full body.\\nIt’s really good for you.\\n",
+                .text = "Nager fait travailler tout ton corps.\\nC’est vraiment bon pour la santé.\\n",
             },
         },
     },
 
     [294] = {
-        .name = "Lori",
+        .name = "Sonja",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -15358,21 +15358,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What an impressive collection of Gym\\nBadges. We should battle!\\r",
+                .text = "Quelle collection impressionnante de Badges !\\nOn devrait se battre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No!\\n",
+                .text = "Non !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Surf is no longer the only HM move you\\nuse in water.\\n",
+                .text = "Surf n’est plus la seule CS que tu\\nutilises dans l’eau.\\n",
             },
         },
     },
 
     [295] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -15419,15 +15419,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Oh! Hey, you!\\nWill you help me with my sunblock?\\rDon’t tell me... You’d rather battle?\\r",
+                .text = "Oh ! Hé, toi !\\nTu peux m’aider à mettre ma crème solaire ?\\rNe me dis pas... Tu préfères te battre ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’m worried about sunburn...\\n",
+                .text = "J’ai peur d’attraper un coup de soleil...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I have to watch out for blemishes\\ncaused by the sun.\\n",
+                .text = "Je dois faire attention aux taches\\ncausées par le soleil.\\n",
             },
         },
     },
@@ -15466,15 +15466,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Sorry about being away.\\nLet’s get on with it!\\r",
+                .text = "Désolé d’avoir été absent.\\nAllez, on s’y met !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I give up!\\nYou’re the winner!\\n",
+                .text = "J’abandonne !\\nTu as gagné !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ll be swimming quietly.\\n",
+                .text = "Je vais nager tranquillement.\\n",
             },
         },
     },
@@ -15523,21 +15523,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Don’t get nervous watching my\\nmagnificent swimming!\\r",
+                .text = "Ne sois pas nerveux en regardant\\nma nage magnifique !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re not nervous at all.\\nCool and confident...!\\n",
+                .text = "Tu n’es pas nerveux du tout.\\nCalme et confiant...!\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Swimming is very good for both\\nbeauty and health!\\rJust look at Misty, you’ll see.\\n",
+                .text = "La natation est excellente pour la\\nbeauté et la santé !\\rRegarde Ondine, tu verras.\\n",
             },
         },
     },
 
     [299] = {
-        .name = "Hank",
+        .name = "Phil",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -15590,21 +15590,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m raising my Pokémon.\\nWant to battle with me?\\r",
+                .text = "J’entraîne mes Pokémon.\\nTu veux te battre avec moi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aw, I can’t believe I lost...\\n",
+                .text = "Oh, j’arrive pas à croire que\\nj’ai perdu...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you have a specific Pokémon that you\\nwant to raise, put it out first, then\\fswitch it right away.\\rThat’s how to do it.\\n",
+                .text = "Si tu veux entraîner un Pokémon en\\nparticulier, mets-le en premier, puis\\fchange-le tout de suite.\\rC’est comme ça qu’on fait.\\n",
             },
         },
     },
 
     [300] = {
-        .name = "Roy",
+        .name = "Mamadou",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -15631,21 +15631,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My dream is to fly with my beloved\\nbird Pokémon.\\r",
+                .text = "Mon rêve, c’est de voler avec mes\\nPokémon Oiseaux adorés.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I can dream, but I can’t ever fly...\\n",
+                .text = "Je peux rêver, mais je pourrai jamais voler...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You have Pokémon that know the HM move\\nFly, don’t you? I envy you.\\n",
+                .text = "Tu as des Pokémon qui connaissent\\nVol, non ? Je t’envie.\\n",
             },
         },
     },
 
     [301] = {
-        .name = "Boris",
+        .name = "Sam",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -15679,15 +15679,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "If you’re looking for Pokémon, you have\\nto look in the tall grass.\\r",
+                .text = "Si tu cherches des Pokémon, tu dois\\naller dans les hautes herbes.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aiyeee!\\n",
+                .text = "Aiyeee !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Since you’re so strong, it must be fun\\nto battle.\\n",
+                .text = "Vu comme tu es fort, les combats doivent\\nêtre amusants pour toi.\\n",
             },
         },
     },
@@ -15713,21 +15713,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Cycling Road is a quick shortcut\\nto Celadon.\\r",
+                .text = "La Route Cyclable est un raccourci rapide\\nvers Céladopole.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Whew!\\n",
+                .text = "...Ouf !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you don’t have a Bicycle, you’re not\\nallowed to use the shortcut.\\n",
+                .text = "Si tu n’as pas de Vélo, tu n’as pas le droit\\nd’utiliser le raccourci.\\n",
             },
         },
     },
 
     [303] = {
-        .name = "Jose",
+        .name = "Brett",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -15747,13 +15747,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Tweet!\\n",
+                .text = "Cui-cui !\\n",
             },
         },
     },
 
     [304] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -15794,7 +15794,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [305] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -15835,7 +15835,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [306] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -15876,7 +15876,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [307] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -15917,7 +15917,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [308] = {
-        .name = "Jerry",
+        .name = "Scotty",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -15970,21 +15970,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The Trainers of this Gym use\\nRock-type Pokémon.\\rRock-type Pokémon have high Defense.\\nBattles could end up going a long time.\\rAre you ready for this?\\r",
+                .text = "Les Dresseurs de cette Arène utilisent\\ndes Pokémon Roche.\\rLes Pokémon Roche ont une Défense\\nélevée. Les combats peuvent durer\\nlongtemps. Tu es prêt pour ça ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I have to win these battles...\\n",
+                .text = "Je dois gagner ces combats...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Hey, you! Trainer from Johto!\\rBrock is tough. He’ll punish you if you\\ndon’t take him seriously.\\n",
+                .text = "Hé, toi ! Dresseur de Johto !\\rPierre est coriace. Il te punira si tu\\nne le prends pas au sérieux.\\n",
             },
         },
     },
 
     [309] = {
-        .name = "Dwayne",
+        .name = "Bruno",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -16033,25 +16033,25 @@ const TrainerData sTrainerData[] = {
 				.shinyLock = 0,
                 .ballSeal = 0,
             },
-		},
+        },
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re the Kanto Pokémon Federation\\nTrainer group.\\fWe’ll drive you under our wheels!\\r",
+                .text = "On est la Fédération Pokémon de Kanto.\\fOn va t’écraser sous nos roues !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "S-sorry!\\n",
+                .text = "D-désolé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The Kanto Pokémon Federation will\\nnever fall!\\n",
+                .text = "La Fédération Pokémon de Kanto ne\\ntombera jamais !\\n",
             },
         },
     },
 
     [310] = {
-        .name = "Harris",
+        .name = "Christophe",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -16084,21 +16084,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The cops shut down our Underground\\nPath! That really annoys me!\\r",
+                .text = "Les flics ont fermé notre Passage\\nSouterrain ! Ça m’énerve vraiment !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "F-forgive me!\\n",
+                .text = "P-pardon !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Wiped out by some punk from Johto...\\n",
+                .text = "Battu par un gamin de Johto...\\n",
             },
         },
     },
 
     [311] = {
-        .name = "Zeke",
+        .name = "Johnny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -16141,21 +16141,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re the Kanto Pokémon Federation!\\nRock on!\\r",
+                .text = "On est la Fédération Pokémon de Kanto !\\nRock on !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yikes! Sorry!\\n",
+                .text = "Aïe ! Désolé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We’ll try not to disturb anyone from\\nnow on...\\n",
+                .text = "On va essayer de ne plus déranger\\npersonne...\\n",
             },
         },
     },
 
     [312] = {
-        .name = "Charles",
+        .name = "Dick",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -16189,21 +16189,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "We’re fearless highway stars!\\r",
+                .text = "On est les stars intrépides de la route !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Arrrgh! Crash and burn!\\n",
+                .text = "Arrrgh ! Crash total !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Reckless riding causes accidents!\\nTake it easy!\\n",
+                .text = "Conduire n’importe comment, ça cause des accidents !\\nVas-y doucement !\\n",
             },
         },
     },
 
     [313] = {
-        .name = "Reese",
+        .name = "Bernard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -16223,25 +16223,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, you!\\nYou’re from Johto, huh?\\r",
+                .text = "Hé, toi !\\nTu viens de Johto, hein ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa, you’re kickin’!",
+                .text = "Whoa, tu déchires !",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Don’t get cocky, you Johto punk!\\n",
+                .text = "Ne prends pas la grosse tête, morveux de Johto !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey! I’ve been waiting for you!\\nYou Johto punk!\\r",
+                .text = "Hé ! Je t’attendais !\\nMorveux de Johto !\\r",
             },
         },
     },
 
     [314] = {
-        .name = "Joel",
+        .name = "Lorenzo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -16268,21 +16268,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Wow. That’s a cool Bicycle!\\r",
+                .text = "Wow. Ce Vélo est trop classe !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "But you don’t just look cool...\\n",
+                .text = "Mais tu n’as pas seulement l’air cool...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I look cool, but I’m weak, so I’m not\\nreally cool. I have to train harder...\\n",
+                .text = "J’ai l’air cool, mais je suis faible, donc\\nje suis pas vraiment cool. Je dois m’entraîner...\\n",
             },
         },
     },
 
     [315] = {
-        .name = "Glenn",
+        .name = "Jean-Marc",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -16316,21 +16316,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey! Want to have a speed battle?\\r",
+                .text = "Hé ! Tu veux faire une course de vitesse ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yikes! You’ve got awesome torque!\\n",
+                .text = "Aïe ! T’as une accélération de fou !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Hands-free riding is considered cool on\\nCycling Road.\\n",
+                .text = "Rouler sans les mains, c’est stylé sur\\nla Route Cyclable.\\n",
             },
         },
     },
 
     [316] = {
-        .name = "Herman",
+        .name = "Romuald",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -16391,13 +16391,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "...\\rI lost while I had my eyes closed...\\n",
+                .text = "...\\rJ’ai perdu alors que j’avais\\nles yeux fermés...\\n",
             },
         },
     },
 
     [317] = {
-        .name = "Fidel",
+        .name = "Florent",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -16430,21 +16430,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can see it...\\nEverything there is to see about you...\\r",
+                .text = "Je peux le voir...\\nTout ce qu’il y a à voir chez toi...\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I couldn’t foresee your power...\\n",
+                .text = "Je n’ai pas pu prévoir ta puissance...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Strength in conviction...\\rYou’re strong because you believe in\\nyour Pokémon.\\n",
+                .text = "La force des convictions...\\rTu es fort parce que tu crois en\\ntes Pokémon.\\n",
             },
         },
     },
 
     [318] = {
-        .name = "Burt",
+        .name = "Akim",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -16487,21 +16487,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Step right up and take a look!\\r",
+                .text = "Approchez, approchez, et regardez !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yow! That’s hot!\\n",
+                .text = "Aïe ! Ça brûle !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The greatest fire-breather in Kanto,\\nthat’s me.\\rBut not the best Trainer...\\n",
+                .text = "Le plus grand cracheur de feu de Kanto,\\nc’est moi.\\rMais pas le meilleur Dresseur...\\n",
             },
         },
     },
 
     [319] = {
-        .name = "Bill",
+        .name = "Andréa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -16535,15 +16535,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "ZUBAT’s Supersonic keeps confusing my\\nPokémon. I’m seriously upset\\fabout that!\\r",
+                .text = "Le Ultrason de ZUBAT n’arrête pas de\\nrendre mes Pokémon confus. Ça m’énerve\\fau plus haut point !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I flamed out!\\n",
+                .text = "Je me suis consumé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’ve practiced training my Pokémon,\\nbut I’ve practiced breathing fire many\\fmore times than that.\\rDon’t try this at home, OK?\\n",
+                .text = "Je me suis entraîné avec mes Pokémon,\\nmais j’ai pratiqué le crache-feu bien\\fplus souvent que ça.\\rNe fais pas ça chez toi, d’accord ?\\n",
             },
         },
     },
@@ -16576,21 +16576,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Patience is the key to both fishing and\\nPokémon.\\r",
+                .text = "La patience est la clé, autant pour la\\npêche que pour les Pokémon.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Patience!\\n",
+                .text = "Patience !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m too impatient for fishing...\\n",
+                .text = "Je suis trop impatient pour la pêche...\\n",
             },
         },
     },
 
     [321] = {
-        .name = "Stephen",
+        .name = "Simonin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -16624,21 +16624,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I feel so content, fishing while listening\\nto some tunes on my radio.\\r",
+                .text = "Je suis tellement bien, à pêcher en\\nécoutant de la musique à la radio.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was listening to my radio the whole\\ntime... Is that why I lost?!\\n",
+                .text = "J’écoutais la radio tout du long...\\nC’est pour ça que j’ai perdu ?!\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Have you checked out Kanto’s radio\\nprograms? We get a good variety here.\\n",
+                .text = "Tu as écouté les programmes radio de\\nKanto ? On a plein de choix ici.\\n",
             },
         },
     },
 
     [322] = {
-        .name = "Barney",
+        .name = "Yvon",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -16672,21 +16672,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What’s most important in our\\neveryday lives?\\r",
+                .text = "Qu’est-ce qui est le plus important dans\\nnotre vie quotidienne ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "The answer is coming up next!\\n",
+                .text = "La réponse arrive juste après !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I think electricity is the most\\nimportant thing in our daily lives.\\rIf it weren’t, people wouldn’t have\\nmade such a fuss when the Power Plant\\fwent out of commission.\\n",
+                .text = "Je pense que l’électricité est la chose\\nla plus importante au quotidien.\\rSinon, les gens n’auraient pas fait\\nautant d’histoires quand la Centrale\\na cessé de fonctionner.\\n",
             },
         },
     },
 
     [323] = {
-        .name = "Tully",
+        .name = "Conan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -16720,13 +16720,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "What? That’s not right.\\n",
+                .text = "Quoi ? Ce n’est pas normal.\\n",
             },
         },
     },
 
     [324] = {
-        .name = "Tully",
+        .name = "Conan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -16774,13 +16774,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "What? That’s not right.\\n",
+                .text = "Quoi ? Ce n’est pas normal.\\n",
             },
         },
     },
 
     [325] = {
-        .name = "Wilton",
+        .name = "Renan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -16821,13 +16821,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Just forget about it.\\n",
+                .text = "Oublie ça.\\n",
             },
         },
     },
 
     [326] = {
-        .name = "Jo & Zoe",
+        .name = "Zoe & Zoa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -16880,41 +16880,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Jo: We protect Erika!\\r",
+                .text = "Zoe: On protège Erika !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Jo & Zoe: We lost...",
+                .text = "Zoe & Zoa: On a perdu...",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Jo: Wow, you’re about as strong as\\nErika, huh!",
+                .text = "Zoe: Wow, tu es presque aussi fort\\nqu’Erika, hein !",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Jo: I don’t know anyone who has only\\none Pokémon!",
+                .text = "Zoe: Je connais personne qui n’a qu’un\\nseul Pokémon !",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Zoe: We’re going to protect Erika!\\r",
+                .text = "Zoa: On va protéger Erika !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Jo & Zoe: We couldn’t win...\\n",
+                .text = "Zoe & Zoa: On n’a pas réussi...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Zoe: How come you’re that strong?\\n",
+                .text = "Zoa: Comment tu peux être aussi fort ?\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Zoe: I don’t know anyone who has only\\none Pokémon!\\n",
+                .text = "Zoa: Je connais personne qui n’a qu’un\\nseul Pokémon !\\n",
             },
         },
     },
 
     [327] = {
-        .name = "Danny",
+        .name = "Davon",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -16948,15 +16948,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "If Trainers meet, the first thing to do\\nis battle.\\r",
+                .text = "Quand des Dresseurs se rencontrent, la\\npremière chose à faire, c’est combattre.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Awww... I’ve got a losing record...\\n",
+                .text = "Awww... J’ai encore perdu...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "For Trainers, it’s a given that we’ll\\nbattle whenever we meet.\\n",
+                .text = "Pour les Dresseurs, c’est normal de se\\nbattre dès qu’on se croise.\\n",
             },
         },
     },
@@ -16991,21 +16991,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Let’s battle.\\nI won’t lose!\\r",
+                .text = "Allons nous battre.\\nJe ne perdrai pas !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I forgot to do my homework!\\n",
+                .text = "J’ai oublié de faire mes devoirs !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Sayonara! I just learned that in my\\nforeign-language class.\\n",
+                .text = "Sayonara ! Je viens d’apprendre ça\\nen cours de langue étrangère.\\n",
             },
         },
     },
 
     [329] = {
-        .name = "Dudley",
+        .name = "Benoit",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -17058,21 +17058,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Beat the six of us Trainers to win a\\nfabulous prize!\\rThink you’ve got what it takes?\\r",
+                .text = "Bats-nous tous les six pour gagner un\\nprix fabuleux !\\rTu crois en être capable ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoo! Good stuff.\\n",
+                .text = "Whoo ! Pas mal.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I did my best.\\nI have no regrets.\\n",
+                .text = "J’ai fait de mon mieux.\\nJe n’ai aucun regret.\\n",
             },
         },
     },
 
     [330] = {
-        .name = "Joe",
+        .name = "Joël",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -17125,21 +17125,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Here’s No. 3!\\nI won’t be easy.\\r",
+                .text = "Voici la n°3 !\\nJe ne serai pas facile.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ow! Stomped flat!\\n",
+                .text = "Aïe ! Écrasée !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I did my best.\\nI have no regrets.\\n",
+                .text = "J’ai fait de mon mieux.\\nJe n’ai aucun regret.\\n",
             },
         },
     },
 
     [331] = {
-        .name = "Billy",
+        .name = "Bilhal",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -17173,25 +17173,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I love gym class the best!\\r",
+                .text = "J’adore les cours de sport !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no!\\nHow could I lose?\\n",
+                .text = "Oh, non !\\nComment j’ai pu perdre ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If Pokémon were a subject at school,\\nI’d be the best!\\n",
+                .text = "Si les Pokémon étaient une matière à l’école,\\nje serais le meilleur !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Welcome, welcome!\\rHere you will face a battle with me, and\\nI’m really athletic!\\r",
+                .text = "Bienvenue, bienvenue !\\rIci, tu vas affronter un combat contre moi,\\net je suis super sportif !\\r",
             },
         },
     },
 
     [332] = {
-        .name = "Heidi",
+        .name = "Paule",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -17234,15 +17234,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Have you ever been to a picnic?\\nThey’re so much fun!\\r",
+                .text = "Tu es déjà allé à un pique-nique ?\\nC’est tellement amusant !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ohhhh!\\n",
+                .text = "Ohhhh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We bake lots of goodies and share them\\naround. They’re delicious!\\n",
+                .text = "On prépare plein de bonnes choses et on\\nles partage. C’est délicieux !\\n",
             },
         },
     },
@@ -17291,21 +17291,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "People shouldn’t leave any\\nlitter behind.\\r",
+                .text = "Les gens ne devraient jamais laisser\\ndes déchets derrière eux.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ohh... I lost...\\n",
+                .text = "Ohh... J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Conserving energy is important, but the\\nenvironment is even more vital.\\n",
+                .text = "Économiser l’énergie, c’est important,\\nmais l’environnement l’est encore plus.\\n",
             },
         },
     },
 
     [334] = {
-        .name = "Gina",
+        .name = "Albertine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -17339,7 +17339,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no! I just can’t win...\\n",
+                .text = "Oh non ! Je n’arrive vraiment pas à gagner...\\n",
             },
         },
     },
@@ -17386,13 +17386,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, bleah!\\n",
+                .text = "Oh, beurk !\\n",
             },
         },
     },
 
     [336] = {
-        .name = "Tanya",
+        .name = "Lulu",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -17425,21 +17425,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do you think a girls-only Gym is rare?\\r",
+                .text = "Tu trouves qu’une Arène réservée aux\\nfilles, c’est rare ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ohh... I lost...\\n",
+                .text = "Ohh... J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Thanks for not going easy on me!\\n",
+                .text = "Merci de ne pas m’avoir ménagée !\\n",
             },
         },
     },
 
     [337] = {
-        .name = "Gregory",
+        .name = "Hugues",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -17502,21 +17502,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You’re here to defeat Lt. Surge?\\nNot if I can help it!\\r",
+                .text = "Tu viens battre Major Bob ?\\nPas si je peux l’empêcher !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Sorry I failed you, Lt. Surge, sir!\\n",
+                .text = "Désolé de vous avoir déçu, Major Bob, monsieur !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "When I was in the military, this is what\\nLt. Surge taught me...\\rLock the doors, watch out for fire,\\nand always have two electric fences\\ffor safety!\\n",
+                .text = "Quand j’étais dans l’armée, Major Bob\\nm’a appris ceci...\\rVerrouille les portes, surveille le feu,\\net mets toujours deux clôtures électriques\\fpar sécurité !\\n",
             },
         },
     },
 
     [338] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -17536,7 +17536,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [339] = {
-        .name = "Wai",
+        .name = "Keisuke",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -17577,21 +17577,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m building up my legs by bracing\\nagainst the ship’s rocking!\\r",
+                .text = "Je renforce mes jambes en me tenant\\ncontre le tangage du bateau !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Rocked and rolled over!\\n",
+                .text = "Secoué et renversé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I couldn’t find the Karate King in\\nJohto. He’s supposed to be training in a\\fcave somewhere.\\n",
+                .text = "Je n’ai pas trouvé le Roi du Karaté à\\nJohto. Il est censé s’entraîner dans une\\fgrotte quelque part.\\n",
             },
         },
     },
 
     [340] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -17611,7 +17611,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [341] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -17631,7 +17631,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [342] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -17651,7 +17651,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [343] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -17671,7 +17671,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [344] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -17691,7 +17691,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [345] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -17711,7 +17711,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [346] = {
-        .name = "Julia",
+        .name = "Noémie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -17764,21 +17764,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "How can I get you to understand my\\nhobby? Which is...\\ftalking in a deep voice!\\r",
+                .text = "Comment te faire comprendre mon\\npasse-temps ? Qui est...\\fparler avec une voix grave !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa!\\n",
+                .text = "Wouah !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The kindness of a woman\\nand the strength of a man...\\rI want to be a Trainer with both\\nthose qualities!\\n",
+                .text = "La douceur d’une femme\\net la force d’un homme...\\rJe veux être un Dresseur qui a\\nces deux qualités !\\n",
             },
         },
     },
 
     [347] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -17798,7 +17798,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [348] = {
-        .name = "Robert",
+        .name = "Rob",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -17831,21 +17831,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You really love Pokémon, don’t you?\\nI love Pokémon, too!\\r",
+                .text = "Tu aimes vraiment les Pokémon, hein ?\\nMoi aussi, je les adore !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like this means it’s my loss.\\n",
+                .text = "On dirait que ça veut dire\\nque j’ai perdu.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My dearest, very important Pokémon...\\nI won’t forget what you did!\\n",
+                .text = "Mes précieux Pokémon... Je\\nn’oublierai jamais ce que tu as fait !\\n",
             },
         },
     },
 
     [349] = {
-        .name = "Joshua",
+        .name = "Josh",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -17900,21 +17900,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Ha ha ha ha!\\fWould you like to fight my pack\\nof PIKACHU?\\r",
+                .text = "Ha ha ha ha !\\fVeux-tu affronter ma meute\\nde PIKACHU ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My PIKACHU!\\n",
+                .text = "Mes PIKACHU !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You look like you have many Pokémon,\\nbut PIKACHU is still the best.\\n",
+                .text = "Tu as l’air d’avoir beaucoup de Pokémon,\\nmais PIKACHU reste le meilleur.\\n",
             },
         },
     },
 
     [350] = {
-        .name = "Carter",
+        .name = "Donald",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -17948,21 +17948,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Let me tell you, I had a hard time\\ncatching my prized Pokémon.\\r",
+                .text = "Laisse-moi te dire, j’ai eu du mal à\\ncapturer mon Pokémon précieux.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Awaaah!\\n",
+                .text = "Awaaah !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "SQUIRTLE, CHARMANDER, and\\nBULBASAUR...\\fI think that’s a well-balanced mix.\\n",
+                .text = "CARAPUCE, SALAMÈCHE et\\nBULBIZARRE...\\fJe trouve que c’est une équipe bien équilibrée.\\n",
             },
         },
     },
 
     [351] = {
-        .name = "Trevor",
+        .name = "Arnaut",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -17982,21 +17982,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Sometimes I go back to the places\\nI met my Pokémon.\\fThey bring back good memories.\\r",
+                .text = "Parfois, je retourne aux endroits où\\nj’ai rencontré mes Pokémon.\\fÇa me rappelle de bons souvenirs.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Where did I meet this PSYDUCK?\\n",
+                .text = "Où est-ce que j’ai rencontré ce PSYDUCK ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "When and where did I get my Pokémon...\\rI’ll bet if I checked my Trainer Memo,\\nI’d remember!\\n",
+                .text = "Quand et où ai-je eu mes Pokémon...\\rSi je regardais mon Mémo Dresseur,\\nje m’en souviendrais sûrement !\\n",
             },
         },
     },
 
     [352] = {
-        .name = "Georgia",
+        .name = "Odile",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN,
@@ -18044,21 +18044,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m going to shop at the Dept. Store\\nand then...\\r",
+                .text = "Je vais faire des achats au\\nGrand Magasin, et ensuite...\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "What was I going to do?\\n",
+                .text = "Qu’est-ce que j’allais faire déjà ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Oh, yes! I have to get my Pokémon out\\nof Day Care!\\n",
+                .text = "Ah oui ! Je dois récupérer mes Pokémon\\nà la Pension !\\n",
             },
         },
     },
 
     [353] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -18078,7 +18078,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ayieeeh! No, no, no, believe it I can’t!\\nStrong very much be you! Match I am\\fnot to you!\\n",
+                .text = "Ayieeeh ! Non, non, non, je ne peux pas y croire !\\nTrès fort tu es ! Combat je ne\\fpeux pas gagner contre toi !\\n",
             },
         },
     },
@@ -18137,21 +18137,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m No. 5!\\nGetting tired?\\r",
+                .text = "Je suis la n°5 !\\nTu fatigues ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost, too...\\n",
+                .text = "J’ai perdu, moi aussi...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I did my best.\\nI have no regrets.\\n",
+                .text = "J’ai fait de mon mieux.\\nJe n’ai aucun regret.\\n",
             },
         },
     },
 
     [355] = {
-        .name = "Shannon",
+        .name = "Diane",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LASS,
@@ -18194,15 +18194,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m the last in line, but I tell you,\\nI’m tough!\\r",
+                .text = "Je suis la dernière, mais je te\\npréviens, je suis coriace !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re kidding!\\n",
+                .text = "Tu plaisantes !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I did my best.\\nI have no regrets.\\n",
+                .text = "J’ai fait de mon mieux.\\nJe n’ai aucun regret.\\n",
             },
         },
     },
@@ -18271,21 +18271,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "There’s no way I can let some unknown\\nTrainer go straight to Erika!\\r",
+                .text = "Impossible de laisser un inconnu\\naller directement voir Erika !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, bleah!\\n",
+                .text = "Oh, beurk !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m too ashamed to face Erika!\\n",
+                .text = "J’ai trop honte pour affronter Erika !\\n",
             },
         },
     },
 
     [357] = {
-        .name = "Clarke",
+        .name = "Hervé",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -18328,21 +18328,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ll tell you a secret.\\nBut first, we battle!\\r",
+                .text = "Je vais te dire un secret.\\nMais d’abord, on se bat !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Grr!\\nI lost that...\\n",
+                .text = "Grr !\\nJ’ai perdu ça...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The Power Plant is across a small river.\\n",
+                .text = "La Centrale se trouve de l’autre côté\\nd’une petite rivière.\\n",
             },
         },
     },
 
     [358] = {
-        .name = "Kenny",
+        .name = "Gilles",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -18376,25 +18376,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I should go to Rock Tunnel to get\\nmyself an ONIX.\\r",
+                .text = "Je devrais aller au Tunnel Rocheux pour\\nm’attraper un ONIX.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost...\\n",
+                .text = "J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Geological features don’t appear to\\nchange.\\rBut they actually do change, little\\nby little.\\n",
+                .text = "Les formations géologiques semblent ne\\njamais changer.\\rMais en réalité, elles changent, petit\\nà petit.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey, I still wanted to battle you!\\r",
+                .text = "Hé, je voulais encore me battre avec toi !\\r",
             },
         },
     },
 
     [359] = {
-        .name = "Jim",
+        .name = "Albin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -18427,21 +18427,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hahahah!\\r",
+                .text = "Hahahah !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Hahaha-hachoo!\\n",
+                .text = "Hahaha-hatchoum !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Hay fever is making me sneeze!\\nAhahah-CHOO!\\n",
+                .text = "Le rhume des foins me fait éternuer !\\nAhahah-CHOO !\\n",
             },
         },
     },
 
     [360] = {
-        .name = "Arnie",
+        .name = "Henri",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -18475,13 +18475,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. So that’s how you battle.\\n",
+                .text = "Je vois. C’est donc comme ça que tu combats.\\n",
             },
         },
     },
 
     [361] = {
-        .name = "Kevin",
+        .name = "Kévin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -18534,21 +18534,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "But after seeing how you battle, I want\\nto see how I’ll fare.\\rHow about it? Let me take you on.\\r",
+                .text = "Après t’avoir vu combattre, j’ai envie\\nde voir comment je m’en sortirai.\\rAlors ? Laisse-moi t’affronter.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’ve never had a battle this good!\\n",
+                .text = "Je n’ai jamais eu un combat aussi bon !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "That was a great battle!\\rYou and your Pokémon are truly\\noutstanding!\\n",
+                .text = "C’était un combat incroyable !\\rToi et tes Pokémon êtes vraiment\\nexceptionnels !\\n",
             },
         },
     },
 
     [362] = {
-        .name = "Quinn",
+        .name = "Mimi",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -18577,15 +18577,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You there!\\nWant to battle?\\r",
+                .text = "Hé, toi !\\nTu veux te battre ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Down and out...\\n",
+                .text = "À terre...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You’re strong.\\nYou obviously have trained hard.\\n",
+                .text = "Tu es fort.\\nOn voit que tu t’es beaucoup entraîné.\\n",
             },
         },
     },
@@ -18625,21 +18625,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "If the Pokémon I liked were there,\\nI’d go anywhere.\\rThat’s what a real Trainer does.\\r",
+                .text = "Si les Pokémon que j’aime sont là,\\nje vais n’importe où.\\rC’est ce que fait un vrai Dresseur.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’d rather pet my Pokémon than battle!\\n",
+                .text = "Je préfère câliner mes Pokémon que me battre !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Just once a week, a Pokémon comes to\\nthe water’s edge.\\rI wanted to see that Pokémon...\\n",
+                .text = "Une fois par semaine, un Pokémon vient\\nau bord de l’eau.\\rJe voulais voir ce Pokémon...\\n",
             },
         },
     },
 
     [364] = {
-        .name = "Sam",
+        .name = "Edouard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -18682,21 +18682,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "How does the Magnet Train work?\\r",
+                .text = "Comment fonctionne le Train Magnétique ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I wish I had the chance to see\\nthe Magnet Train...\\n",
+                .text = "J’aimerais tellement voir le Train\\nMagnétique...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The power of magnets is awesome!\\n",
+                .text = "La puissance des aimants est incroyable!\\n",
             },
         },
     },
 
     [365] = {
-        .name = "Tyrone",
+        .name = "Adrien",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -18739,21 +18739,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hmm... You’ve got many Gym Badges.\\r",
+                .text = "Hmm... Tu as beaucoup de Badges.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Just as I thought...\\nYou’re tough!\\n",
+                .text = "Comme je le pensais...\\nTu es coriace !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "That’s to be expected for someone who\\nhas as many Gym Badges as you do!\\n",
+                .text = "C’est normal pour quelqu’un qui a autant\\nde Badges que toi !\\n",
             },
         },
     },
 
     [366] = {
-        .name = "Pat",
+        .name = "Arthus",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -18796,21 +18796,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Mufufufu...\\rI have nothing to do with the\\nsix-pack Trainers.\\rI waited here to beat you when you were\\ntired out by all the battles.\\r",
+                .text = "Mufufufu...\\rJe n’ai rien à voir avec les\\nsix Dresseurs.\\rJ’ai attendu ici pour te battre quand tu\\nserais épuisé par tous ces combats.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aren’t you tired at all?\\n",
+                .text = "Tu n’es même pas fatigué ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m sorry... I won’t cheat anymore...\\n",
+                .text = "Je suis désolé, je ne tricherai plus...\\n",
             },
         },
     },
 
     [367] = {
-        .name = "Shawn",
+        .name = "Gilbert",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -18863,21 +18863,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What kinds of Poké Balls do you have\\nwith you?\\r",
+                .text = "Quels types de Poké Balls as-tu\\nsur toi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wait! Stop! Don’t!\\nPlease!\\n",
+                .text = "Attends ! Stop ! Non !\\nS’il te plaît !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You should use the right Poké Balls to\\nfit the situation.\\n",
+                .text = "Tu devrais utiliser les bonnes Poké Balls\\nselon la situation.\\n",
             },
         },
     },
 
     [368] = {
-        .name = "Rebecca",
+        .name = "Lola",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -18920,21 +18920,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The power of all those you defeated\\ncomes to me!\\r",
+                .text = "La force de tous ceux que tu as vaincus\\nvient à moi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Strong...\\nFar too strong...\\n",
+                .text = "Fort...\\nBeaucoup trop fort...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "What is the source of your power?\\n",
+                .text = "Quelle est la source de ta puissance ?\\n",
             },
         },
     },
 
     [369] = {
-        .name = "Darcy",
+        .name = "Irma",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -18987,21 +18987,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Fufufufu...\\nI see it clearly.\\rI can see into your spirit!\\r",
+                .text = "Fufufufu...\\nJe vois très clairement.\\rJe peux voir dans ton esprit !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Though I read you,\\nI still lost...\\n",
+                .text = "Même en t’ayant lu,\\nje perds quand même...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Oops! I forgot that I predicted I would\\nlose to you.\\n",
+                .text = "Oups ! J’avais oublié que j’avais prédit\\nque je perdrais contre toi.\\n",
             },
         },
     },
 
     [370] = {
-        .name = "Jerome",
+        .name = "Jürgen",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -19042,21 +19042,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Swimming?\\nI’m lousy at it. I’m just splashing\\faround in these shallow waters.\\r",
+                .text = "Nager ?\\nJe suis nul. Je fais juste des éclaboussures\\ndans l’eau peu profonde.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I thought I could win.\\n",
+                .text = "Je pensais pouvoir gagner.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I might be bad at swimming, but I love\\nthe sea.\\n",
+                .text = "Je suis peut-être mauvais nageur, mais j’adore\\nla mer.\\n",
             },
         },
     },
 
     [371] = {
-        .name = "Tucker",
+        .name = "Sergei",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -19083,21 +19083,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Pant, pant... Just...a little...\\nfarther...to...Fuchsia...\\r",
+                .text = "Haa... haa... Encore... un peu...\\nplus loin... jusqu’à... Parmanie...\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’m drowning!\\n",
+                .text = "Je me noie !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I...asked my girlfriend to swim to\\nFuchsia... Gasp...\\n",
+                .text = "J’ai... demandé à ma copine de nager\\njusqu’à Parmanie... Haa...\\n",
             },
         },
     },
 
     [372] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -19131,7 +19131,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [373] = {
-        .name = "Frankie",
+        .name = "Piotr",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -19151,21 +19151,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I guess it’s impossible to swim all the\\nway to Johto.\\r",
+                .text = "Je suppose que c’est impossible de nager\\njusqu’à Johto.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aiyah!\\n",
+                .text = "Aïyah !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Besides the sea, I can also swim in\\nponds and rivers.\\n",
+                .text = "En plus de la mer, je peux aussi nager dans\\nles étangs et les rivières.\\n",
             },
         },
     },
 
     [374] = {
-        .name = "Tyson",
+        .name = "Stephen",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -19194,21 +19194,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Gotta keep going!\\r",
+                .text = "Je dois continuer !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Glug...\\n",
+                .text = "Glou...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "This arrogant guy was at\\nCinnabar’s volcano.\\n",
+                .text = "Ce type arrogant était au\\nvolcan de Cramois’Île.\\n",
             },
         },
     },
 
     [375] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -19242,7 +19242,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [376] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -19276,7 +19276,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [377] = {
-        .name = "Parker",
+        .name = "Sigfried",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -19305,7 +19305,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [378] = {
-        .name = "Warren",
+        .name = "Romain",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -19358,21 +19358,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hmmm...\\nI don’t know what to do...\\r",
+                .text = "Hmmm...\\nJe ne sais pas quoi faire...\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I knew I’d lose...\\n",
+                .text = "Je savais que je perdrais...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You looked strong.\\nI was afraid to take you on...\\n",
+                .text = "Tu avais l’air fort.\\nJ’avais peur de t’affronter...\\n",
             },
         },
     },
 
     [379] = {
-        .name = "Jimmy",
+        .name = "Eusèbe",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -19435,21 +19435,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can run like the wind!\\r",
+                .text = "Je peux courir comme le vent !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Blown away!\\n",
+                .text = "Emporté !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I wear shorts the whole year round.\\nThat’s my fashion policy.\\n",
+                .text = "Je porte des shorts toute l’année.\\nC’est ma philosophie de mode.\\n",
             },
         },
     },
 
     [380] = {
-        .name = "Owen",
+        .name = "Stan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -19482,21 +19482,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "There’s no cheating with Pokémon.\\nLet’s keep it fair and square!\\r",
+                .text = "Pas de triche avec les Pokémon.\\nRestons honnêtes et équitables !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Huh? How did this happen?\\n",
+                .text = "Hein ? Comment c’est arrivé ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I fought fair and square.\\nI don’t regret this at all.\\n",
+                .text = "J’ai combattu honnêtement.\\nJe ne regrette rien.\\n",
             },
         },
     },
 
     [381] = {
-        .name = "Jason",
+        .name = "Mercutio",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -19539,21 +19539,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "It itches and tickles a bit when I wear\\nshorts in the grass.\\r",
+                .text = "Ça gratte et ça chatouille un peu quand\\nje porte un short dans l’herbe.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aiyaaah!\\nI got stomped!\\n",
+                .text = "Aïyaaah !\\nJe me suis fait écraser !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m going to catch more Pokémon in\\nthe grass.\\n",
+                .text = "Je vais attraper plus de Pokémon dans\\nl’herbe.\\n",
             },
         },
     },
 
     [382] = {
-        .name = "Hillary",
+        .name = "Josianne",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEACHER,
@@ -19580,25 +19580,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "On sunny days, I think that the kids\\nwould rather be playing in the\\fplayground than studying in class.\\r",
+                .text = "Quand il fait beau, je pense que les enfants\\npréfèrent jouer dans la\\f cour plutôt que d’étudier.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t want to lose...\\n",
+                .text = "Je ne voulais pas perdre...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Studying is important, but exercise is\\njust as vital.\\n",
+                .text = "Étudier, c’est important, mais faire du sport\\nl’est tout autant.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "You’re back.\\rTo study?\\nOr to battle Pokémon?\\r",
+                .text = "Te revoilà.\\rPour étudier ?\\nOu pour combattre des Pokémon ?\\r",
             },
         },
     },
 
     [383] = {
-        .name = "Peter",
+        .name = "Joe",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -19639,21 +19639,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "That Badge!\\rIt’s from Violet City!\\nYou beat Falkner?\\r",
+                .text = "Ce Badge !\\rIl vient de Mauville !\\nTu as battu Albert ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I know what my weaknesses are.\\n",
+                .text = "Je connais mes faiblesses.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I should train again at the Gym in\\nViolet City.\\n",
+                .text = "Je devrais m’entraîner de nouveau à\\nl’Arène de Mauville.\\n",
             },
         },
     },
 
     [384] = {
-        .name = "Daniel",
+        .name = "Sammy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -19687,21 +19687,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Whoa! What a surprise!\\nI didn’t expect to see anyone here!\\r",
+                .text = "Whoa ! Quelle surprise !\\nJe ne m’attendais à voir personne ici !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa! I’m beaten big time!\\n",
+                .text = "Whoa ! Je me suis fait exploser !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I was conned into buying a\\nSlowpokeTail. I feel sorry for the\\fpoor Pokémon.\\n",
+                .text = "On m’a roulé en m’achetant une\\nQueue Ramoloss. Pauvre\\fPokémon...\\n",
             },
         },
     },
 
     [385] = {
-        .name = "Dara & Dia",
+        .name = "Kia & Béa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -19728,7 +19728,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [386] = {
-        .name = "Greg",
+        .name = "Ulrik",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -19757,21 +19757,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Pokémon can’t do a thing if they are\\nasleep. I’ll show you how scary that is!\\r",
+                .text = "Les Pokémon ne peuvent rien faire quand\\nils dorment. Je vais te montrer à quel point\\nc’est effrayant !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost. That’s pretty sad...\\n",
+                .text = "J’ai perdu. C’est vraiment triste...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Making Pokémon sleep or paralyzing\\nthem are good battle techniques.\\n",
+                .text = "Endormir ou paralyser les Pokémon est\\nune bonne stratégie de combat.\\n",
             },
         },
     },
 
     [387] = {
-        .name = "Amy & Mimi",
+        .name = "Lia & Liz",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -19798,7 +19798,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [388] = {
-        .name = "Walt",
+        .name = "Bimbo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -19839,25 +19839,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m practicing my fire breathing.\\r",
+                .text = "Je m’entraîne à cracher du feu.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ow! I scorched the tip of my nose!\\n",
+                .text = "Aïe ! Je me suis brûlé le bout du nez !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The Pokémon March on the radio lures\\nwild Pokémon.\\n",
+                .text = "La Marche Pokémon à la radio attire\\nles Pokémon sauvages.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve been practicing breathing fire\\nwhile waiting for you!\\r",
+                .text = "Je me suis entraîné à cracher du feu\\nen t’attendant !\\r",
             },
         },
     },
 
     [389] = {
-        .name = "Nelson",
+        .name = "Damien",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -19902,21 +19902,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Let me see what your Pokémon are\\ncapable of.\\r",
+                .text = "Laisse-moi voir de quoi tes Pokémon\\nsont capables.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ooh, your Pokémon have potential.\\n",
+                .text = "Oooh, tes Pokémon ont du potentiel.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You know how Pokémon have\\ndifferent abilities?\\rPeople are like that, too. Everyone has\\ndifferent potential.\\n",
+                .text = "Tu sais que les Pokémon ont des\\ncapacités différentes ?\\rLes gens aussi. Chacun a son propre\\npotentiel.\\n",
             },
         },
     },
 
     [390] = {
-        .name = "Ray",
+        .name = "Luigi",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -19950,21 +19950,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "If there’s light, a cave isn’t scary. If\\nyou’re strong, Pokémon aren’t scary.\\r",
+                .text = "S’il y a de la lumière, une grotte ne fait pas peur.\\nSi tu es fort, les Pokémon ne font pas peur.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "FLASH!\\n",
+                .text = "FLASH !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s my Pokémon’s fire that lights up\\nthis cave.\\n",
+                .text = "C’est le feu de mon Pokémon qui éclaire\\ncette grotte.\\n",
             },
         },
     },
 
     [391] = {
-        .name = "Issac",
+        .name = "Matias",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -19985,21 +19985,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My Pokémon just got a haircut!\\nI’ll show you how strong it is!\\r",
+                .text = "Mon Pokémon vient de se faire couper les cheveux !\\nJe vais te montrer comme il est fort !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aiyeeee!\\n",
+                .text = "Aiyeeee !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Your Pokémon will like you more if you\\ngive them haircuts.\\n",
+                .text = "Tes Pokémon t’aimeront davantage si tu leur\\nfais faire des coupes.\\n",
             },
         },
     },
 
     [392] = {
-        .name = "Donald",
+        .name = "Daniel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -20033,21 +20033,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I think you have some rare Pokémon\\nwith you. Let me see them!\\r",
+                .text = "Je crois que tu as des Pokémon rares\\navec toi. Laisse-moi les voir !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gah! I lost!\\nThat makes me mad!\\n",
+                .text = "Gah ! J’ai perdu !\\nÇa m’énerve !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Are you making a Pokédex?\\nHere’s a hot tip.\\rYou want to battle as many Trainers as\\nyou can when you see them on routes\\fand in caves.\\rTheir Pokémon will be recorded in the\\nPokédex, and they’ll also make your\\fPokémon grow!\\n",
+                .text = "Tu fais un Pokédex ?\\nVoici un bon conseil.\\rTu devrais affronter autant de Dresseurs que\\npossible quand tu les vois sur les routes\\fou dans les grottes.\\rLeurs Pokémon seront enregistrés dans ton\\nPokédex, et ils feront aussi grandir tes\\fPokémon !\\n",
             },
         },
     },
 
     [393] = {
-        .name = "Teru",
+        .name = "Gibus",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -20088,21 +20088,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do you consider the Pokémon types\\nin battle?\\rIf you know about the different types\\nof Pokémon, you’ll do better in battle.\\r",
+                .text = "Tu prends en compte les types de Pokémon\\nen combat ?\\rSi tu connais les différents types de Pokémon,\\ntu t’en sortiras mieux.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ow, ow, ow!\\n",
+                .text = "Aïe, aïe, aïe !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I know all the different types\\nof Pokémon.\\fBut I only use one type.\\n",
+                .text = "Je connais tous les types de Pokémon.\\fMais je n’en utilise qu’un seul.\\n",
             },
         },
     },
 
     [394] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -20136,7 +20136,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [395] = {
-        .name = "Mark",
+        .name = "Freddy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -20173,21 +20173,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Let me guess what you’re thinking!\\r",
+                .text = "Laisse-moi deviner ce que tu penses !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was wrong.\\n",
+                .text = "Je me suis trompé.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you read your opponent’s mind, then\\nyou can attack more efficiently!\\n",
+                .text = "Si tu lis dans l’esprit de ton adversaire,\\ntu peux attaquer plus efficacement !\\n",
             },
         },
     },
 
     [396] = {
-        .name = "Horton",
+        .name = "Harpo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_JUGGLER,
@@ -20230,21 +20230,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m going to take you down!\\nPrepare to be shocked!\\r",
+                .text = "Je vais t’écraser !\\nPrépare-toi à être choqué !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Gyaaah!\\nI was overpowered!\\n",
+                .text = "Gyaaah !\\nJ’ai été submergé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Lt. Surge hid the electric fences’\\nswitches at the bottom of something...\\rThere are two switches. Once you’ve\\nfound the first, the second switch\\fshould be right next to it.\\n",
+                .text = "Major Bob a caché les interrupteurs\\ndes clôtures électriques\\nau fond de quelque chose...\\rIl y en a deux. Une fois que tu as\\ntrouvé le premier, le second\\fdevrait être juste à côté.\\n",
             },
         },
     },
 
     [397] = {
-        .name = "Chad",
+        .name = "Mathys",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -20278,25 +20278,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Let me try something I learned today.\\r",
+                .text = "Laisse-moi essayer un truc que j’ai appris aujourd’hui.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t study enough, I guess.\\n",
+                .text = "J’ai pas assez étudié, on dirait.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I have to take so many tests, I don’t\\nhave much time for Pokémon.\\rSo when I do get to battle, I really\\nconcentrate.\\n",
+                .text = "J’ai tellement de tests à passer que j’ai\\npas beaucoup de temps pour les Pokémon.\\rAlors quand je peux enfin combattre, je me\\nconcentre à fond.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "You’ve come to the right place!\\rTime for me to try out everything I’ve\\nlearned today!\\r",
+                .text = "Tu tombes bien !\\rC’est l’heure de tester tout ce que j’ai\\nappris aujourd’hui !\\r",
             },
         },
     },
 
     [398] = {
-        .name = "Valerie",
+        .name = "Cléo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -20333,21 +20333,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hi! Aren’t you a cute Trainer!\\nMay I see your Pokémon?\\r",
+                .text = "Salut ! T’es un Dresseur trop mignon !\\nJe peux voir tes Pokémon ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’m glad I got to see your Pokémon!\\n",
+                .text = "Je suis contente d’avoir vu tes Pokémon !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "When I see Pokémon, it seems to soothe\\nmy nerves.\\n",
+                .text = "Quand je vois des Pokémon, ça me calme\\nles nerfs.\\n",
             },
         },
     },
 
     [399] = {
-        .name = "Lyle",
+        .name = "Bozo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -20388,21 +20388,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m going to Kanto to put on\\nfire-breathing shows!\\r",
+                .text = "Je vais à Kanto pour faire des\\nspectacles de cracheur de feu !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Fizzle... The flame’s tiny...\\n",
+                .text = "Pschhh... La flamme est minuscule...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I guess fire is weak on the sea...\\nIt doesn’t matter? Really?\\n",
+                .text = "Je suppose que le feu est faible sur la mer...\\nÇa ne compte pas ? Vraiment ?\\n",
             },
         },
     },
 
     [400] = {
-        .name = "Dana",
+        .name = "Rekka",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_LASS,
@@ -20439,25 +20439,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, are you good at Pokémon?\\rIf you’re really good, I want you to\\nteach me some things.\\r",
+                .text = "Hé, tu es bon en Pokémon ?\\rSi tu es vraiment fort, j’aimerais que\\ntu m’apprennes des trucs.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. So you can battle that way.\\n",
+                .text = "Je vois. Tu combats comme ça.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I know something good!\\rMoomoo Farm’s milk is famous for\\nits taste.\\n",
+                .text = "Je connais quelque chose de génial !\\rLe lait de la Ferme Meumeu est célèbre\\npour son goût.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Oh, here you are again!\\nThere’s so many more things I want to\\flearn from you!\\r",
+                .text = "Oh, te revoilà !\\nIl y a encore tellement de choses que je veux\\fapprendre de toi !\\r",
             },
         },
     },
 
     [401] = {
-        .name = "Alfred",
+        .name = "Louis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -20491,25 +20491,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Eh? This is no place for playing.\\r",
+                .text = "Hein ? Ce n’est pas un endroit pour jouer.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ah! I can see you’re serious.\\n",
+                .text = "Ah ! Je vois que tu es sérieux.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Up top is a Pokémon that keeps the\\nLighthouse lit.\\rPokémon glow when they are healthy,\\njust like people.\\n",
+                .text = "Tout en haut se trouve un Pokémon qui garde\\nle Phare allumé.\\rLes Pokémon brillent quand ils sont en bonne santé,\\ncomme les gens.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey, you’re back!\\r",
+                .text = "Hé, tu es revenu !\\r",
             },
         },
     },
 
     [402] = {
-        .name = "Tiffany",
+        .name = "Flavie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -20538,25 +20538,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you going to Lake of Rage, too?\\nLet’s play for a little while!\\r",
+                .text = "Tu vas toi aussi au Lac Colère ?\\nJouons un peu ensemble !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I played too much!\\n",
+                .text = "J’ai trop joué !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I’m having a picnic with Pokémon.\\nWon’t you join us?\\n",
+                .text = "Je fais un pique-nique avec mes Pokémon.\\nTu veux te joindre à nous ?\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey, you’re here!\\nLet’s play!\\r",
+                .text = "Hé, tu es là !\\nJouons !\\r",
             },
         },
     },
 
     [403] = {
-        .name = "Spencer",
+        .name = "Rémi",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -20597,21 +20597,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can do so much with my Pokémon!\\nIt’s super fun!\\r",
+                .text = "Je peux faire tellement de choses avec mes Pokémon !\\nC’est super amusant !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Losing isn’t fun at all...\\n",
+                .text = "Perdre, ce n’est pas drôle du tout...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "What is going on at Lake of Rage?\\nWe were planning to camp there.\\n",
+                .text = "Que se passe-t-il au Lac Colère ?\\nOn comptait y camper.\\n",
             },
         },
     },
 
     [404] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET_F,
@@ -20640,21 +20640,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do I know the password?\\rMaybe.\\rBut no weakling’s going to get it!\\r",
+                .text = "Est-ce que je connais le mot de passe ?\\rPeut-être.\\rMais aucun faible ne l’obtiendra !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "The password for the boss’s door--\\rSLOWPOKETAIL.\\n",
+                .text = "Le mot de passe de la porte du boss--\\rSLOWPOKETAIL.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The password to the boss’s room is\\nSLOWPOKETAIL.\\rBut it’s useless unless you have two\\npasswords.\\n",
+                .text = "Le mot de passe de la salle du boss est\\nSLOWPOKETAIL.\\rMais ça ne sert à rien si tu n’as pas les deux\\nmots de passe.\\n",
             },
         },
     },
 
     [405] = {
-        .name = "Phil",
+        .name = "Gabriel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -20699,21 +20699,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m gonna win for sure!\\r",
+                .text = "Je vais gagner, c’est sûr !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Arrgh... That’s a shocking loss...\\n",
+                .text = "Arrgh... Quelle défaite choquante...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s important to have conviction on\\nyour side.\\n",
+                .text = "C’est important d’avoir de la conviction\\nde ton côté.\\n",
             },
         },
     },
 
     [406] = {
-        .name = "Zach",
+        .name = "Franck",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -20747,21 +20747,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ll do anything to get my hands on\\nrare Pokémon!\\r",
+                .text = "Je ferai n’importe quoi pour mettre la main sur\\nun Pokémon rare !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oooh, your Pokémon are so appealing.\\n",
+                .text = "Oooh, tes Pokémon sont tellement attirants.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If a Pokémon has different colors than\\nusual, it’s more valuable.\\rWhat? You mean that’s not true?\\n",
+                .text = "Si un Pokémon a des couleurs différentes\\nde l’habitude, il vaut plus cher.\\rQuoi ? Tu veux dire que ce n’est pas vrai ?\\n",
             },
         },
     },
 
     [407] = {
-        .name = "Allen",
+        .name = "Abib",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -20806,21 +20806,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can tell you’re a good Trainer by\\nlooking at you.\\rI’m good at Pokémon, and I can see that\\nyou are, too.\\r",
+                .text = "Je peux dire que tu es un bon Dresseur\\nrien qu’en te regardant.\\rJe suis doué avec les Pokémon, et je vois que\\ntu l’es aussi.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Tch! It’s a total loss on my part.\\n",
+                .text = "Tch ! C’est une défaite totale pour moi.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Wow. You have a lot of Badges.\\nNo wonder you’re so tough.\\rI wonder if Ecruteak Gym’s Morty is\\nstill in training?\\fHe really hammered me.\\n",
+                .text = "Wow. Tu as beaucoup de Badges.\\nPas étonnant que tu sois si fort.\\rJe me demande si Mortimer, de Rosalia,\\nest encore en entraînement ?\\fIl m’a vraiment laminé.\\n",
             },
         },
     },
 
     [408] = {
-        .name = "Cybil",
+        .name = "Alizée",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -20857,15 +20857,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You look strong.\\rGood Trainers seek tough opponents\\ninstinctively.\\r",
+                .text = "Tu as l’air fort.\\rLes bons Dresseurs cherchent instinctivement\\ndes adversaires coriaces.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Nope! This won’t do at all.\\n",
+                .text = "Non ! Ça ne va pas du tout.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We all get better by experiencing many\\nbattles. I battled a lot to become what\\fI am today--an elite.\\n",
+                .text = "On progresse tous en vivant beaucoup\\nde combats. J’ai beaucoup combattu pour devenir\\fce que je suis aujourd’hui-un expert.\\n",
             },
         },
     },
@@ -20912,21 +20912,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I just got my Pokémon back from\\nDay Care. Let’s see how much stronger\\fit got!\\r",
+                .text = "Je viens de récupérer mon Pokémon à la\\nPension. Voyons à quel point il a\\fgagné en force !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Why does it end this way?\\n",
+                .text = "Pourquoi ça finit comme ça ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "My Pokémon knew moves I didn’t know it\\nhad. That confounded me to no end!\\n",
+                .text = "Mon Pokémon connaissait des capacités que\\nj’ignorais totalement. Ça m’a complètement\\nperturbé !\\n",
             },
         },
     },
 
     [410] = {
-        .name = "Harry",
+        .name = "Isaac",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -20955,21 +20955,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ve been overseas, so I know about all\\nsorts of Pokémon!\\r",
+                .text = "J’ai voyagé à l’étranger, alors je connais\\nplein de Pokémon différents !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Your skill is world class!\\n",
+                .text = "Ton talent est digne du monde entier !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All kinds of people around the world live\\nhappily with Pokémon.\\n",
+                .text = "Partout dans le monde, les gens vivent\\nheureux avec leurs Pokémon.\\n",
             },
         },
     },
 
     [411] = {
-        .name = "Vernon",
+        .name = "Anselme",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -20996,21 +20996,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Wow, look at all those Badges!\\nI’m impressed.\\rBut you’re not satisfied by just\\ncollecting them, right?\\r",
+                .text = "Wow, regarde tous ces Badges !\\nJe suis impressionné.\\rMais tu ne te contentes pas juste\\nde les collectionner, hein ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Good battle!\\n",
+                .text = "Beau combat !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "People and Pokémon grow from\\ntheir experiences.\\rDon’t get lazy and complacent.\\n",
+                .text = "Les gens et les Pokémon grandissent\\ngrâce à leurs expériences.\\rNe deviens pas paresseux ou complaisant.\\n",
             },
         },
     },
 
     [412] = {
-        .name = "Eli",
+        .name = "Nataniel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -21051,21 +21051,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Don’t say a thing! Let me guess what\\nyou’re thinking. Mmmmmmm...\\rI got it! You’re on the Pokémon\\nLeague challenge!\\r",
+                .text = "Ne dis rien ! Laisse-moi deviner ce que\\ntu penses. Mmmmmmm...\\rÇa y est ! Tu es en route pour le\\nDéfi de la Ligue Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re too much!\\n",
+                .text = "Tu es incroyable !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "With your skills, you’ll do well at the\\nPokémon League. That’s what my\\fpremonition says.\\n",
+                .text = "Avec ton talent, tu feras des merveilles à\\nla Ligue Pokémon. C’est ce que ma\\fprémonition dit.\\n",
             },
         },
     },
 
     [413] = {
-        .name = "Scott",
+        .name = "Matéo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -21102,21 +21102,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m feeling great today!\\fI feel like I could even beat the\\nLeague Champion!\\r",
+                .text = "Je me sens super bien aujourd’hui !\\fJe me sens capable de battre même\\nle Champion de la Ligue !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No!\\nNot in this battle!\\n",
+                .text = "Non !\\nPas dans ce combat !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Just like in fishing, it’s all over in\\nPokémon if you give up.\\n",
+                .text = "Comme à la pêche, tout est fini dans\\nPokémon si tu abandonnes.\\n",
             },
         },
     },
 
     [414] = {
-        .name = "Jose",
+        .name = "Brett",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -21150,25 +21150,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Tweet! Tweet!\\nTet-weet!\\r",
+                .text = "Tuit ! Tuit !\\nTet-tuit !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Tweet!\\n",
+                .text = "Tuit !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Bird Keepers like me mimic bird whistles\\nto command Pokémon.\\n",
+                .text = "Les Éleveurs d’Oiseaux comme moi imitent\\nles sifflements d’oiseaux pour commander\\nleurs Pokémon.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Tweet! I’ve been waiting for this!\\nTeweet!\\r",
+                .text = "Tuit ! J’attendais ce moment !\\nTeweet !\\r",
             },
         },
     },
 
     [415] = {
-        .name = "Jared",
+        .name = "Honoré",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -21221,21 +21221,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The Fighting Dojo next door was once\\nthis city’s Gym.\\r",
+                .text = "Le Dojo de Combat à côté était autrefois\\nl’Arène de cette ville.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was no match...\\n",
+                .text = "Je n’ai pas fait le poids...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Karate King, the master of the Fighting\\nDojo, was just destroyed by Sabrina.\\n",
+                .text = "Le Roi du Karaté, maître du Dojo de\\nCombat, vient d’être écrasé par Morgane.\\n",
             },
         },
     },
 
     [416] = {
-        .name = "Jo & Zoe",
+        .name = "Emi & Emma",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -21291,21 +21291,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Jenn: You can’t beat Irene and go\\nunpunished!\\r",
+                .text = "Jenn : Tu ne peux pas battre Irene et t’en\\nsortir comme ça !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Jenn: So sorry, Irene! Sis!\\n",
+                .text = "Jenn : Désolée, Irene ! Sœurette !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Jenn: Don’t get cocky! My sister Kate\\nis tough!\\n",
+                .text = "Jenn : Ne prends pas la grosse tête ! Ma sœur\\nKate est redoutable !\\n",
             },
         },
     },
 
     [418] = {
-        .name = "Bruno",
+        .name = "Aldo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_BRUNO,
@@ -21372,21 +21372,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Fight as hard as you can ’til you faint!\\n",
+                .text = "Bats-toi jusqu’à t’évanouir s’il le faut !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "We’re standing firm!\\n",
+                .text = "On tient bon !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Why?!\\n...How could we lose?\\n",
+                .text = "Pourquoi ?!\\n...Comment on a pu perdre ?\\n",
             },
         },
     },
 
     [419] = {
-        .name = "Ellen",
+        .name = "Gaëlle",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LASS,
@@ -21439,21 +21439,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m second.\\nNow, it’s serious!\\r",
+                .text = "Je suis la deuxième.\\nMaintenant, ça devient sérieux !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "How could I lose?\\n",
+                .text = "Comment j’ai pu perdre ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I did my best.\\nI have no regrets.\\n",
+                .text = "J’ai fait de mon mieux.\\nJe n’ai aucun regret.\\n",
             },
         },
     },
 
     [420] = {
-        .name = "Perry",
+        .name = "Jeff",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -21473,15 +21473,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Agility is the key attribute of\\nbird Pokémon.\\r",
+                .text = "L’agilité est l’atout principal des\\nPokémon Oiseaux.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You beat me with your speed...\\n",
+                .text = "Tu m’as battu avec ta vitesse...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Your Pokémon are remarkably\\nwell trained.\\n",
+                .text = "Tes Pokémon sont remarquablement\\nbien entraînés.\\n",
             },
         },
     },
@@ -21514,21 +21514,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Check out my Pokémon. Just look at\\ntheir coloring and plumage.\\r",
+                .text = "Regarde mes Pokémon. Observe leurs\\ncouleurs et leur plumage.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Shoot!\\nNot good enough!\\n",
+                .text = "Zut !\\nPas assez bon !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you groom them, Pokémon get happy.\\n",
+                .text = "Si tu les brosses, les Pokémon deviennent\\nheureux.\\n",
             },
         },
     },
 
     [422] = {
-        .name = "Rodney",
+        .name = "Dany",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PSYCHIC_M,
@@ -21569,21 +21569,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Ssh! My brain is picking up\\nradio signals!\\r",
+                .text = "Chut ! Mon cerveau capte des\\nondes radio !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...I hear something!\\n",
+                .text = "...J’entends quelque chose !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It seems that Johto’s radio shows\\ntalk about Kanto when you are\\fin Kanto...\\n",
+                .text = "On dirait que les émissions radio de Johto\\nparlent de Kanto quand tu es\\nà Kanto...\\n",
             },
         },
     },
 
     [423] = {
-        .name = "Jeremy",
+        .name = "Abel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -21638,21 +21638,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What do you think? My Pokémon are\\nbeautiful, yes?\\r",
+                .text = "Alors, qu’en penses-tu ? Mes Pokémon sont\\nmagnifiques, non ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no! My beautiful Pokémon!\\n",
+                .text = "Oh non ! Mes magnifiques Pokémon !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I must take them to the Pokémon Salon\\nand get them fixed up nice!\\n",
+                .text = "Je dois les emmener au Salon Pokémon\\npour les faire bichonner !\\n",
             },
         },
     },
 
     [424] = {
-        .name = "Colin",
+        .name = "Léandre",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -21689,21 +21689,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, kid! Want to battle with me?\\r",
+                .text = "Hé, gamin ! Tu veux te battre avec moi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re strong!\\n",
+                .text = "Tu es fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You’re traveling all alone?\\nIsn’t your mom worried?\\n",
+                .text = "Tu voyages tout seul ?\\nTa mère n’est pas inquiète ?\\n",
             },
         },
     },
 
     [425] = {
-        .name = "Meg & Peg",
+        .name = "Mily & Milia",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -21744,41 +21744,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "You think I’m a baby?\\nThat’s not fair!\\r",
+                .text = "Tu crois que je suis un bébé ?\\nC’est pas juste !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Oh! We lost!",
+                .text = "Oh ! On a perdu !",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Baby is a rude name to call someone!",
+                .text = "“Bébé”, c’est méchant comme surnom !",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "You’ve got only one Pokémon?\\nThen I’m not battling with you.",
+                .text = "Tu n’as qu’un seul Pokémon ?\\nAlors je me bats pas avec toi.",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "I’m not a baby!\\nThat’s not a nice thing to say!\\r",
+                .text = "Je suis pas un bébé !\\nC’est pas gentil de dire ça !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Oh! We lost!\\n",
+                .text = "Oh ! On a perdu !\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Sometimes, kids are smarter\\nthan grown-ups!\\n",
+                .text = "Parfois, les enfants sont plus malins\\nque les adultes !\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "If you don’t bring more Pokémon, then\\nyou can’t play with everyone.\\n",
+                .text = "Si tu n’amènes pas plus de Pokémon, alors\\ntu peux pas jouer avec tout le monde.\\n",
             },
         },
     },
 
     [426] = {
-        .name = "Meg & Peg",
+        .name = "Mily & Milia",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -21819,7 +21819,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [427] = {
-        .name = "Shirley",
+        .name = "Ginette",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEACHER,
@@ -21860,21 +21860,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Don’t lay a finger on my students!\\r",
+                .text = "Ne touche pas à mes élèves !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aaack!\\n",
+                .text = "Aaack !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We’re on a school trip to the ruins\\noutside Violet.\\n",
+                .text = "On est en sortie scolaire aux ruines\\nprès de Mauville.\\n",
             },
         },
     },
 
     [428] = {
-        .name = "Nate",
+        .name = "Basile",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -21915,21 +21915,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do you know the Ruins of Alph?\\r",
+                .text = "Tu connais les Ruines d’Alpha ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yaargh!\\n",
+                .text = "Yaargh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Radios pick up strange signals inside\\nthe ruins.\\n",
+                .text = "Les radios captent des signaux étranges\\ndans les ruines.\\n",
             },
         },
     },
 
     [429] = {
-        .name = "Ricky",
+        .name = "Benjamin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -21974,21 +21974,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "There are some odd stone panels in the\\nRuins of Alph.\\r",
+                .text = "Il y a d’étranges panneaux de pierre dans\\nles Ruines d’Alpha.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was taken down!\\n",
+                .text = "J’ai été mis K.O. !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I read that there are four of those\\nstone panels.\\n",
+                .text = "J’ai lu qu’il y en avait quatre\\nde ces panneaux.\\n",
             },
         },
     },
 
     [430] = {
-        .name = "Jack",
+        .name = "Timéo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -22015,13 +22015,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Huh?\\n",
+                .text = "Hein ?\\n",
             },
         },
     },
 
     [431] = {
-        .name = "Jack",
+        .name = "Timéo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -22048,13 +22048,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Huh?\\n",
+                .text = "Hein ?\\n",
             },
         },
     },
 
     [432] = {
-        .name = "Alan",
+        .name = "Aimé",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -22095,13 +22095,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Huh?\\nI thought my prediction was correct...\\n",
+                .text = "Hein ?\\nJe pensais que ma prédiction était correcte...\\n",
             },
         },
     },
 
     [433] = {
-        .name = "Alan",
+        .name = "Aimé",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -22156,13 +22156,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Huh?\\nI thought my prediction was correct...\\n",
+                .text = "Hein ?\\nJe pensais que ma prédiction était correcte...\\n",
             },
         },
     },
 
     [434] = {
-        .name = "Chad",
+        .name = "Mathys",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -22203,13 +22203,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t study enough, I guess.\\n",
+                .text = "Je n’ai pas assez étudié, on dirait.\\n",
             },
         },
     },
 
     [435] = {
-        .name = "Chad",
+        .name = "Mathys",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -22250,13 +22250,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t study enough, I guess.\\n",
+                .text = "Je n’ai pas assez étudié, on dirait.\\n",
             },
         },
     },
 
     [436] = {
-        .name = "Beverly",
+        .name = "Jade",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN,
@@ -22276,13 +22276,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I can beat you in pride, but...\\n",
+                .text = "Je peux te battre en fierté, mais...\\n",
             },
         },
     },
 
     [437] = {
-        .name = "Beverly",
+        .name = "Jade",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN,
@@ -22302,13 +22302,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I can beat you in pride, but...\\n",
+                .text = "Je peux te battre en fierté, mais...\\n",
             },
         },
     },
 
     [438] = {
-        .name = "Derek",
+        .name = "Djamil",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -22349,13 +22349,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I couldn’t show off...\\n",
+                .text = "Je n’ai pas pu frimer...\\n",
             },
         },
     },
 
     [439] = {
-        .name = "Derek",
+        .name = "Djamil",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -22403,13 +22403,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I couldn’t show off...\\n",
+                .text = "Je n’ai pas pu frimer...\\n",
             },
         },
     },
 
     [440] = {
-        .name = "Huey",
+        .name = "Logan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -22436,13 +22436,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Urf!\\nI lose!\\n",
+                .text = "Urf !\\nJ’ai perdu !\\n",
             },
         },
     },
 
     [441] = {
-        .name = "Huey",
+        .name = "Logan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -22469,13 +22469,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Urf!\\nI lose!\\n",
+                .text = "Urf !\\nJ’ai perdu !\\n",
             },
         },
     },
 
     [442] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_LASS,
@@ -22495,7 +22495,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [443] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_LASS,
@@ -22515,7 +22515,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [444] = {
-        .name = "Reena",
+        .name = "Audrey",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -22549,13 +22549,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh! You’re much too strong!\\n",
+                .text = "Oh ! Tu es bien trop fort !\\n",
             },
         },
     },
 
     [445] = {
-        .name = "Reena",
+        .name = "Audrey",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -22589,13 +22589,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh! You’re much too strong!\\n",
+                .text = "Oh ! Tu es bien trop fort !\\n",
             },
         },
     },
 
     [446] = {
-        .name = "Jose",
+        .name = "Brett",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -22622,13 +22622,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Tweet!\\n",
+                .text = "Cui-cui !\\n",
             },
         },
     },
 
     [447] = {
-        .name = "Vance",
+        .name = "Alban",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -22669,13 +22669,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew! You’re hot stuff.\\n",
+                .text = "Ouf ! T’es du solide.\\n",
             },
         },
     },
 
     [448] = {
-        .name = "Vance",
+        .name = "Alban",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -22716,13 +22716,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew! You’re hot stuff.\\n",
+                .text = "Ouf ! T’es du solide.\\n",
             },
         },
     },
 
     [449] = {
-        .name = "Arnie",
+        .name = "Henri",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -22759,13 +22759,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. So that’s how you battle.\\n",
+                .text = "Je vois. C’est donc comme ça que tu combats.\\n",
             },
         },
     },
 
     [450] = {
-        .name = "Wilton",
+        .name = "Renan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -22806,13 +22806,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Just forget about it.\\n",
+                .text = "Oublie ça.\\n",
             },
         },
     },
 
     [451] = {
-        .name = "Parry",
+        .name = "Noa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -22853,13 +22853,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Wahahah! I’m the big loser!\\n",
+                .text = "Wahahah ! Je suis le grand perdant !\\n",
             },
         },
     },
 
     [452] = {
-        .name = "Parry",
+        .name = "Noa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -22900,7 +22900,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Wahahah! I’m the big loser!\\n",
+                .text = "Wahahah ! Je suis le grand perdant !\\n",
             },
         },
     },
@@ -22954,13 +22954,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, bleah!\\n",
+                .text = "Oh, beurk !\\n",
             },
         },
     },
 
     [454] = {
-        .name = "Irwin",
+        .name = "Anthony",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_JUGGLER,
@@ -23001,13 +23001,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew! That was a jolt!\\n",
+                .text = "Ouf ! Quel choc !\\n",
             },
         },
     },
 
     [455] = {
-        .name = "Irwin",
+        .name = "Anthony",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_JUGGLER,
@@ -23048,13 +23048,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew! That was a jolt!\\n",
+                .text = "Ouf ! Quel choc !\\n",
             },
         },
     },
 
     [456] = {
-        .name = "Gaven",
+        .name = "Sean",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -23091,13 +23091,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Gah! Life is even tougher!\\n",
+                .text = "Gah ! La vie est encore plus dure !\\n",
             },
         },
     },
 
     [457] = {
-        .name = "Gaven",
+        .name = "Sean",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -23134,13 +23134,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Gah! Life is even tougher!\\n",
+                .text = "Gah ! La vie est encore plus dure !\\n",
             },
         },
     },
 
     [458] = {
-        .name = "Jamie",
+        .name = "Carina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -23169,13 +23169,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Pokémon aren’t tools of war.\\n",
+                .text = "Les Pokémon ne sont pas des outils de guerre.\\n",
             },
         },
     },
 
     [459] = {
-        .name = "Jamie",
+        .name = "Carina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -23204,13 +23204,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Pokémon aren’t tools of war.\\n",
+                .text = "Les Pokémon ne sont pas des outils de guerre.\\n",
             },
         },
     },
 
     [460] = {
-        .name = "Wade",
+        .name = "Francis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -23261,7 +23261,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [461] = {
-        .name = "Wade",
+        .name = "Francis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -23312,7 +23312,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [462] = {
-        .name = "Ralph",
+        .name = "Auffray",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -23332,13 +23332,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Tch! I tried to rush things...\\n",
+                .text = "Tch ! J’ai voulu aller trop vite...\\n",
             },
         },
     },
 
     [463] = {
-        .name = "Ralph",
+        .name = "Auffray",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -23365,13 +23365,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Tch! I tried to rush things...\\n",
+                .text = "Tch ! J’ai voulu aller trop vite...\\n",
             },
         },
     },
 
     [464] = {
-        .name = "Dana",
+        .name = "Rekka",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_LASS,
@@ -23408,13 +23408,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. So that’s how you battle.\\n",
+                .text = "Je vois. C’est donc comme ça que tu combats.\\n",
             },
         },
     },
 
     [465] = {
-        .name = "Dana",
+        .name = "Rekka",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_LASS,
@@ -23451,13 +23451,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. So that’s how you battle.\\n",
+                .text = "Je vois. C’est donc comme ça que tu combats.\\n",
             },
         },
     },
 
     [466] = {
-        .name = "Tiffany",
+        .name = "Flavie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -23475,7 +23475,7 @@ const TrainerData sTrainerData[] = {
                 .ballSeal = 0,
             },
             {
-                .ivs = 200,
+                .ivs = 255,
                 .abilitySlot = TRAINER_POKEMON_ABILITY_1,
                 .level = 40,
                 .species = SPECIES_CLEFABLE,
@@ -23486,13 +23486,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I played too much!\\n",
+                .text = "J’ai trop joué !\\n",
             },
         },
     },
 
     [467] = {
-        .name = "Tiffany",
+        .name = "Flavie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -23529,13 +23529,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I played too much!\\n",
+                .text = "J’ai trop joué !\\n",
             },
         },
     },
 
     [468] = {
-        .name = "Ross",
+        .name = "Zéphyr",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCIENTIST_GS,
@@ -23569,21 +23569,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I used to work for Silph, but now I run\\nresearch for Team Rocket.\\rA meddlesome child like you needs to be\\npunished.\\r",
+                .text = "Je travaillais autrefois pour Sylphe, mais maintenant\\nje fais de la recherche pour la Team Rocket.\\rUn enfant fouineur comme toi mérite une\\npunition.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "A mere tactical error cost me...\\n",
+                .text = "Une simple erreur tactique m’a coûté...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "A radio signal that drives Pokémon\\nmad... My experiment is a complete\\fsuccess. My promotion is assured.\\fThis loss means absolutely nothing.\\n",
+                .text = "Un signal radio qui rend les Pokémon\\nfous... Mon expérience est un succès\\fcomplet. Ma promotion est assurée.\\fCette défaite ne signifie absolument rien.\\n",
             },
         },
     },
 
     [469] = {
-        .name = "Mitch",
+        .name = "Florin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCIENTIST_GS,
@@ -23603,21 +23603,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I don’t care that Pokémon are hurt by\\nour experiment.\\r",
+                .text = "Je me fiche que les Pokémon soient blessés par\\nnotre expérience.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Thinking is my strong suit, not battling.\\n",
+                .text = "Réfléchir est mon point fort, pas me battre.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If we turn up the power of our radio\\nsignal for broadcast nationwide...\\rThe very thought excites me!\\n",
+                .text = "Si on augmente la puissance de notre signal\\nradio pour le diffuser dans tout le pays...\\rRien que d’y penser, ça m’excite !\\n",
             },
         },
     },
 
     [470] = {
-        .name = "Gregg",
+        .name = "Rayan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCIENTIST_GS,
@@ -23651,21 +23651,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "This was once a ninja hideout.\\rThere are traps to confound intruders\\nlike you.\\r",
+                .text = "C’était autrefois une planque de ninjas.\\rIl y a des pièges pour dérouter les intrus\\ncomme toi.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I see...\\n",
+                .text = "Je vois...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The PC on my desk is the switch\\nthat deactivates the PERSIAN\\falarm system.\\rDon’t you ever touch it, OK?\\n",
+                .text = "Le PC sur mon bureau est l’interrupteur\\nqui désactive le système d’alarme PERSIAN.\\fNe le touche jamais, d’accord ?\\n",
             },
         },
     },
 
     [471] = {
-        .name = "Garett",
+        .name = "Malo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCIENTIST_GS,
@@ -23706,21 +23706,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "An unknown child wandering here?\\nWho are you?\\r",
+                .text = "Un enfant inconnu qui traîne ici ?\\nQui es-tu ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Tch! I took you too lightly!\\n",
+                .text = "Tch ! Je t’ai sous-estimé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Bwahahaha...\\rI can transmit as strong a signal as\\nI need from here.\\n",
+                .text = "Bwahahaha...\\rJe peux émettre un signal aussi puissant\\nque nécessaire depuis ici.\\n",
             },
         },
     },
 
     [472] = {
-        .name = "Trenton",
+        .name = "Yoni",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCIENTIST_GS,
@@ -23741,21 +23741,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Most excellent!\\rThis Radio Tower will fulfill our\\ngrand design.\\r",
+                .text = "Excellent !\\rCette Tour Radio accomplira notre\\ngrand dessein.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Hmmm...\\nAll grand plans come with snags.\\n",
+                .text = "Hmmm...\\nTous les grands plans ont leurs accrocs.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Do you honestly believe you can stop\\nTeam Rocket?\\n",
+                .text = "Tu crois vraiment pouvoir arrêter\\nla Team Rocket ?\\n",
             },
         },
     },
 
     [473] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -23782,7 +23782,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [474] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -23802,7 +23802,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [475] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -23836,7 +23836,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [476] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -23870,7 +23870,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [477] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -23891,7 +23891,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [478] = {
-        .name = "Ariana",
+        .name = "Ariane",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_ARIANA,
@@ -23944,29 +23944,29 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Ariana: Hey, you...\\nRemember me from the hideout in\\fMahogany Town?\\rThis time...\\rHee hee hee. This time...it looks like\\nyou’re really all alone. All alone...\\rSo it should be quite easy.\\nBring it! Let’s finish this!\\r\\n",
+                .text = "Ariana : Hé, toi...\\nTu te souviens de moi, dans la planque de\\fAcajou ?\\rCette fois...\\rHé hé hé. Cette fois... on dirait que\\ntu es vraiment tout seul. Tout seul...\\rAlors ça devrait être très facile.\\nAllez ! Finissons-en !\\r\\n",
             },
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Hey, what do you think you’re doing?!\\n",
+                .text = "Hé, qu’est-ce que tu crois que tu fais ?!\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Wh... Wha... Why are you so strong?!\\n",
+                .text = "Qu... Quoi... Pourquoi es-tu si fort ?!\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aaaieeeee!\\nThis can’t be happening!\\rI fought hard, but I still lost...\\n",
+                .text = "Aaaieeeee !\\nC’est impossible !\\rJe me suis battue dur, mais j’ai quand même perdu...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "What a waste...\\nnot to use your strength to do\\fbad things!\\rFeh... People like you will never in a\\nmillion years understand our brilliance!\\rIt’s too bad... I’ve really come to\\nrespect your strength.\\n",
+                .text = "Quel gâchis...\\nne pas utiliser ta force pour faire\\fde mauvaises choses !\\rFeh... Des gens comme toi ne comprendront\\njamais notre génie, même en un million d’années !\\rC’est dommage... J’en suis venue à\\nrespecter ta force.\\n",
             },
         },
     },
 
     [479] = {
-        .name = "Ariana",
+        .name = "Ariane",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_ARIANA,
@@ -24003,21 +24003,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Argh! I’m getting nervous!\\n",
+                .text = "Argh ! Je commence à stresser !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Eeek!\\n",
+                .text = "Eeek !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Tch, you really are strong.\\rIt’s too bad. If you were to join Team\\nRocket, you could become an Executive.\\n",
+                .text = "Tch, tu es vraiment fort.\\rDommage. Si tu rejoignais la Team Rocket,\\ntu pourrais devenir un Admin.\\n",
             },
         },
     },
 
     [480] = {
-        .name = "Diana",
+        .name = "Luna",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SKIER,
@@ -24051,21 +24051,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "To get to Pryce, our Gym Leader,\\nyou need to think before you skate.\\r",
+                .text = "Pour atteindre Frédo, notre Champion,\\nil faut réfléchir avant de glisser.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I wouldn’t lose to you in skiing...\\n",
+                .text = "Au ski, je perdrais pas contre toi...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you don’t skate with precision,\\nyou won’t get far in this Gym.\\n",
+                .text = "Si tu patines pas avec précision,\\ntu n’iras pas loin dans cette Arène.\\n",
             },
         },
     },
 
     [481] = {
-        .name = "Jill",
+        .name = "Calipso",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SKIER,
@@ -24099,21 +24099,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Check out my parallel turn!\\r",
+                .text = "Regarde mon virage parallèle !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No!\\nYou made me wipe out!\\n",
+                .text = "Non !\\nTu m’as fait tomber !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I shouldn’t have been bragging about my\\nskiing...\\n",
+                .text = "J’aurais pas dû me vanter de mon\\nski...\\n",
             },
         },
     },
 
     [482] = {
-        .name = "Deandre",
+        .name = "Esteban",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BOARDER,
@@ -24154,21 +24154,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey hey, are you shivering?\\nAre you scared to fight me?\\r",
+                .text = "Hé hé, tu trembles ?\\nT’as peur de m’affronter ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re so strong, it’s scary!\\n",
+                .text = "Tu es tellement fort que ça fait peur !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The strongest don’t usually look\\nvery strong. I think you fit\\fthat description.\\n",
+                .text = "Les plus forts n’ont pas toujours l’air\\nforts. Je crois que ça te décrit\\f plutôt bien.\\n",
             },
         },
     },
 
     [483] = {
-        .name = "Patton",
+        .name = "Elliot",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BOARDER,
@@ -24209,21 +24209,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "This Gym has a slippery floor.\\nIt’s fun, isn’t it?\\rBut hey--we’re not playing games here!\\r",
+                .text = "Le sol de cette Arène est glissant.\\nC’est fun, non ?\\rMais hé-on n’est pas là pour jouer !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Do you see how serious we are?\\n",
+                .text = "Tu vois à quel point on est sérieux ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "This Gym is great.\\nI love snowboarding with my Pokémon!\\n",
+                .text = "Cette Arène est géniale.\\nJ’adore faire du snowboard avec mes Pokémon !\\n",
             },
         },
     },
 
     [484] = {
-        .name = "Gerardo",
+        .name = "Kylian",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BOARDER,
@@ -24268,21 +24268,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I know Pryce’s secret.\\r",
+                .text = "Je connais le secret de Frédo.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "OK. I’ll tell you Pryce’s secret.\\n",
+                .text = "OK. Je vais te dire le secret de Frédo.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The reason Pryce is strong...\\rIt’s because every day he sits on top\\nof very cold ice and trains his body\\fand spirit!\\n",
+                .text = "La raison pour laquelle Frédo est fort...\\rC’est parce qu’il s’assoit chaque jour\\nsur de la glace très froide pour entraîner\\fson corps et son esprit !\\n",
             },
         },
     },
 
     [485] = {
-        .name = "Archer",
+        .name = "Amos",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_ARCHER,
@@ -24343,21 +24343,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "We can’t have you getting in the way\\nbefore news of our resurgence\\freaches Giovanni!\\n",
+                .text = "On ne peut pas te laisser gêner avant que\\nla nouvelle de notre retour\\fatteigne Giovanni !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "That’s impossible...\\n",
+                .text = "C’est impossible...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "No!\\nForgive me, Giovanni!\\n",
+                .text = "Non !\\nPardonne-moi, Giovanni !\\n",
             },
         },
     },
 
     [486] = {
-        .name = "Proton",
+        .name = "Lance",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_EXECUTIVE_PROTON,
@@ -24412,21 +24412,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "It doesn’t matter where we go, there’s\\nalways someone who doesn’t agree\\fwith us...\\n",
+                .text = "Peu importe où on va, il y a toujours\\nquelqu’un qui n’est pas d’accord\\favec nous...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Are you serious? Did you come here\\nthinking you could mess with our plans?\\n",
+                .text = "Sérieusement ? Tu es venu ici en pensant\\npouvoir contrarier nos plans ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Grr...\\nFor a kid to be this good...\\fI didn’t see it coming.\\n",
+                .text = "Grr...\\nPour un gamin être aussi bon...\\fJe ne l’avais pas vu venir.\\n",
             },
         },
     },
 
     [487] = {
-        .name = "Petrel",
+        .name = "Lambda",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_PETREL,
@@ -24487,21 +24487,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "What? Am I losing?\\n",
+                .text = "Quoi ? Je suis en train de perdre ?\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Hey, wait, are you serious?!\\n",
+                .text = "Hé, attends, t’es sérieux ?!\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "OK, OK. I’ll tell you where he is.\\n",
+                .text = "OK, OK. Je vais te dire où il est.\\n",
             },
         },
     },
 
     [488] = {
-        .name = "Petrel",
+        .name = "Lambda",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_EXECUTIVE_PETREL,
@@ -24535,15 +24535,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Hey, you’re good!\\n",
+                .text = "Hé, tu es doué !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Wow, strong!\\n",
+                .text = "Wow, costaud !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I...I couldn’t do a thing...\\nGiovanni, please forgive me...\\n",
+                .text = "Je... Je n’ai rien pu faire...\\nGiovanni, pardonne-moi...\\n",
             },
         },
     },
@@ -24622,19 +24622,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Why?!\\nI’ve still got one left!\\n",
+                .text = "Pourquoi ?!\\nIl m’en reste encore un !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Do you think you’ve won already?\\n",
+                .text = "Tu crois déjà avoir gagné ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...\\rOK. I lost...\\n",
+                .text = "...\\rOK. J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...\\rWhew...\\nWith my partners,\\fI’m going to be the Champion!\\n",
+                .text = "...\\rOuf...\\nAvec mes partenaires,\\fje deviendrai le Champion !\\n",
             },
         },
     },
@@ -24713,19 +24713,19 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Why?!\\nI’ve still got one left!\\n",
+                .text = "Pourquoi ?!\\nIl m’en reste encore un !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Do you think you’ve won already?\\n",
+                .text = "Tu crois déjà avoir gagné ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...\\rOK. I lost...\\n",
+                .text = "...\\rOK. J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...\\rWhew...\\nWith my partners,\\fI’m going to be the Champion!\\n",
+                .text = "...\\rOuf...\\nAvec mes partenaires,\\fje deviendrai le Champion !\\n",
             },
         },
     },
@@ -24804,25 +24804,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Why?!\\nI’ve still got one left!\\n",
+                .text = "Pourquoi ?!\\nIl m’en reste encore un !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Do you think you’ve won already?\\n",
+                .text = "Tu crois déjà avoir gagné ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...\\rOK. I lost...\\n",
+                .text = "...\\rOK. J’ai perdu...\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...\\rWhew...\\nWith my partners,\\fI’m going to be the Champion!\\n",
+                .text = "...\\rOuf...\\nAvec mes partenaires,\\fje deviendrai le Champion !\\n",
             },
         },
     },
 
     [492] = {
-        .name = "Alex",
+        .name = "Adelin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -24856,21 +24856,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Bow down before my regal Pokémon!\\r",
+                .text = "Incline-toi devant mes Pokémon royaux !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "How... How dare you mock royalty!\\n",
+                .text = "Comment... Comment oses-tu te moquer\\nde la royauté !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Doesn’t everyone wish to be\\na ruler someday?\\n",
+                .text = "Tout le monde rêve d’être un jour\\nun souverain, non ?\\n",
             },
         },
     },
 
     [493] = {
-        .name = "Edith",
+        .name = "Serena",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -24904,21 +24904,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I spent the spring with my Pokémon.\\nThen summer, autumn, and winter...\\rThen spring came again. We have\\nlived together for a long time.\\r",
+                .text = "J’ai passé le printemps avec mes Pokémon.\\nPuis l’été, l’automne et l’hiver...\\rPuis le printemps est revenu. On vit\\nensemble depuis longtemps.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wins and losses--I experienced both.\\n",
+                .text = "Victoires et défaites-j’ai tout vécu.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Where did Pokémon come from?\\n",
+                .text = "D’où viennent les Pokémon ?\\n",
             },
         },
     },
 
     [494] = {
-        .name = "Georgina",
+        .name = "Marilou",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_MEDIUM,
@@ -24966,21 +24966,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Can you inflict any damage on\\nour Pokémon?\\r",
+                .text = "Penses-tu pouvoir blesser\\nnos Pokémon ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ah! Well done!\\n",
+                .text = "Ah ! Bien joué !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We use only Ghost-type Pokémon.\\rNo Normal-type attack can harm them!\\n",
+                .text = "On utilise seulement des Pokémon Spectre.\\rAucune attaque Normal ne peut les toucher !\\n",
             },
         },
     },
 
     [495] = {
-        .name = "Boy",
+        .name = "Garçon",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PASSERBY,
@@ -25000,21 +25000,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "...Humph!\\nYou’re doing OK for someone weak.\\n",
+                .text = "...Pff !\\nTu t’en sors pas mal pour un faible.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\nAre you happy you won?\\n",
+                .text = "...Pff !\\nT’es content d’avoir gagné ?\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\nThat was a waste of time.\\n",
+                .text = "...Pff !\\nQuel gaspillage de temps.\\n",
             },
         },
     },
 
     [496] = {
-        .name = "Boy",
+        .name = "Garçon",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PASSERBY,
@@ -25034,21 +25034,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "...Humph!\\nYou’re doing OK for someone weak.\\n",
+                .text = "...Pff !\\nTu t’en sors pas mal pour un faible.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\nAre you happy you won?\\n",
+                .text = "...Pff !\\nT’es content d’avoir gagné ?\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\nThat was a waste of time.\\n",
+                .text = "...Pff !\\nQuel gaspillage de temps.\\n",
             },
         },
     },
 
     [497] = {
-        .name = "Boy",
+        .name = "Garçon",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PASSERBY,
@@ -25068,15 +25068,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "...Humph!\\nYou’re doing OK for someone weak.\\n",
+                .text = "...Pff !\\nTu t’en sors pas mal pour un faible.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...Humph!\\nAre you happy you won?\\n",
+                .text = "...Pff !\\nT’es content d’avoir gagné ?\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "...Humph!\\nThat was a waste of time.\\n",
+                .text = "...Pff !\\nQuel gaspillage de temps.\\n",
             },
         },
     },
@@ -25143,17 +25143,17 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I hate to admit it, but you win.\\n",
+                .text = "J’aime pas l’admettre, mais tu gagnes.\\n",
             },
             {
                 .type = TRMSG_WIN,
-                .text = "All right!\\nSUICUNE, were you watching us?\\n",
+                .text = "Très bien !\\nSUICUNE, tu nous regardais ?\\n",
             },
         },
     },
 
     [499] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -25188,7 +25188,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [500] = {
-        .name = "Kobe",
+        .name = "Tilio",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -25225,21 +25225,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You! How dare you enter uninvited!\\r",
+                .text = "Toi ! Comment oses-tu entrer sans invitation !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "S-strong!\\n",
+                .text = "T-trop fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The Shrine ahead is home to the Master\\nof our Dragon Tamer clan.\\rYou’re not allowed to just go in!\\n",
+                .text = "Le Sanctuaire plus loin abrite le Maître\\nde notre clan de Dresseurs de Dragons.\\rTu n’as pas le droit d’y entrer comme ça !\\n",
             },
         },
     },
 
     [501] = {
-        .name = "Piper",
+        .name = "Enola",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -25284,21 +25284,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You shouldn’t be in here!\\r",
+                .text = "Tu ne devrais pas être ici !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh yikes, I lost!\\n",
+                .text = "Oh mince, j’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Soon I’m going to get permission from\\nour Master to use dragons.\\rWhen I do, I’m going to become an\\nadmirable Dragon Tamer and gain our\\fMaster’s approval.\\n",
+                .text = "Bientôt, j’aurai la permission de notre\\nMaître d’utiliser des dragons.\\rQuand ce sera fait, je deviendrai un\\nDresseur de Dragons admirable et j’obtiendrai\\fson approbation.\\n",
             },
         },
     },
 
     [502] = {
-        .name = "Clea & Gil",
+        .name = "Line & Lana",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -25343,41 +25343,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "It’s a stranger--someone we\\ndon’t know.\\r",
+                .text = "Un étranger-quelqu’un qu’on\\nne connaît pas.\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Ouchies.\\n",
+                .text = "Aïe aïe.\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "It was like having to battle Lance.\\n",
+                .text = "C’était comme affronter Peter.\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "We fight as a team. Come back later with\\nmore Pokémon.\\n",
+                .text = "On se bat en équipe. Reviens plus tard avec\\nplus de Pokémon.\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Who are you?\\r",
+                .text = "Qui es-tu ?\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Meanie.\\n",
+                .text = "Méchant.\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "We’ll tell on you.\\rMaster will be angry with you.\\n",
+                .text = "On va te dénoncer.\\rLe Maître sera fâché contre toi.\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "You don’t have enough Pokémon.\\nCome back when you have more.\\n",
+                .text = "Tu n’as pas assez de Pokémon.\\nReviens quand tu en auras plus.\\n",
             },
         },
     },
 
     [503] = {
-        .name = "Jack",
+        .name = "Timéo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -25414,13 +25414,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Huh?\\n",
+                .text = "Hein ?\\n",
             },
         },
     },
 
     [504] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -25457,7 +25457,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [505] = {
-        .name = "Alan",
+        .name = "Aimé",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -25524,13 +25524,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Huh?\\nI thought my prediction was correct...\\n",
+                .text = "Hein ?\\nJe pensais que ma prédiction était correcte...\\n",
             },
         },
     },
 
     [506] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -25575,7 +25575,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [507] = {
-        .name = "Chad",
+        .name = "Mathys",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -25642,13 +25642,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t study enough, I guess.\\n",
+                .text = "Je n’ai pas assez étudié, on dirait.\\n",
             },
         },
     },
 
     [508] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -25677,7 +25677,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [509] = {
-        .name = "Huey",
+        .name = "Logan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -25706,13 +25706,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Urf!\\nI lose!\\n",
+                .text = "Urf !\\nJ’ai perdu !\\n",
             },
         },
     },
 
     [510] = {
-        .name = "Joey",
+        .name = "Farouk",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -25779,13 +25779,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "No...\\nI’m out of Pokémon that can fight.\\n",
+                .text = "Non...\\nJe n’ai plus de Pokémon en état de se battre.\\n",
             },
         },
     },
 
     [511] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -25806,7 +25806,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [512] = {
-        .name = "Wade",
+        .name = "Francis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -25879,7 +25879,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [513] = {
-        .name = "Arnie",
+        .name = "Henri",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -25946,13 +25946,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. So that’s how you battle.\\n",
+                .text = "Je vois. C’est donc comme ça que tu combats.\\n",
             },
         },
     },
 
     [514] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -25973,7 +25973,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [515] = {
-        .name = "Ralph",
+        .name = "Auffray",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -26040,13 +26040,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Tch! I tried to rush things...\\n",
+                .text = "Tch ! J’ai voulu aller trop vite...\\n",
             },
         },
     },
 
     [516] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -26075,7 +26075,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [517] = {
-        .name = "Tully",
+        .name = "Conan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -26142,13 +26142,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "What? That’s not right.\\n",
+                .text = "Quoi ? Ce n’est pas normal.\\n",
             },
         },
     },
 
     [518] = {
-        .name = "Liz",
+        .name = "Elisabeth",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -26215,13 +26215,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Pfft.\\nBefore I could get serious, I lost!\\n",
+                .text = "Pff.\\nAvant même de pouvoir me donner à fond, j’ai perdu !\\n",
             },
         },
     },
 
     [519] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -26258,7 +26258,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [520] = {
-        .name = "Gina",
+        .name = "Albertine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -26325,13 +26325,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no! I just can’t win...\\n",
+                .text = "Oh non ! Je n’arrive vraiment pas à gagner...\\n",
             },
         },
     },
 
     [521] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -26368,7 +26368,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [522] = {
-        .name = "Tiffany",
+        .name = "Flavie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -26435,13 +26435,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I played too much!\\n",
+                .text = "J’ai trop joué !\\n",
             },
         },
     },
 
     [523] = {
-        .name = "Anthony",
+        .name = "Olwen",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -26508,13 +26508,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa!\\nYou’ve got more zip than me!\\n",
+                .text = "Whoa !\\nTu as plus de peps que moi !\\n",
             },
         },
     },
 
     [524] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -26551,7 +26551,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [525] = {
-        .name = "Todd",
+        .name = "Matthias",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -26618,13 +26618,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Maybe I didn’t train enough?\\n",
+                .text = "Peut-être que je ne me suis pas assez entraîné ?\\n",
             },
         },
     },
 
     [526] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -26669,7 +26669,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [527] = {
-        .name = "Irwin",
+        .name = "Anthony",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_JUGGLER,
@@ -26736,13 +26736,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew! That was a jolt!\\n",
+                .text = "Ouf ! Quel choc !\\n",
             },
         },
     },
 
     [528] = {
-        .name = "Dana",
+        .name = "Rekka",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LASS,
@@ -26809,13 +26809,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. So that’s how you battle.\\n",
+                .text = "Je vois. C’est donc comme ça que tu combats.\\n",
             },
         },
     },
 
     [529] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_LASS,
@@ -26844,7 +26844,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [530] = {
-        .name = "Brent",
+        .name = "Wilfrid",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -26911,13 +26911,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, my poor Pokémon! Darlings!\\n",
+                .text = "Oh, mes pauvres Pokémon ! Mes chéris !\\n",
             },
         },
     },
 
     [531] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -26946,7 +26946,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [532] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -26991,7 +26991,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [533] = {
-        .name = "Wayne",
+        .name = "Léopold",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -27018,7 +27018,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [534] = {
-        .name = "Kimberly",
+        .name = "Valentine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -27038,7 +27038,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [535] = {
-        .name = "Marigold",
+        .name = "Charlotte",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN,
@@ -27058,7 +27058,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [536] = {
-        .name = "Bertrand",
+        .name = "Gaspard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -27092,7 +27092,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [537] = {
-        .name = "Harrison",
+        .name = "Augustin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKE_MANIAC,
@@ -27119,21 +27119,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m not losing this time!\\r",
+                .text = "Cette fois, je ne perds pas !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost to some kid?\\n",
+                .text = "J’ai perdu contre un gamin ?\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "A while back, this karate guy wanted\\nto battle. He was ridiculously good.\\rHe just thrashed me silly.\\rHe said something about training and\\nwent in deeper. I wonder why?\\n",
+                .text = "Il y a quelque temps, un karatéka a voulu\\nse battre. Il était incroyablement fort.\\rIl m’a complètement écrasé.\\rIl a dit quelque chose à propos d’entraînement\\net est allé plus loin dans la grotte.\\nPourquoi donc ?\\n",
             },
         },
     },
 
     [538] = {
-        .name = "Hugh",
+        .name = "Guillaume",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -27162,21 +27162,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Yo! Markus!\\r",
+                .text = "Yo ! Markus !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oops!\\nI really mixed you up!\\n",
+                .text = "Oups !\\nJe t’ai vraiment confondu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I came to explore Mt. Mortar, but I got\\nseparated from my partner...\\rDid you run into a Trainer who uses a\\nSLOWPOKE? That SLOWPOKE is really good\\fat using Strength.\\n",
+                .text = "Je suis venu explorer le Mont Mortar,\\nmais j’ai été séparé de mon partenaire...\\rAs-tu croisé un Dresseur qui utilise un\\nRAMOLOSS ? Ce RAMOLOSS est vraiment\\fdoué pour utiliser Force.\\n",
             },
         },
     },
 
     [539] = {
-        .name = "Markus",
+        .name = "Gauvain",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -27213,21 +27213,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey! Hugh!\\r",
+                .text = "Hé ! Hugh !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I mistook you for someone else...\\n",
+                .text = "Je t’ai confondu avec quelqu’un d’autre...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I came to explore Mt. Mortar, but I got\\nseparated from my partner...\\rDid you run into a Trainer who uses a\\nSEADRA? That SEADRA is really good at\\fusing Waterfall.\\n",
+                .text = "Je suis venu explorer le Mont Mortar,\\nmais j’ai été séparé de mon partenaire...\\rAs-tu croisé un Dresseur qui utilise un\\nSEADRA ? Ce SEADRA est vraiment doué\\npour utiliser Cascade.\\n",
             },
         },
     },
 
     [540] = {
-        .name = "Rex",
+        .name = "Victor",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -27247,21 +27247,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My PHANPY is the cutest in the world.\\r",
+                .text = "Mon PHANPY est le plus mignon du monde.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My PHANPY!\\n",
+                .text = "Mon PHANPY !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Take a look at this--this PHANPY’s\\nabsolutely adorable behavior!\\rIsn’t it wonderfully cute?\\nI just wanna squeeze it!\\n",
+                .text = "Regarde ça, ce PHANPY a un comportement\\nabsolument adorable !\\rN’est-il pas trop mignon ?\\nJ’ai juste envie de le serrer fort !\\n",
             },
         },
     },
 
     [541] = {
-        .name = "Andy",
+        .name = "Martin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -27281,21 +27281,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My TEDDIURSA is the cutest in\\nthe world.\\r",
+                .text = "Mon TEDDIURSA est le plus mignon\\ndu monde.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My TEDDIURSA!\\n",
+                .text = "Mon TEDDIURSA !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Take a look at this--this TEDDIURSA’s\\nabsolutely adorable behavior!\\rIsn’t it wonderfully cute?\\nI just wanna squeeze it!\\n",
+                .text = "Regarde ça-ce TEDDIURSA a un comportement\\nabsolument adorable !\\rN’est-il pas trop mignon ?\\nJ’ai juste envie de le serrer fort !\\n",
             },
         },
     },
 
     [542] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -27324,7 +27324,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [543] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -27353,7 +27353,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [544] = {
-        .name = "Mickey",
+        .name = "Danny",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SAGE,
@@ -27382,7 +27382,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [545] = {
-        .name = "French",
+        .name = "Jovan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -27413,21 +27413,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You!\\nI’ve been waiting for someone like you!\\r",
+                .text = "Toi !\\nJe t’attendais, quelqu’un comme toi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yep, just as strong as expected!\\n",
+                .text = "Oui, aussi fort que prévu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "That was a great fight!\\nDon’t you agree?\\n",
+                .text = "C’était un super combat !\\nTu ne trouves pas ?\\n",
             },
         },
     },
 
     [546] = {
-        .name = "Sherman",
+        .name = "Noah",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -27456,21 +27456,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Right after learning it in class, I head\\noutside to practice!\\r",
+                .text = "Dès que j’apprends quelque chose en cours,\\nje sors m’entraîner !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I need to follow the textbook.\\n",
+                .text = "Je dois suivre le manuel.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I should be sure to record all of\\ntoday’s mistakes in a notebook!\\n",
+                .text = "Je devrais noter toutes mes erreurs\\nd’aujourd’hui dans un carnet !\\n",
             },
         },
     },
 
     [547] = {
-        .name = "Bruce",
+        .name = "Hugo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -27533,7 +27533,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My Bag is digging into my shoulders!\\nWhen that happens, I like to take a\\fbreak and have a battle!\\r",
+                .text = "Mon Sac me scie les épaules !\\nQuand ça arrive, j’aime faire une\\fpetite pause en combattant !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -27541,13 +27541,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All right, guess I should carry my\\nBag again!\\n",
+                .text = "Bon, je suppose que je devrais\\nreprendre mon Sac !\\n",
             },
         },
     },
 
     [548] = {
-        .name = "Manford",
+        .name = "Timo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -27590,21 +27590,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "How about you just slow down\\nand give me the chance to defeat you!\\r",
+                .text = "Et si tu ralentissais un peu pour\\nme laisser une chance de te battre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like I’ve been beaten at my\\nown game...\\n",
+                .text = "On dirait que j’ai perdu à mon\\npropre jeu...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Even though you’re so young, you\\nhave the spirit of battle within.\\rYou must have trained under a\\nwell-known master!\\n",
+                .text = "Même si tu es si jeune, tu as\\nl’esprit du combat.\\rTu as dû t’entraîner auprès d’un\\nmaître renommé !\\n",
             },
         },
     },
 
     [549] = {
-        .name = "Zac & Jen",
+        .name = "Marc & Sofie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_DOUBLE_TEAM,
@@ -27657,41 +27657,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Zac: Really, you want to battle us?\\nYou’ve got a lot of courage for someone\\fso young.\\r",
+                .text = "Marc : Tu veux vraiment nous affronter ?\\nTu as beaucoup de courage pour\\fquelqu’un de si jeune.\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Zac: You weren’t bluffing...\\n",
+                .text = "Marc : Tu ne bluffais pas...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Zac: Your future looks promising.\\n",
+                .text = "Marc : Ton avenir est prometteur.\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Zac: You... Please come back with\\nmore Pokémon.\\n",
+                .text = "Marc : Toi... Reviens avec plus\\nde Pokémon.\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Jen: Huh? You’d like to go up against\\nus? Great!\\r",
+                .text = "Sofie : Hein ? Tu veux te mesurer\\nà nous ? Super !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Jen: You’re so much stronger than\\nI thought.\\n",
+                .text = "Sofie : Tu es bien plus fort que\\nje ne le pensais.\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Jen: I’m looking forward to seeing what\\nkind of Trainer you’ll become.\\n",
+                .text = "Sofie : J’ai hâte de voir quel genre\\nde Dresseur tu deviendras.\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Jen: If you’re looking to battle us,\\nyou have to have at least two Pokémon.\\n",
+                .text = "Sofie : Si tu veux nous affronter,\\nil te faut au moins deux Pokémon.\\n",
             },
         },
     },
 
     [550] = {
-        .name = "Ander",
+        .name = "Théo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -27744,21 +27744,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Wait a moment! Come fight us!\\r",
+                .text = "Attends une seconde ! Viens te battre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You did it...\\n",
+                .text = "Tu l’as fait...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You came all the way from Johto?\\nYou must be very persistent!\\n",
+                .text = "Tu viens de si loin, depuis Johto ?\\nTu dois être vraiment persévérant !\\n",
             },
         },
     },
 
     [551] = {
-        .name = "Dwight",
+        .name = "Luca",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -27811,21 +27811,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Peace!\\r...\\n...Huh?\\rWhen you meet the unknown on a\\nmountain road, all you want is peace,\\fright?\\r",
+                .text = "Paix !\\r...\\n...Hein ?\\rQuand tu rencontres l’inconnu sur un\\nchemin de montagne, tout ce que tu veux,\\fc’est la paix, non ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Peace--even though I lost!\\n",
+                .text = "La paix, même si j’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Exchanging lighthearted greetings with\\nsomeone you don’t know...\\rThat’s the best thing about mountains!\\n",
+                .text = "Échanger des salutations légères avec\\nquelqu’un que tu ne connais pas...\\rC’est ça, la magie des montagnes !\\n",
             },
         },
     },
 
     [552] = {
-        .name = "Regis",
+        .name = "Luc",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_YOUNGSTER,
@@ -27878,21 +27878,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Youngster? Goodness, how rude!\\nCall me Shorts Boy!\\r",
+                .text = "Gamin ? Quelle impolitesse !\\nAppelle-moi le Garçon en Short !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "That is...Fail Boy...\\n",
+                .text = "Ça, c’est... le Garçon qui Perd...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Looks like I need a bit more training!\\n",
+                .text = "On dirait que j’ai encore\\nbesoin d’entraînement !\\n",
             },
         },
     },
 
     [553] = {
-        .name = "Moe & Lulu",
+        .name = "Fred&Buffy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_YOUNG_COUPLE,
@@ -27945,41 +27945,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Moe: Do I look weak?\\nDon’t make me laugh!\\fWhen I’m with Lulu, I’ve got a hundred\\ftimes more courage!\\r",
+                .text = "Fred : J’ai l’air faible ?\\nNe me fais pas rire !\\fQuand je suis avec Buffy, j’ai cent fois\\nplus de courage !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Moe: Uwaaaahhh...\\n",
+                .text = "Fred : Uwaaaahhh...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Moe: In short, you’re just\\ntoo strong...\\n",
+                .text = "Fred : En bref, tu es juste\\ntrop fort...\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Moe: You don’t have enough Pokémon to\\nfight with us.\\n",
+                .text = "Fred : Tu n’as pas assez de Pokémon pour\\nte battre avec nous.\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Lulu: Moe and I make a great pair! You\\nshould prepare yourself!\\r",
+                .text = "Buffy : Moe et moi, on fait une super\\néquipe ! Prépare-toi !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Lulu: Eeek!\\n",
+                .text = "Buffy : Eeek !\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Lulu: Don’t you misunderstand this!\\nIt’s not that Moe’s weak, it’s that\\fyou’re too strong!\\n",
+                .text = "Buffy : Ne te méprends pas !\\nCe n’est pas que Fred est faible, c’est\\fque tu es trop fort !\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Lulu: Uh-oh, you’ve got only one\\nPokémon. You can’t battle with us\\flike that!\\n",
+                .text = "Buffy : Oh-oh, tu n’as qu’un seul\\nPokémon. Tu ne peux pas te battre\\navec nous comme ça !\\n",
             },
         },
     },
 
     [554] = {
-        .name = "Milton",
+        .name = "Ernest",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -28012,21 +28012,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I am but a Gentleman stopped on the\\nroad. Would you care to join me in a\\fquick contest?\\r",
+                .text = "Je ne suis qu’un Gentleman arrêté sur la\\nroute. Souhaiterais-tu te joindre à moi\\fpour une petite joute ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You were very skillful.\\n",
+                .text = "Tu as été très habile.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Stopping in the road for a battle isn’t\\nrude. No matter what, I am a\\fGentleman first!\\n",
+                .text = "S’arrêter sur la route pour un combat,\\nce n’est pas impoli. Quoi qu’il arrive,\\nje reste un Gentleman avant tout !\\n",
             },
         },
     },
 
     [555] = {
-        .name = "Justin",
+        .name = "Théophile",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -28053,21 +28053,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Huh? The wind has changed direction!\\r",
+                .text = "Hein ? Le vent a changé de direction !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Phew...\\n",
+                .text = "Pfiou...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Since the wind has changed,\\nI’ll lay low...\\n",
+                .text = "Puisque le vent a tourné,\\nje vais me faire discret...\\n",
             },
         },
     },
 
     [556] = {
-        .name = "Gail",
+        .name = "Guy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -28102,13 +28102,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Chuun-Chuun? Chunchun!\\n",
+                .text = "Chuun-Chuun ? Chunchun !\\n",
             },
         },
     },
 
     [557] = {
-        .name = "Vic & Tara",
+        .name = "Rio&Kimber",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_YOUNG_COUPLE,
@@ -28137,41 +28137,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Vic: All right! I’ll be able to show off\\nfor Tara!\\r",
+                .text = "Vic : Super ! Je vais pouvoir impressionner\\nTara !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Vic: Oh no, my plans!\\n",
+                .text = "Vic : Oh non, mes plans !\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Vic: Tara’s already seen\\nme humiliated...\\n",
+                .text = "Vic : Tara m’a déjà vu\\nme faire humilier...\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Vic: What is it? You want to battle?\\nIf you want to battle with us, you need\\fmore Pokémon, right?\\n",
+                .text = "Vic : Quoi ? Tu veux te battre ?\\nSi tu veux te battre avec nous, il te faut\\fplus de Pokémon, non ?\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Tara: I love to look at my boyfriend’s\\nface in profile while he’s battling!\\r",
+                .text = "Tara : J’adore regarder le profil de mon\\npetit ami pendant qu’il se bat !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Tara: Oh no, oh no...\\n",
+                .text = "Tara : Oh non, oh non...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Tara: Even though my boyfriend lost,\\nhe’s still wonderful.\\n",
+                .text = "Tara : Même s’il a perdu,\\nmon petit ami reste merveilleux.\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Tara: Oh? You’ve got only one Pokémon?\\nOK, we’ll try again another time.\\n",
+                .text = "Tara : Oh ? Tu n’as qu’un Pokémon ?\\nD’accord, on réessaiera une autre fois.\\n",
             },
         },
     },
 
     [558] = {
-        .name = "Kyler",
+        .name = "Zachary",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -28205,25 +28205,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Pokémon battles lure people in!\\r",
+                .text = "Les combats Pokémon attirent les gens !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My Pokémon bucket is empty!\\n",
+                .text = "Mon seau à Pokémon est vide !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Really? Rather than always catching new\\nPokémon, it’s good to train them?\\n\\n",
+                .text = "Vraiment ? Plutôt que de toujours capturer\\nde nouveaux Pokémon, il vaut mieux les\\nentraîner ?\\n\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "It was nice talking to you, but now I’m\\nhere for a Pokémon battle!\\r",
+                .text = "C’était sympa de discuter, mais maintenant\\nje suis là pour un combat Pokémon !\\r",
             },
         },
     },
 
     [559] = {
-        .name = "Tim & Sue",
+        .name = "André&Tina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNG_COUPLE,
@@ -28250,49 +28250,49 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Tim: I’ll give you a little hint.\\rDon’t you think my girlfriend’s much\\nstronger than I am?\\r",
+                .text = "Tim : Je vais te donner un petit indice.\\rTu ne trouves pas que ma copine est bien\\nplus forte que moi ?\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tim: You’re the strongest!\\n",
+                .text = "Tim : Tu es le plus fort !\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Tim: If you’ve beaten her, you must\\nbe strong!\\n",
+                .text = "Tim : Si tu l’as battue, tu dois\\nêtre vraiment fort !\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Tim: Are you collecting Pokémon? You\\ncan’t fight us with just one Pokémon.\\n",
+                .text = "Tim : Tu collectionnes les Pokémon ? Tu\\nne peux pas te battre avec nous avec un seul.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_DBL_INTRO_1,
-                .text = "Tim: Hey, you came back! \\nWhile we were waiting for you, we became\\fmuch stronger!\\rWell, she did.\\r",
+                .text = "Tim : Hé, tu es revenu !\\nPendant qu’on t’attendait, on est devenus\\fbeaucoup plus forts !\\rEnfin... elle surtout.\\r",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Sue: Women who don’t take love\\nseriously and who are reckless might\\fget hurt.\\r",
+                .text = "Sue : Les femmes qui ne prennent pas\\nl’amour au sérieux et qui sont imprudentes\\fpeuvent se blesser.\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Sue: Wa ha...\\n",
+                .text = "Sue : Wa ha...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Sue: That strength of yours...\\rI’ve got it! Are you in love?\\n",
+                .text = "Sue : Cette force que tu as...\\rJe sais ! Tu es amoureux, non ?\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Sue: Let’s have a Pokémon battle after\\nyou’ve gotten more than one Pokémon.\\n",
+                .text = "Sue : On se battra quand tu auras plus\\nd’un Pokémon.\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_DBL_INTRO_2,
-                .text = "Sue: A woman in love is impatient.\\rBut if she’s with her boyfriend,\\nwaiting is never a chore!\\r",
+                .text = "Sue : Une femme amoureuse est impatiente.\\rMais si elle est avec son petit ami,\\nattendre n’est jamais un problème !\\r",
             },
         },
     },
 
     [560] = {
-        .name = "Clark",
+        .name = "Gustave",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -28312,7 +28312,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Collect water!\\nDon’t let the fire go out!\\fLook out for wild Pokémon!\\fLet’s go, Campfire!\\r",
+                .text = "Rassemble de l’eau !\\nNe laisse pas le feu s’éteindre !\\fAttention aux Pokémon sauvages !\\fAllez, Feu de Camp !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -28320,13 +28320,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It doesn’t matter what kind of\\npreparation you’ve done.\\fIf you lose, you lose.\\n",
+                .text = "Peu importe la préparation que tu as faite.\\fSi tu perds, tu perds.\\n",
             },
         },
     },
 
     [561] = {
-        .name = "Tanner",
+        .name = "Xavier",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -28346,25 +28346,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can fit in a quick battle while I’m in\\nthe midst of preparing a meal!\\r",
+                .text = "Je peux caser un petit combat pendant que\\nje prépare le repas !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, I’m hungry...\\n",
+                .text = "Oh, j’ai faim...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I figured it would be easy to knock\\nyou out...\\n",
+                .text = "Je pensais que ce serait facile de\\nte mettre K.O...\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey, you’re back! I haven’t eaten\\nanything while I waited!\\r",
+                .text = "Hé, te revoilà ! Je n’ai rien mangé\\nen t’attendant !\\r",
             },
         },
     },
 
     [562] = {
-        .name = "Piper",
+        .name = "Chloé",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -28384,21 +28384,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, hey, how about we bring out your\\nPokémon and mine for a battle?\\r",
+                .text = "Hé, hé, si on sortait ton Pokémon et le mien\\npour un combat ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, that’s too bad...\\n",
+                .text = "Oh, dommage...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The way you were walking with your\\nPokémon made me think that I could win.\\n",
+                .text = "La façon dont tu marchais avec ton\\nPokémon m’a fait croire que je pouvais gagner.\\n",
             },
         },
     },
 
     [563] = {
-        .name = "Ginger",
+        .name = "Berta",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -28418,21 +28418,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Why is it I always get the urge to\\nwhistle when walking through nature?\\r",
+                .text = "Pourquoi est-ce que j’ai toujours envie\\nde siffler quand je marche dans la nature ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Tweeee!\\n",
+                .text = "Tweeee !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Instead of communicating with Pokémon\\nwith words, you can communicate with\\fthem through whistling!\\n",
+                .text = "Au lieu de communiquer avec les Pokémon\\navec des mots, tu peux communiquer avec\\feux en sifflant !\\n",
             },
         },
     },
 
     [564] = {
-        .name = "Clarice",
+        .name = "Euphrasie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_TEACHER,
@@ -28463,21 +28463,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "All right, let’s get this Pokémon\\nbattle started!\\r",
+                .text = "Très bien, lançons ce combat Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "All right!\\nThat concludes today’s battle.\\n",
+                .text = "Très bien !\\nLe combat du jour est terminé.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Don’t relax just ’cause you won.\\nOnce you get home, you should do a\\ffull review!\\n",
+                .text = "Ne te relâche pas juste parce que tu as gagné.\\nUne fois rentré, tu devrais faire une\\frevue complète !\\n",
             },
         },
     },
 
     [565] = {
-        .name = "Josh",
+        .name = "William",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -28497,25 +28497,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "My weight puts me in the\\nfeatherweight class!\\r...Huh? What do you mean that\\ndoesn’t sound very strong?\\r",
+                .text = "Mon poids me classe en catégorie\\nplume !\\r...Hein ? Comment ça, ça ne sonne pas\\ntrès fort ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost as lightly as a feather floats!\\n",
+                .text = "J’ai perdu aussi légèrement\\nqu’une plume qui tombe !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Maybe I should lie and say I’m in the\\nheavyweight class...\\n",
+                .text = "Peut-être que je devrais mentir et dire que\\nje suis en catégorie lourde...\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’m a stubborn featherweight.\\nI’ve been waiting here for you!\\r",
+                .text = "Je suis un poids plume têtu.\\nJe t’attendais !\\r",
             },
         },
     },
 
     [566] = {
-        .name = "Connor",
+        .name = "Julien",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -28537,21 +28537,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I can’t wait to go home and drop off\\nmy Bag!\\r",
+                .text = "J’ai hâte de rentrer chez moi et de poser\\nmon Sac !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was in too much of a hurry.\\n",
+                .text = "J’étais bien trop pressé.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Don’t rush, and take the road one step\\nat a time. Great advice!\\n",
+                .text = "Ne te précipite pas, avance pas à pas.\\nExcellente philosophie !\\n",
             },
         },
     },
 
     [567] = {
-        .name = "Torin",
+        .name = "Justin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -28578,25 +28578,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "It’s good to put what you learn to\\nuse immediately!\\r",
+                .text = "C’est bien de mettre en pratique ce que\\ntu apprends tout de suite !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I see. I see.\\n",
+                .text = "Je vois. Je vois.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All right!\\nNext time, I won’t make any mistakes!\\n",
+                .text = "Très bien !\\nLa prochaine fois, je ne ferai aucune erreur !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "I’ve made good use of the time I’ve\\nbeen waiting and done a review!\\r",
+                .text = "J’ai bien utilisé le temps où j’attendais\\npour réviser !\\r",
             },
         },
     },
 
     [568] = {
-        .name = "Travis",
+        .name = "Claudius",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -28617,21 +28617,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Do you have after-school\\nstudy sessions?\\r",
+                .text = "Tu fais des sessions d’étude\\naprès l’école ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "So strong...\\n",
+                .text = "Si fort...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Maybe I should join your\\nstudy sessions!\\n",
+                .text = "Je devrais peut-être rejoindre\\nvos sessions d’étude !\\n",
             },
         },
     },
 
     [569] = {
-        .name = "Kay & Tia",
+        .name = "Nini & Nana",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -28660,49 +28660,49 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "We’re the twins Kay and Tia!\\nDo you know which one I am?\\r",
+                .text = "Nous sommes les jumelles Kay et Tia !\\nTu sais laquelle je suis ?\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tia and Kay both lost...\\n",
+                .text = "Tia et Kay ont toutes les deux perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Absolute truth--I’m Kay! Maybe...\\n",
+                .text = "Vérité absolue-je suis Kay ! Peut-être...\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "If you want to battle with us,\\nyou’ll need to bring more Pokémon!\\n",
+                .text = "Si tu veux te battre avec nous,\\nil faudra amener plus de Pokémon !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_DBL_INTRO_1,
-                .text = "While you weren’t looking, Kay and Tia\\nchanged places.\\r",
+                .text = "Pendant que tu ne regardais pas, Kay et Tia\\nont échangé leur place.\\r",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "We’re the twins Kay and Tia!\\nDo you know which one I am?\\r",
+                .text = "Nous sommes les jumelles Kay et Tia !\\nTu sais laquelle je suis ?\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Kay and Tia both lost...\\n",
+                .text = "Kay et Tia ont toutes les deux perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Maybe truth--I’m Tia! Absolutely!\\n",
+                .text = "Peut-être vérité-je suis Tia ! Absolument !\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "If you want to battle with us,\\nyou’ll need to bring more Pokémon!\\n",
+                .text = "Si tu veux te battre avec nous,\\nil faudra amener plus de Pokémon !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_DBL_INTRO_2,
-                .text = "While you weren’t looking, Tia and Kay\\nchanged places.\\r",
+                .text = "Pendant que tu ne regardais pas, Tia et Kay\\nont échangé leur place.\\r",
             },
         },
     },
 
     [570] = {
-        .name = "Boone",
+        .name = "Iban",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -28729,21 +28729,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, your Pokémon...\\nShow me. Show me. Show me!\\r",
+                .text = "Hé, ton Pokémon...\\nMontre-le-moi. Montre-le-moi !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yay! That was great!\\n",
+                .text = "Youpi ! C’était génial !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "When you battle Pokémon, you get to\\nsee a bunch of Pokémon you’ve never\\fseen before. It’s so great!\\n",
+                .text = "Quand tu combats des Pokémon, tu peux\\nvoir plein de Pokémon que tu n’avais\\fjamais vus avant. C’est trop bien !\\n",
             },
         },
     },
 
     [571] = {
-        .name = "Eleanor",
+        .name = "Clémence",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN,
@@ -28770,21 +28770,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "All right, Pokémon, time for a battle!\\r",
+                .text = "Allez, Pokémon, c’est l’heure du combat !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, well...\\n",
+                .text = "Bon, eh bien...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s not that my Pokémon are weak!\\nIt’s that your Pokémon are too strong!\\n",
+                .text = "Ce n’est pas que mes Pokémon sont faibles !\\nC’est que les tiens sont trop forts !\\n",
             },
         },
     },
 
     [572] = {
-        .name = "Dale",
+        .name = "Alfonso",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -28805,21 +28805,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "You’re gonna lose!\\nI’ve got a hunch!\\r",
+                .text = "Tu vas perdre !\\nJ’ai un pressentiment !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Maybe my hunch was a little off...\\n",
+                .text = "Mon pressentiment était peut-être un peu faux...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You’re so cool!\\nYou don’t do anything halfway!\\n",
+                .text = "Tu es trop classe !\\nTu ne fais jamais les choses à moitié !\\n",
             },
         },
     },
 
     [573] = {
-        .name = "Jacob",
+        .name = "Richie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -28846,21 +28846,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Modding my Bike costs a bunch of money!\\nI need a job!\\r",
+                .text = "Modifier mon Vélo coûte une fortune !\\nIl me faut un boulot !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Argh. I failed!\\n",
+                .text = "Argh. J’ai raté !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Bike?\\nOh, I was talking about my Bicycle!\\n",
+                .text = "Vélo ?\\nOh, je parlais de ma Bicyclette !\\n",
             },
         },
     },
 
     [574] = {
-        .name = "Aiden",
+        .name = "Nathan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -28880,25 +28880,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, who told you you could ride up\\nand down this road?\\r",
+                .text = "Hé, qui t’a dit que tu pouvais rouler\\nsur cette route ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Crash!\\n",
+                .text = "Crash !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "See you later! Come back anytime!\\n",
+                .text = "À plus tard ! Reviens quand tu veux !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Hey! Do you think you could just pass\\nthrough here without stopping?\\r",
+                .text = "Hé ! Tu crois que tu peux juste passer\\npar ici sans t’arrêter ?\\r",
             },
         },
     },
 
     [575] = {
-        .name = "Dan",
+        .name = "Balthazar",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -28932,7 +28932,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Parara parapara para-parara!\\rMy horn’s got a great melody to it,\\ndon’t you think?\\r",
+                .text = "Parara parapara para-parara !\\rMon klaxon a une super mélodie,\\ntu ne trouves pas ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -28940,13 +28940,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I love this melancholy melody.\\nIt really suits me well...\\n",
+                .text = "J’adore cette mélodie mélancolique.\\nElle me va si bien...\\n",
             },
         },
     },
 
     [576] = {
-        .name = "Theron",
+        .name = "Samson",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -28966,21 +28966,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ll toughen you up.\\nNow, you come along with me.\\r",
+                .text = "Je vais t’endurcir.\\nAllez, viens avec moi.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "All right, thanks!\\n",
+                .text = "Très bien, merci !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All right! That fighting yell was great!\\n",
+                .text = "Super ! Ce cri de combat était génial !\\n",
             },
         },
     },
 
     [577] = {
-        .name = "Markey",
+        .name = "Raynaldo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -29000,21 +29000,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey hey hey!\\nYou’re in my way! IN MY WAY!\\r",
+                .text = "Hé hé hé !\\nTu es sur mon chemin ! SUR MON CHEMIN !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost. I lost!\\n",
+                .text = "J’ai perdu. J’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Won’t you give it a try? Would you like\\nto join my team?\\n",
+                .text = "Tu veux essayer ? Tu voudrais rejoindre\\nmon équipe ?\\n",
             },
         },
     },
 
     [578] = {
-        .name = "Teddy",
+        .name = "Cornélius",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -29034,21 +29034,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, that’s a cool Bike\\nyou’re riding!\\r",
+                .text = "Hé, il est cool ton Vélo !\\nTu roules bien !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Great job.\\n",
+                .text = "Beau travail.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I love the way you do battle, too!\\nConsider me a fan!\\n",
+                .text = "J’adore ta façon de te battre aussi !\\nConsidère-moi comme un fan !\\n",
             },
         },
     },
 
     [579] = {
-        .name = "Ernest",
+        .name = "Samuel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -29075,25 +29075,25 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Vroom vroom!\\nBaribaribaribaribari!\\fWhat do you think of my engine imitation?\\r",
+                .text = "Vroom vroom !\\nBaribaribaribaribari !\\fAlors, tu penses quoi de mon imitation\\nde moteur ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Hnnff...hnnff... I’m out of breath...\\n",
+                .text = "Hnnff... hnnff... Je n’ai plus de souffle...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We don’t put out any exhaust fumes.\\nWe’re a biker club that’s kind\\fto nature!\\n",
+                .text = "On ne rejette aucune fumée.\\nOn est un club de bikers qui respecte\\fla nature !\\n",
             },
             {
                 .type = TRMSG_PHONE_REMATCH_INTRO,
-                .text = "Gaon gaooon!\\nBuwaribaribaribari...!\\fThere, my engine imitation has evolved!\\r",
+                .text = "Gaon gaooon !\\nBuwaribaribaribari...!\\fVoilà, mon imitation de moteur a évolué !\\r",
             },
         },
     },
 
     [580] = {
-        .name = "Pedro",
+        .name = "Osric",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -29115,21 +29115,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Have you ever gone camping\\nwith Pokémon?\\r",
+                .text = "Tu as déjà fait du camping\\navec des Pokémon ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re strong!\\n",
+                .text = "Tu es fort !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If you forget your blanket when you go\\ncamping, you can snuggle up to a\\fPokémon and it’ll be just as warm!\\n",
+                .text = "Si tu oublies ta couverture en camping,\\ntu peux te blottir contre un\\fPokémon, c’est tout aussi chaud !\\n",
             },
         },
     },
 
     [581] = {
-        .name = "Adrian",
+        .name = "Maëlis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -29149,21 +29149,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Are you in a hurry?\\nHow about a quick battle break?\\r",
+                .text = "Tu es pressé ?\\nEt si on faisait une petite pause combat ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aaahh...that’s it.\\n",
+                .text = "Aaahh... voilà.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Even though I lost, I had fun!\\n",
+                .text = "Même si j’ai perdu, je me suis bien amusé !\\n",
             },
         },
     },
 
     [582] = {
-        .name = "Cheyenne",
+        .name = "Miranda",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -29183,21 +29183,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "When I was a kid, I only played inside\\nthe house.\\rNow I love playing outside with Pokémon!\\r",
+                .text = "Quand j’étais enfant, je jouais seulement\\ndans la maison.\\rMaintenant j’adore jouer dehors avec des Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Argh!\\n",
+                .text = "Argh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If I’m with Pokémon, I don’t mind losing\\nso much!\\n",
+                .text = "Quand je suis avec des Pokémon, perdre\\nne me dérange pas tant que ça !\\n",
             },
         },
     },
 
     [583] = {
-        .name = "Bert",
+        .name = "Francisco",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -29224,21 +29224,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Found it! A Trainer that I can\\nenjoy fighting!\\r",
+                .text = "Trouvé ! Un Dresseur avec qui je peux\\nvraiment m’amuser à combattre !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost with all my strength!\\n",
+                .text = "J’ai perdu en donnant toute ma force !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "That was an incredible battle!\\nI’ve got goose bumps!\\n",
+                .text = "C’était un combat incroyable !\\nJ’en ai des frissons !\\n",
             },
         },
     },
 
     [584] = {
-        .name = "Ernie",
+        .name = "Bernardo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -29258,21 +29258,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, hey. Will you battle me?\\r",
+                .text = "Hé, hé. Tu veux te battre avec moi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "That was pretty incredible.\\n",
+                .text = "C’était vraiment incroyable.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You’re something special!\\n",
+                .text = "Tu es vraiment spécial !\\n",
             },
         },
     },
 
     [585] = {
-        .name = "Elmo",
+        .name = "Enzo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -29299,7 +29299,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I used to be a fisherman a while back.\\rI’ve grown to love swimming so much,\\nI’m always in my swim trunks!\\r",
+                .text = "J’étais pêcheur autrefois.\\rJ’aime tellement nager maintenant\\nque je suis toujours en maillot !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -29307,13 +29307,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Maybe I should go back to fishing...\\n",
+                .text = "Je devrais peut-être retourner à la pêche...\\n",
             },
         },
     },
 
     [586] = {
-        .name = "Luis",
+        .name = "Lenaig",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -29340,21 +29340,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Phew!\\nI’ve worn my best swim trunks today!\\r",
+                .text = "Pfiou !\\nJ’ai mis mon meilleur maillot aujourd’hui !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Even if you’re wearing your best pants,\\nif you don’t win--you just don’t win.\\n",
+                .text = "Même avec ton meilleur short,\\nsi tu ne gagnes pas-tu ne gagnes pas.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All right! Next time I’ll wear party\\nswim trunks!\\n",
+                .text = "Très bien ! La prochaine fois, je mettrai\\nmon maillot de fête !\\n",
             },
         },
     },
 
     [587] = {
-        .name = "Leona",
+        .name = "Nicky",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -29374,21 +29374,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Look! It’s my very best swimsuit\\nand my very best Pokémon!\\r",
+                .text = "Regarde ! Mon meilleur maillot\\net mon meilleur Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ohhh!\\n",
+                .text = "Ohhh !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Your Pokémon--are you following the\\nlatest trend in teams?\\n",
+                .text = "Tes Pokémon-tu suis les dernières\\ntendances d’équipe ?\\n",
             },
         },
     },
 
     [588] = {
-        .name = "Mina",
+        .name = "Paola",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -29422,21 +29422,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Mmph? Mmmph mmmmphh?\\nMmmmph mmmmmppphh!!!\\r",
+                .text = "Mmph ? Mmmph mmmmphh ?\\nMmmmph mmmmmppphh !!!\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Pwah!\\n",
+                .text = "Pwah !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I was trying to see how long I could\\nhold my breath!\\n",
+                .text = "J’essayais de voir combien de temps\\nje pouvais retenir ma respiration !\\n",
             },
         },
     },
 
     [589] = {
-        .name = "Murphy",
+        .name = "Aziz",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -29477,21 +29477,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Huh? I’ve caught a Trainer\\ninstead of a Pokémon!\\r",
+                .text = "Hein ? J’ai attrapé un Dresseur\\nau lieu d’un Pokémon !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My fishing line got cut!\\n",
+                .text = "Ma ligne s’est rompue !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It’s said that the Pokémon that\\nescaped were huge. It’s the truth!\\n",
+                .text = "On dit que les Pokémon qui se sont\\nenfuis étaient énormes. C’est vrai !\\n",
             },
         },
     },
 
     [590] = {
-        .name = "Liam",
+        .name = "Albérich",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -29511,21 +29511,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Whoa! A nibble!\\r...Huh?\\nA battle? OK, let’s go!\\r",
+                .text = "Whoa ! Ça mord !\\r...Hein ?\\nUn combat ? OK, allons-y !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "If you try to chase two Pokémon,\\nyou won’t catch either one!\\n",
+                .text = "Si tu poursuis deux Pokémon à la fois,\\ntu n’en attraperas aucun !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I should’ve asked you to wait until\\nI reeled that Pokémon in...\\n",
+                .text = "J’aurais dû te demander d’attendre\\nque je remonte ce Pokémon...\\n",
             },
         },
     },
 
     [591] = {
-        .name = "Gideon",
+        .name = "Benvolio",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -29554,21 +29554,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Question is...did I become a fisherman\\nbecause I’m patient, or did I get more\\fpatient because I’m a fisherman?\\r",
+                .text = "La question est... suis-je devenu pêcheur\\nparce que je suis patient, ou suis-je devenu\\fpatient parce que je suis pêcheur ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ummm... Hmmm...\\n",
+                .text = "Euhmm... Hmmm...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "What’s the reason you became a\\nPokémon Trainer?\\n",
+                .text = "Pourquoi es-tu devenu Dresseur\\nPokémon, toi ?\\n",
             },
         },
     },
 
     [592] = {
-        .name = "Chelan",
+        .name = "Soizic",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -29589,7 +29589,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I love bikinis!\\nIf I had an electric bikini, I could wear\\fit even in winter!\\r",
+                .text = "J’adore les bikinis !\\nSi j’avais un bikini électrique, je pourrais le\\fporter même en hiver !\\r",
             },
             {
                 .type = TRMSG_LOSE,
@@ -29597,13 +29597,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I suppose if you tried to swim in an\\nelectric bikini, you’d get a shock!\\n",
+                .text = "Je suppose que si tu essayais de nager\\navec un bikini électrique, tu te ferais électrocuter !\\n",
             },
         },
     },
 
     [593] = {
-        .name = "Kendra",
+        .name = "Rozen",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -29623,21 +29623,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, Trainer! How about you put on a\\nswimsuit, too?\\r",
+                .text = "Hé, Dresseur ! Et si tu mettais un maillot,\\ntoi aussi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t want to lose...\\n",
+                .text = "Je ne voulais pas perdre...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I wonder if there’s any place that sells\\nswimsuits that suit my Pokémon?\\n",
+                .text = "Je me demande s’il existe un endroit qui\\nvend des maillots assortis à mes Pokémon ?\\n",
             },
         },
     },
 
     [594] = {
-        .name = "Esteban",
+        .name = "Trévor",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -29664,21 +29664,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "The teacher from the swimming class\\nwhere I learned to swim had a face just\\flike a POLIWHIRL.\\r",
+                .text = "Le prof du cours de natation où j’ai appris\\nà nager avait un visage exactement comme\\ncelui d’un TETARTE.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I’m sorry, Teacher...\\n",
+                .text = "Désolé, Professeur...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Due to the incredible resemblance,\\nwe called our teacher\\fProfessor POLIWHIRL!\\n",
+                .text = "À cause de la ressemblance incroyable,\\non l’appelait\\fProfesseur TETARTE !\\n",
             },
         },
     },
 
     [595] = {
-        .name = "Duane",
+        .name = "Tanguy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SWIMMER_M,
@@ -29705,21 +29705,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Swimming is a full-body exercise, so it’s\\nreally good for building strength!\\r",
+                .text = "La natation fait travailler tout le corps,\\nc’est excellent pour se renforcer !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My Pokémon and I have no\\nbody strength...\\n",
+                .text = "Mon Pokémon et moi n’avons\\naucune force physique...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "To win more, I need to work on\\nmy stamina!\\n",
+                .text = "Pour gagner plus, je dois travailler\\nmon endurance !\\n",
             },
         },
     },
 
     [596] = {
-        .name = "Kinsley",
+        .name = "Amin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -29753,21 +29753,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Surrounding yourself with bird Pokémon\\ngives you the feeling that someday you\\fmight be able to fly, too!\\r",
+                .text = "S’entourer de Pokémon Oiseaux donne\\nl’impression qu’un jour, toi aussi, tu pourras\\fte mettre à voler !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I couldn’t fly...\\n",
+                .text = "Je n’ai pas pu voler...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "I guess I just need to practice flapping\\nmy wings more!\\n",
+                .text = "Je suppose que je dois juste m’entraîner\\nà battre des ailes davantage !\\n",
             },
         },
     },
 
     [597] = {
-        .name = "Easton",
+        .name = "Billal",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -29808,21 +29808,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Bird Keepers are so wonderful with\\ntheir bird Pokémon!\\r",
+                .text = "Les Éleveurs d’Oiseaux sont formidables\\navec leurs Pokémon Oiseaux !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I couldn’t handle it...\\n",
+                .text = "Je n’ai pas tenu le coup...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "We Bird Keepers think we’re using bird\\nPokémon. But somewhere along the line,\\fthe bird Pokémon started using us...\\n\\n",
+                .text = "Nous, les Éleveurs d’Oiseaux, on croit\\nutiliser les Pokémon Oiseaux. Mais quelque part,\\fce sont eux qui ont commencé à nous utiliser...\\n\\n",
             },
         },
     },
 
     [598] = {
-        .name = "Day & Dani",
+        .name = "Alema&Aya",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -29875,41 +29875,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Day: Are you going to beat us?\\r",
+                .text = "Alema : Tu vas nous battre ?\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Day: Waah!\\n",
+                .text = "Alema : Waaah !\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Day: You beat us...\\n",
+                .text = "Alema : Tu nous as battus...\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Day: If you want to battle Pokémon\\nwith us, you’ll have to bring more...\\n",
+                .text = "Alema : Si tu veux combattre des Pokémon\\navec nous, il faudra en amener plus...\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Dani: We’ll knock you flat!\\r",
+                .text = "Aya : On va t’écraser !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Dani: Eeeeh!\\n",
+                .text = "Aya : Eeeeh !\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Dani: Looks like we got bounced.\\n",
+                .text = "Aya : On s’est fait renvoyer...\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Dani: If you want to battle Pokémon\\nwith us, you’ll have to bring more...\\n",
+                .text = "Aya : Si tu veux combattre des Pokémon\\navec nous, il faudra en amener plus...\\n",
             },
         },
     },
 
     [599] = {
-        .name = "Virgil",
+        .name = "Majid",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -29952,21 +29952,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Walking along with luggage and your\\ncompanion Pokémon gives a great feeling\\fof outdoor life!\\r",
+                .text = "Marcher avec ses bagages et son\\nPokémon compagnon donne une vraie\\nsensation de vie au grand air !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Yaha! I lost!\\n",
+                .text = "Yaha ! J’ai perdu !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Are you also on a solo journey?\\nSee you again sometime. Bye for now!\\n",
+                .text = "Toi aussi, tu voyages en solo ?\\nOn se reverra peut-être. À bientôt !\\n",
             },
         },
     },
 
     [600] = {
-        .name = "Selina",
+        .name = "Zora",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_PICNICKER,
@@ -30009,21 +30009,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m headed out on a picnic. Do you\\nknow why?\\r",
+                .text = "Je pars en pique-nique. Tu sais\\npourquoi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You are pretty good!\\n",
+                .text = "Tu es vraiment doué !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "The reason I’m going on a picnic...\\rIt’s because I really want to smell\\nthe fresh air...\\rDo you know what I mean?\\n",
+                .text = "La raison pour laquelle je pars en\\npique-nique...\\rC’est parce que j’ai envie de sentir\\nl’air frais...\\rTu vois ce que je veux dire ?\\n",
             },
         },
     },
 
     [601] = {
-        .name = "Grunt",
+        .name = "Sbire",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEAM_ROCKET,
@@ -30043,13 +30043,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like I lost...\\n",
+                .text = "On dirait que j’ai perdu...\\n",
             },
         },
     },
 
     [602] = {
-        .name = "Jose",
+        .name = "Brett",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -30083,7 +30083,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Tweet!\\n",
+                .text = "Cui-cui !\\n",
             },
         },
     },
@@ -30162,13 +30162,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, bleah!\\n",
+                .text = "Oh, beurk !\\n",
             },
         },
     },
 
     [604] = {
-        .name = "Gaven",
+        .name = "Sean",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -30205,13 +30205,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Gah! Life is even tougher!\\n",
+                .text = "Gah ! La vie est encore plus dure !\\n",
             },
         },
     },
 
     [605] = {
-        .name = "Kenji",
+        .name = "Jacky",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BLACK_BELT,
@@ -30284,13 +30284,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Waaaargh!\\n",
+                .text = "Waaaargh !\\n",
             },
         },
     },
 
     [606] = {
-        .name = "Parry",
+        .name = "Noa",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -30363,13 +30363,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Wahahah! I’m the big loser!\\n",
+                .text = "Wahahah ! Je suis le grand perdant !\\n",
             },
         },
     },
 
     [607] = {
-        .name = "Reena",
+        .name = "Audrey",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -30406,13 +30406,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh! You’re much too strong!\\n",
+                .text = "Oh ! Tu es bien trop fort !\\n",
             },
         },
     },
 
     [608] = {
-        .name = "Wilton",
+        .name = "Renan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -30479,13 +30479,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Just forget about it.\\n",
+                .text = "Oublie ça.\\n",
             },
         },
     },
 
     [609] = {
-        .name = "Jamie",
+        .name = "Carina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -30514,13 +30514,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Pokémon aren’t tools of war.\\n",
+                .text = "Les Pokémon ne sont pas des outils de guerre.\\n",
             },
         },
     },
 
     [610] = {
-        .name = "Derek",
+        .name = "Djamil",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_POKEFAN_M,
@@ -30587,13 +30587,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I couldn’t show off...\\n",
+                .text = "Je n’ai pas pu frimer...\\n",
             },
         },
     },
 
     [611] = {
-        .name = "Beverly",
+        .name = "Jade",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_POKEFAN,
@@ -30613,13 +30613,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I can beat you in pride, but...\\n",
+                .text = "Je peux te battre en fierté, mais...\\n",
             },
         },
     },
 
     [612] = {
-        .name = "Vance",
+        .name = "Alban",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -30686,13 +30686,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whew! You’re hot stuff.\\n",
+                .text = "Ouf ! T’es du solide.\\n",
             },
         },
     },
 
     [613] = {
-        .name = "Krise",
+        .name = "Jezebel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_LASS,
@@ -30725,7 +30725,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [614] = {
-        .name = "Krise",
+        .name = "Jezebel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_LASS,
@@ -30758,7 +30758,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [615] = {
-        .name = "Krise",
+        .name = "Jezebel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_LASS,
@@ -30818,7 +30818,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "No! There are better Trainers...\\n",
+                .text = "Non ! Il y a de meilleurs Dresseurs...\\n",
             },
         },
     },
@@ -30851,7 +30851,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "No! There are better Trainers...\\n",
+                .text = "Non ! Il y a de meilleurs Dresseurs...\\n",
             },
         },
     },
@@ -30924,13 +30924,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "No! There are better Trainers...\\n",
+                .text = "Non ! Il y a de meilleurs Dresseurs...\\n",
             },
         },
     },
 
     [619] = {
-        .name = "Walt",
+        .name = "Bimbo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -30971,13 +30971,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ow!\\nI scorched the tip of my nose!\\n",
+                .text = "Aïe !\\nJe me suis brûlé le bout du nez !\\n",
             },
         },
     },
 
     [620] = {
-        .name = "Walt",
+        .name = "Bimbo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -31018,13 +31018,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ow!\\nI scorched the tip of my nose!\\n",
+                .text = "Aïe !\\nJe me suis brûlé le bout du nez !\\n",
             },
         },
     },
 
     [621] = {
-        .name = "Walt",
+        .name = "Bimbo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_FIREBREATHER,
@@ -31091,13 +31091,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ow!\\nI scorched the tip of my nose!\\n",
+                .text = "Aïe !\\nJe me suis brûlé le bout du nez !\\n",
             },
         },
     },
 
     [622] = {
-        .name = "Doug",
+        .name = "Constantin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -31140,13 +31140,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Arrgh! This is NOT my day!\\n",
+                .text = "Arrgh ! Ce n’est vraiment pas mon jour !\\n",
             },
         },
     },
 
     [623] = {
-        .name = "Doug",
+        .name = "Constantin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -31199,13 +31199,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Arrgh! This is NOT my day!\\n",
+                .text = "Arrgh ! Ce n’est vraiment pas mon jour !\\n",
             },
         },
     },
 
     [624] = {
-        .name = "Doug",
+        .name = "Constantin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -31274,17 +31274,17 @@ const TrainerData sTrainerData[] = {
 				.shinyLock = 0,
                 .ballSeal = 0,
             },
-		},
+        },
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Arrgh! This is NOT my day!\\n",
+                .text = "Arrgh ! Ce n’est vraiment pas mon jour !\\n",
             },
         },
     },
 
     [625] = {
-        .name = "Rob",
+        .name = "Aymeric",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -31327,13 +31327,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost again!\\n",
+                .text = "J’ai encore perdu !\\n",
             },
         },
     },
 
     [626] = {
-        .name = "Rob",
+        .name = "Aymeric",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -31386,13 +31386,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost again!\\n",
+                .text = "J’ai encore perdu !\\n",
             },
         },
     },
 
     [627] = {
-        .name = "Rob",
+        .name = "Aymeric",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -31465,13 +31465,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost again!\\n",
+                .text = "J’ai encore perdu !\\n",
             },
         },
     },
 
     [628] = {
-        .name = "Reese",
+        .name = "Bernard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31500,13 +31500,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa, you’re kickin’!\\n",
+                .text = "Whoa, tu déchires !\\n",
             },
         },
     },
 
     [629] = {
-        .name = "Reese",
+        .name = "Bernard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31535,13 +31535,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa, you’re kickin’!\\n",
+                .text = "Whoa, tu déchires !\\n",
             },
         },
     },
 
     [630] = {
-        .name = "Reese",
+        .name = "Bernard",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31570,13 +31570,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Whoa, you’re kickin’!\\n",
+                .text = "Whoa, tu déchires !\\n",
             },
         },
     },
 
     [631] = {
-        .name = "Aiden",
+        .name = "Nathan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31603,13 +31603,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Crash!\\n",
+                .text = "Crash !\\n",
             },
         },
     },
 
     [632] = {
-        .name = "Aiden",
+        .name = "Nathan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31636,13 +31636,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Crash!\\n",
+                .text = "Crash !\\n",
             },
         },
     },
 
     [633] = {
-        .name = "Aiden",
+        .name = "Nathan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31676,13 +31676,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Crash!\\n",
+                .text = "Crash !\\n",
             },
         },
     },
 
     [634] = {
-        .name = "Ernest",
+        .name = "Samuel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31709,13 +31709,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Hffff...hffff... I’m out of breath...\\n",
+                .text = "Hffff... hffff... Je suis à bout de souffle...\\n",
             },
         },
     },
 
     [635] = {
-        .name = "Ernest",
+        .name = "Samuel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31742,13 +31742,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Hffff...hffff... I’m out of breath...\\n",
+                .text = "Hffff... hffff... Je suis à bout de souffle...\\n",
             },
         },
     },
 
     [636] = {
-        .name = "Ernest",
+        .name = "Samuel",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIKER,
@@ -31775,13 +31775,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Hffff...hffff... I’m out of breath...\\n",
+                .text = "Hffff... hffff... Je suis à bout de souffle...\\n",
             },
         },
     },
 
     [637] = {
-        .name = "Hillary",
+        .name = "Josianne",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEACHER,
@@ -31808,13 +31808,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t want to lose...\\n",
+                .text = "Je ne voulais pas perdre...\\n",
             },
         },
     },
 
     [638] = {
-        .name = "Hillary",
+        .name = "Josianne",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEACHER,
@@ -31841,13 +31841,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t want to lose...\\n",
+                .text = "Je ne voulais pas perdre...\\n",
             },
         },
     },
 
     [639] = {
-        .name = "Hillary",
+        .name = "Josianne",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TEACHER,
@@ -31874,13 +31874,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I didn’t want to lose...\\n",
+                .text = "Je ne voulais pas perdre...\\n",
             },
         },
     },
 
     [640] = {
-        .name = "Billy",
+        .name = "Bilhal",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -31914,13 +31914,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no!\\nHow could I lose?\\n",
+                .text = "Oh, non !\\nComment ai-je pu perdre ?\\n",
             },
         },
     },
 
     [641] = {
-        .name = "Billy",
+        .name = "Bilhal",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -31954,13 +31954,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no!\\nHow could I lose?\\n",
+                .text = "Oh, non !\\nComment ai-je pu perdre ?\\n",
             },
         },
     },
 
     [642] = {
-        .name = "Billy",
+        .name = "Bilhal",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -32005,13 +32005,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, no!\\nHow could I lose?\\n",
+                .text = "Oh, non !\\nComment ai-je pu perdre ?\\n",
             },
         },
     },
 
     [643] = {
-        .name = "Kay & Tia",
+        .name = "Nini & Nana",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -32040,17 +32040,17 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tia and Kay both lost...\\n",
+                .text = "Tia et Kay ont toutes les deux perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Kay and Tia both lost...\\n",
+                .text = "Kay et Tia ont toutes les deux perdu...\\n",
             },
         },
     },
 
     [644] = {
-        .name = "Kay & Tia",
+        .name = "Nini & Nana",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -32079,17 +32079,17 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tia and Kay both lost...\\n",
+                .text = "Tia et Kay ont toutes les deux perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Kay and Tia both lost...\\n",
+                .text = "Kay et Tia ont toutes les deux perdu...\\n",
             },
         },
     },
 
     [645] = {
-        .name = "Kay & Tia",
+        .name = "Nini & Nana",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_TWINS,
@@ -32118,17 +32118,17 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tia and Kay both lost...\\n",
+                .text = "Tia et Kay ont toutes les deux perdu...\\n",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Kay and Tia both lost...\\n",
+                .text = "Kay et Tia ont toutes les deux perdu...\\n",
             },
         },
     },
 
     [646] = {
-        .name = "Josh",
+        .name = "William",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -32155,13 +32155,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost as lightly as a feather floats!\\n",
+                .text = "J’ai perdu aussi légèrement qu’une plume qui flotte !\\n",
             },
         },
     },
 
     [647] = {
-        .name = "Josh",
+        .name = "William",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -32188,13 +32188,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost as lightly as a feather floats!\\n",
+                .text = "J’ai perdu aussi légèrement qu’une plume qui flotte !\\n",
             },
         },
     },
 
     [648] = {
-        .name = "Josh",
+        .name = "William",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BIRD_KEEPER_GS,
@@ -32221,13 +32221,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost as lightly as a feather floats!\\n",
+                .text = "J’ai perdu aussi légèrement qu’une plume qui flotte !\\n",
             },
         },
     },
 
     [649] = {
-        .name = "Torin",
+        .name = "Justin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -32261,13 +32261,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, I understand...\\n",
+                .text = "Oh, je comprends...\\n",
             },
         },
     },
 
     [650] = {
-        .name = "Torin",
+        .name = "Justin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -32301,13 +32301,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, I understand...\\n",
+                .text = "Oh, je comprends...\\n",
             },
         },
     },
 
     [651] = {
-        .name = "Torin",
+        .name = "Justin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SCHOOL_KID_M,
@@ -32341,13 +32341,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, I understand...\\n",
+                .text = "Oh, je comprends...\\n",
             },
         },
     },
 
     [652] = {
-        .name = "Tim & Sue",
+        .name = "André&Tina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNG_COUPLE,
@@ -32374,17 +32374,17 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tim: You’re the strongest!\\n",
+                .text = "Tim : Tu es le plus fort !\\n",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Sue: Wa ha...\\n",
+                .text = "Sue : Wa ha...\\n",
             },
         },
     },
 
     [653] = {
-        .name = "Tim & Sue",
+        .name = "André&Tina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_YOUNG_COUPLE,
@@ -32413,17 +32413,17 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tim: You’re the strongest!\\n",
+                .text = "Tim : Tu es le plus fort !\\n",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Sue: Wa ha...\\n",
+                .text = "Sue : Wa ha...\\n",
             },
         },
     },
 
     [654] = {
-        .name = "Tim & Sue",
+        .name = "André&Tina",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_YOUNG_COUPLE,
@@ -32452,17 +32452,17 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Tim: You’re the strongest!\\n",
+                .text = "Tim : Tu es le plus fort !\\n",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Sue: Wa ha...\\n",
+                .text = "Sue : Wa ha...\\n",
             },
         },
     },
 
     [655] = {
-        .name = "Kenny",
+        .name = "Gilles",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -32503,13 +32503,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost...\\n",
+                .text = "J’ai perdu...\\n",
             },
         },
     },
 
     [656] = {
-        .name = "Kenny",
+        .name = "Gilles",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -32550,13 +32550,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost...\\n",
+                .text = "J’ai perdu...\\n",
             },
         },
     },
 
     [657] = {
-        .name = "Kenny",
+        .name = "Gilles",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -32597,13 +32597,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost...\\n",
+                .text = "J’ai perdu...\\n",
             },
         },
     },
 
     [658] = {
-        .name = "Tanner",
+        .name = "Xavier",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -32630,13 +32630,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Aw, I’m hungry...\\n",
+                .text = "Aww, j’ai faim...\\n",
             },
         },
     },
 
     [659] = {
-        .name = "Tanner",
+        .name = "Xavier",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -32670,13 +32670,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Aw, I’m hungry...\\n",
+                .text = "Aww, j’ai faim...\\n",
             },
         },
     },
 
     [660] = {
-        .name = "Tanner",
+        .name = "Xavier",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -32710,13 +32710,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Aw, I’m hungry...\\n",
+                .text = "Aww, j’ai faim...\\n",
             },
         },
     },
 
     [661] = {
-        .name = "Kyle",
+        .name = "Olive",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -32750,13 +32750,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Did you remember?!\\n",
+                .text = "Tu t’en souvenais ?!\\n",
             },
         },
     },
 
     [662] = {
-        .name = "Kyle",
+        .name = "Olive",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -32797,13 +32797,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Did you remember?!\\n",
+                .text = "Tu t’en souvenais ?!\\n",
             },
         },
     },
 
     [663] = {
-        .name = "Kyle",
+        .name = "Olive",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -32844,13 +32844,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Did you remember?!\\n",
+                .text = "Tu t’en souvenais ?!\\n",
             },
         },
     },
 
     [664] = {
-        .name = "Kyler",
+        .name = "Zachary",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -32891,13 +32891,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "My Pokémon bucket is empty!\\n",
+                .text = "Mon seau à Pokémon est vide !\\n",
             },
         },
     },
 
     [665] = {
-        .name = "Kyler",
+        .name = "Zachary",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -32945,13 +32945,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "My Pokémon bucket is empty!\\n",
+                .text = "Mon seau à Pokémon est vide !\\n",
             },
         },
     },
 
     [666] = {
-        .name = "Kyler",
+        .name = "Zachary",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FISHERMAN,
@@ -33006,13 +33006,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "My Pokémon bucket is empty!\\n",
+                .text = "Mon seau à Pokémon est vide !\\n",
             },
         },
     },
 
     [667] = {
-        .name = "Cheryl",
+        .name = "Sara",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_PKMN_TRAINER_CHERYL,
@@ -33070,7 +33070,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [668] = {
-        .name = "Marley",
+        .name = "Viviane",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_PKMN_TRAINER_MIRA,
@@ -33128,7 +33128,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [669] = {
-        .name = "Mira",
+        .name = "Maïté",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_PKMN_TRAINER_BUCK,
@@ -33186,7 +33186,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [670] = {
-        .name = "Riley",
+        .name = "Armand",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_PKMN_TRAINER_RILEY,
@@ -33244,7 +33244,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [671] = {
-        .name = "Buck",
+        .name = "Cornil",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_PKMN_TRAINER_MARLEY,
@@ -33302,7 +33302,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [672] = {
-        .name = "Alfred",
+        .name = "Louis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -33322,13 +33322,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ah! I can see you’re serious.\\n",
+                .text = "Ah ! Je vois que tu es sérieux.\\n",
             },
         },
     },
 
     [673] = {
-        .name = "Alfred",
+        .name = "Louis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -33348,13 +33348,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ah! I can see you’re serious.\\n",
+                .text = "Ah ! Je vois que tu es sérieux.\\n",
             },
         },
     },
 
     [674] = {
-        .name = "Alfred",
+        .name = "Louis",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_GENTLEMAN,
@@ -33375,13 +33375,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Ah! I can see you’re serious.\\n",
+                .text = "Ah ! Je vois que tu es sérieux.\\n",
             },
         },
     },
 
     [675] = {
-        .name = "Lance",
+        .name = "Peter",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_PKMN_TRAINER_LANCE,
@@ -33402,7 +33402,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [676] = {
-        .name = "Parker",
+        .name = "Sigfried",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -33445,21 +33445,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Glub...\\rI’m first! Come and get me!\\r",
+                .text = "Gloub...\\rJe suis le premier ! Viens m’attraper !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "This can’t be...\\n",
+                .text = "C’est pas possible...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Misty says I have gotten much better\\nin the past few years.\\rBut there are still Trainers who are\\nstronger than me.\\n",
+                .text = "Ondine dit que je me suis beaucoup\\namélioré ces dernières années.\\rMais il y a encore des Dresseurs\\nplus forts que moi.\\n",
             },
         },
     },
 
     [677] = {
-        .name = "Eddie",
+        .name = "Henri",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_SAILOR,
@@ -33512,21 +33512,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’ve been relaxing poolside, so I’ve got\\nenough strength!\\r",
+                .text = "Je me suis reposé au bord de la piscine,\\nalors j’ai plein d’énergie !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You can’t win with strength alone.\\n",
+                .text = "On ne gagne pas juste avec la force.\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Hey, let’s go for a swim!\\nSailors have to be able to swim!\\n",
+                .text = "Hé, allons nager !\\nLes marins doivent savoir nager !\\n",
             },
         },
     },
 
     [678] = {
-        .name = "Joy",
+        .name = "Samra",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_SWIMMER_F,
@@ -33569,21 +33569,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Swimming isn’t just about speed!\\nIt’s also about the beauty of grace!\\r",
+                .text = "La natation, ce n’est pas que la\\nvitesse ! C’est aussi la beauté du\\nmouvement !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost beautifully...\\n",
+                .text = "J’ai perdu avec élégance...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "It seems an intruder has appeared in\\nthis Gym...\\fI don’t like that idea...\\n",
+                .text = "On dirait qu’un intrus est apparu dans\\ncette Arène...\\fJe n’aime pas ça...\\n",
             },
         },
     },
 
     [679] = {
-        .name = "Callie",
+        .name = "Rafika",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -33612,21 +33612,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Oh, you are a cute little Trainer!\\nWhy don’t you battle me?\\r",
+                .text = "Oh, tu es un petit Dresseur adorable !\\nPourquoi ne pas te battre avec moi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "You’re good...\\n",
+                .text = "Tu es doué...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Oh, I’ve learned something. There are\\npeople like you out there who are very\\fskilled even though they’re young...\\n",
+                .text = "Oh, j’ai appris quelque chose. Il existe\\ndes gens comme toi, très talentueux\\nmême s’ils sont jeunes...\\n",
             },
         },
     },
 
     [680] = {
-        .name = "Kassandra",
+        .name = "Eulalie",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -33655,21 +33655,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey hey there, you young Trainer!\\nWon’t you battle with me?\\r",
+                .text = "Hé hé, jeune Dresseur !\\nTu veux te battre avec moi ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wow, you’re strong...\\n",
+                .text = "Wow, tu es fort...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "You...\\nI wonder what your future holds...\\n",
+                .text = "Toi...\\nJe me demande ce que l’avenir te réserve...\\n",
             },
         },
     },
 
     [681] = {
-        .name = "Arabella",
+        .name = "Etienne",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -33698,21 +33698,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Anyway, fight me and see!\\r",
+                .text = "Allez, bats-toi contre moi et tu verras !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I was deceived!\\n",
+                .text = "On m’a trompé !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Me, I should be a pretty good practice\\npartner...\\fI shouldn’t say that about myself!\\n",
+                .text = "Moi, je devrais être un bon partenaire\\nd’entraînement...\\fJe devrais pas dire ça de moi-même !\\n",
             },
         },
     },
 
     [682] = {
-        .name = "Bonita",
+        .name = "Bertrand",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_M,
@@ -33741,21 +33741,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Looking around the room like that,\\ndoesn’t it make you a little dizzy?\\r",
+                .text = "Regarder la salle comme ça,\\nça te donne pas un peu le tournis ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "All of my Pokémon...\\nAll dizzy and fainting...\\n",
+                .text = "Tous mes Pokémon...\\nTous étourdis et K.O...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Looks like you’ve still got some\\nenergy left.\\n",
+                .text = "On dirait qu’il te reste encore un peu\\nd’énergie.\\n",
             },
         },
     },
 
     [683] = {
-        .name = "Salma",
+        .name = "Tiphaine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_ACE_TRAINER_F,
@@ -33786,21 +33786,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What do you think? You’ve never seen\\nsuch a wonderful Gym before, have you?\\r",
+                .text = "Alors, qu’en penses-tu ? T’as jamais vu\\nune Arène aussi géniale, hein ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Whatever!\\n",
+                .text = "Peu importe !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "There are many kinds of Gyms\\nin the world, but I really like this one!\\n",
+                .text = "Il existe plein de types d’Arènes\\ndans le monde, mais celle-ci, je l’adore !\\n",
             },
         },
     },
 
     [684] = {
-        .name = "Elan & Ida",
+        .name = "Ralf&Kate",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_DOUBLE_TEAM,
@@ -33831,41 +33831,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Ida: I’m Ida!\\nNext to me is Elan!\\fTogether, we’re a double team!\\r",
+                .text = "Ida: Je suis Ida !\\nÀ côté de moi, c’est Élan !\\fEnsemble, on forme une super équipe duo !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Ida: Wow. You’re really something.\\n",
+                .text = "Ida: Wow. Tu es vraiment impressionnant.\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Ida: If the only thing Gym Trainers\\nhave is strength, they won’t do well.\\rBringing out your opponent’s strength\\nis also very important!\\rElan: You’re stronger than we\\nanticipated!\\n",
+                .text = "Ida: Si les Dresseurs d’Arène n’ont que\\nla force, ils iront pas loin.\\rFaire ressortir la force de l’adversaire,\\nc’est important aussi !\\rÉlan: Tu es plus fort que ce qu’on\\npensait !\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Ida: All right, let’s go!\\rI bet that’s what you were thinking!\\nBut you’ve only got one Pokémon.\\rSo we can’t battle.\\n",
+                .text = "Ida: Très bien, allons-y !\\rC’est ce que tu pensais, hein ?\\nMais tu n’as qu’un seul Pokémon.\\rDonc on peut pas se battre.\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Elan: All right, let’s get this fight\\nstarted! Come on!\\r",
+                .text = "Élan: Allez, lançons ce combat !\\nViens !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Elan: Well, this is surprising.\\n",
+                .text = "Élan: Eh bien, c’est surprenant.\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Elan: Phew...\\n",
+                .text = "Élan: Ouf...\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Elan: Huh?\\nNot enough Pokémon?\\n",
+                .text = "Élan: Hein ?\\nPas assez de Pokémon ?\\n",
             },
         },
     },
 
     [685] = {
-        .name = "Edwin",
+        .name = "Girome",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -33918,21 +33918,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "R-r-r-r-R-r-r-R-R-r-R-R-R-R--CRASH!\\r",
+                .text = "R-r-r-r-R-r-r-R-R-r-R-R-R-R--CRASH !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "BOOM!\\n",
+                .text = "BOUM !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Phew... Broken in pieces.\\n",
+                .text = "Ouf... En morceaux.\\n",
             },
         },
     },
 
     [686] = {
-        .name = "Bryce",
+        .name = "Mario",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BOARDER,
@@ -33959,21 +33959,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "What did you come all the way out here\\nfor, I wonder.\\r",
+                .text = "Qu’est-ce qui t’amène jusqu’ici,\\nje me demande.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost all the way out here...\\n",
+                .text = "J’ai perdu jusqu’ici...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Trainers are everywhere.\\n",
+                .text = "Les Dresseurs sont partout.\\n",
             },
         },
     },
 
     [687] = {
-        .name = "Shaun",
+        .name = "Milo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BOARDER,
@@ -34000,21 +34000,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Hey, hey, you’re in my way!\\nRight!\\r",
+                .text = "Hé, hé, tu es sur mon chemin !\\nAllez !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I got kicked around...\\n",
+                .text = "Je me suis fait malmener...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "All right, please pass through!\\n",
+                .text = "Très bien, tu peux passer !\\n",
             },
         },
     },
 
     [688] = {
-        .name = "Cady",
+        .name = "Régine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_SKIER,
@@ -34034,21 +34034,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "To beat the cold, try warm clothes and\\na hot drink!\\r",
+                .text = "Pour lutter contre le froid, essaie des\\nvêtements chauds et une boisson chaude !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Argh, all the way out here!\\n",
+                .text = "Argh, jusqu’ici !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "That was a hot battle!\\n",
+                .text = "C’était un combat brûlant !\\n",
             },
         },
     },
 
     [689] = {
-        .name = "Cary",
+        .name = "Walter",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -34069,13 +34069,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "How do I feel about losing?\\nIt hurts!\\n",
+                .text = "Comment je me sens après avoir perdu ?\\nÇa fait mal !\\n",
             },
         },
     },
 
     [690] = {
-        .name = "Waldo",
+        .name = "Yann",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -34096,13 +34096,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I’m not done measuring data!\\n",
+                .text = "Je n’ai pas fini de mesurer mes données !\\n",
             },
         },
     },
 
     [691] = {
-        .name = "Merle",
+        .name = "Imram",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SUPER_NERD,
@@ -34123,13 +34123,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "I-I didn’t win.\\n",
+                .text = "J-je n’ai pas gagné.\\n",
             },
         },
     },
 
     [692] = {
-        .name = "Lowell",
+        .name = "Omar",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCIENTIST_GS,
@@ -34150,13 +34150,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "It’s pure white in my head!\\n",
+                .text = "C’est tout blanc dans ma tête !\\n",
             },
         },
     },
 
     [693] = {
-        .name = "Linden",
+        .name = "Dimitri",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCIENTIST_GS,
@@ -34177,13 +34177,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Argh... I can’t do any more...\\n",
+                .text = "Argh... Je ne peux plus continuer...\\n",
             },
         },
     },
 
     [694] = {
-        .name = "Daniel",
+        .name = "Sammy",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_SCIENTIST_GS,
@@ -34204,13 +34204,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Argh!\\n",
+                .text = "Argh !\\n",
             },
         },
     },
 
     [695] = {
-        .name = "Dane",
+        .name = "Joan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -34237,21 +34237,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Welcome to Viridian Forest.\\nEnjoy my Bug-type Pokémon!\\r",
+                .text = "Bienvenue dans la Forêt de Jade.\\nProfite de mes Pokémon Insecte !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "That’s wonderful...\\n",
+                .text = "C’est merveilleux...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Pretty impressive!\\rI’m sure you can go anywhere with\\nthat skill!\\n",
+                .text = "Très impressionnant !\\rJe suis sûr que tu peux aller n’importe où\\navec un tel talent !\\n",
             },
         },
     },
 
     [696] = {
-        .name = "Dion",
+        .name = "Calixte",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -34271,21 +34271,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Shh! Be quiet!\\nThe bug Pokémon will run away!\\r",
+                .text = "Chut ! Ne fais pas de bruit !\\nLes Pokémon Insecte vont s’enfuir !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Phew...\\n",
+                .text = "Pfiou...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "From Bug-type Pokémon come the sounds\\nof munching on grass, walking on\\fcrunchy leaves, swimming in puddles...\\rFor bug Pokémon fans, knowing how to\\ndistinguish these sounds is key!\\n",
+                .text = "Des Pokémon Insecte viennent les sons\\nde mastication d’herbe, de pas sur\\fdes feuilles sèches, de nage dans les flaques...\\rPour les fans d’Insectes, savoir distinguer\\nces sons est essentiel !\\n",
             },
         },
     },
 
     [697] = {
-        .name = "Stacey",
+        .name = "Fahd",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BUG_CATCHER,
@@ -34319,15 +34319,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Wow, that’s a HUGE Pokémon!\\r...\\n...What kind of Trainer?!\\r",
+                .text = "Wow, c’est un ÉNORME Pokémon !\\r...\\n...Quel genre de Dresseur es-tu ?!\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I couldn’t catch it!\\n",
+                .text = "Je n’ai pas pu le capturer !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Has anyone ever told you that from\\nbehind you look like a VENONAT?\\n",
+                .text = "Quelqu’un t’a déjà dit que de dos,\\ntu ressembles à un MIMITOSS ?\\n",
             },
         },
     },
@@ -34367,15 +34367,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m sure that there’s nothing more\\nefficient and beautiful in this world\\fthan a Bug-type Pokémon.\\r",
+                .text = "Je suis sûr qu’il n’existe rien de plus\\nefficace et de plus beau au monde\\fqu’un Pokémon Insecte.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost beautifully!\\n",
+                .text = "J’ai perdu avec élégance !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "If this is it, then I don’t mind losing!\\n",
+                .text = "Si c’est comme ça, alors perdre ne me dérange pas !\\n",
             },
         },
     },
@@ -34415,15 +34415,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "There are many people out there who\\nprefer solid bug Pokémon over squishy\\fbug Pokémon.\\r",
+                .text = "Beaucoup de gens préfèrent les Pokémon\\nInsecte solides plutôt que les Insectes\\fplus mous.\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Thanks for your hard work,\\nmy lovely Pokémon...\\n",
+                .text = "Merci pour vos efforts,\\nmes adorables Pokémon...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Doesn’t matter what kind of Pokémon--\\fas long as you like them, they all\\nlook cute.\\n\\n",
+                .text = "Peu importe le type de Pokémon-\\ftant que tu les aimes, ils sont tous\\nmignons.\\n\\n",
             },
         },
     },
@@ -34502,21 +34502,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "What in the world was that? Don’t tell\\nme some inexperienced kid can\\fpossibly be that strong!\\n",
+                .text = "C’était quoi ça ? Ne me dis pas\\nqu’un gamin inexpérimenté peut être\\nsi fort !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "What was that?\\n",
+                .text = "C’était quoi ça ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "What in the world are you?\\n",
+                .text = "Mais qu’est-ce que tu es ?\\n",
             },
         },
     },
 
     [701] = {
-        .name = "Lance",
+        .name = "Peter",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_CHAMPION,
@@ -34589,21 +34589,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "All right!\\nI thought this would never happen!\\n",
+                .text = "Très bien !\\nJe pensais que ça n’arriverait jamais !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "I never give up, no matter what.\\nYou must be the same?\\n",
+                .text = "Je n’abandonne jamais, quoi qu’il\\narrive. Toi aussi, non ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...It’s over.\\rBut it’s an odd feeling. I’m not angry\\nthat I lost. In fact, I feel happy.\\rHappy that I witnessed the rise\\nof a great new Champion!\\n",
+                .text = "...C’est fini.\\rMais c’est étrange. Je ne suis pas en\\ncolère d’avoir perdu. En fait, je suis\\nheureux. Heureux d’avoir vu naître\\nun grand nouveau Champion !\\n",
             },
         },
     },
 
     [702] = {
-        .name = "Will",
+        .name = "Clément",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_WILL,
@@ -34676,15 +34676,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "We Psychics don’t give up even when\\nwe’re down to the last Pokémon.\\rThat’s what makes us so formidable!\\n",
+                .text = "Nous, les Psy, on abandonne pas même\\navec un dernier Pokémon.\\rC’est ça qui nous rend redoutables !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Until we hit zero, our power is limitless.\\nI’m not giving up yet!\\n",
+                .text = "Tant qu’on n’est pas à zéro,\\nnotre pouvoir est sans limite.\\nJe n’abandonne pas encore !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I... I can’t...believe it...\\n",
+                .text = "Je... je peux pas... y croire...\\n",
             },
         },
     },
@@ -34763,7 +34763,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "One Pokémon left?\\rHa ha ha! I’ve been counting on this\\none from the very beginning!\\n",
+                .text = "Un seul Pokémon ?\\rHa ha ha ! C’est celui sur lequel\\nje comptais depuis le début !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
@@ -34771,13 +34771,13 @@ const TrainerData sTrainerData[] = {
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ah!\\nYou have proven your worth!\\n",
+                .text = "Ah !\\nTu as prouvé ta valeur !\\n",
             },
         },
     },
 
     [704] = {
-        .name = "Bruno",
+        .name = "Aldo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_BRUNO,
@@ -34850,21 +34850,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Fight as hard as you can ’til you faint!\\n",
+                .text = "Bats-toi de toutes tes forces\\njusqu’à t’évanouir !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "We’re standing firm!\\n",
+                .text = "On tient bon !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Why?!\\n...How could we lose?\\n",
+                .text = "Pourquoi ?!\\n...Comment on a pu perdre ?\\n",
             },
         },
     },
 
     [705] = {
-        .name = "Karen",
+        .name = "Marion",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_ELITE_FOUR_KAREN,
@@ -34937,21 +34937,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "This is far from being backed into\\na corner!\\n",
+                .text = "On est loin d’être acculés !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "You’re no ordinary Trainer to have\\ngotten this far.\\n",
+                .text = "Tu n’es pas un Dresseur ordinaire pour\\nêtre arrivé jusqu’ici.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Well, aren’t you good.\\nI like that in a Trainer.\\n",
+                .text = "Eh bien, tu es doué.\\nJ’aime ça chez un Dresseur.\\n",
             },
         },
     },
 
     [706] = {
-        .name = "Proton",
+        .name = "Lance",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_EXECUTIVE_PROTON,
@@ -34996,29 +34996,29 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Proton: Now, wait just one second!\\rAren’t you the one who got in\\nour way at the SLOWPOKE Well?\\rI see... You’re doing all this because\\nyou want to make me angry. Be careful!\\rBut since you seem to wish it, I’ll show\\nyou the full extent of a Team Rocket\\fExecutive’s wrath!\\r",
+                .text = "Proton : Hé, attends une seconde !\\rC’est pas toi qui t’es mis en travers\\nde notre route au Puits Ramoloss ?\\rJe vois... Tu fais tout ça juste pour\\nm’énerver. Fais attention !\\rMais puisque tu sembles le vouloir, je vais te montrer\\nl’étendue de la colère d’un Admin\\fde la Team Rocket !\\r",
             },
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Seriously, you’d chase me this far?!\\n",
+                .text = "Sérieusement, tu me poursuis jusqu’ici ?!\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Ugh... What are you?!\\n",
+                .text = "Ugh... C’est quoi, toi ?!\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Phew...\\n",
+                .text = "Pfiou...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "Proton: You may have won this time...\\nBut all you did was make Team Rocket’s\\fwrath grow...\\n",
+                .text = "Proton : Tu as gagné cette fois...\\nMais tout ce que tu as fait, c’est nourrir la\\fcolère de la Team Rocket...\\n",
             },
         },
     },
 
     [707] = {
-        .name = "Palmer",
+        .name = "Koner",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_TOWER_TYCOON,
@@ -35038,7 +35038,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [708] = {
-        .name = "Argenta",
+        .name = "Célosia",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HALL_MATRON,
@@ -35058,7 +35058,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [709] = {
-        .name = "Thorton",
+        .name = "Cardus",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_FACTORY_HEAD,
@@ -35098,7 +35098,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [711] = {
-        .name = "Darach",
+        .name = "Parsley",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CASTLE_VALET,
@@ -35118,7 +35118,7 @@ const TrainerData sTrainerData[] = {
     },
 
     [712] = {
-        .name = "Falkner",
+        .name = "Albert",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_FALKNER,
@@ -35191,21 +35191,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "The wind is finally with us!\\n",
+                .text = "Le vent est enfin avec nous !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "We can still fly!\\n",
+                .text = "On peut encore voler !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I understand...\\nI’ll bow out gracefully.\\n",
+                .text = "Je comprends...\\nJe me retire avec élégance.\\n",
             },
         },
     },
 
     [713] = {
-        .name = "Bugsy",
+        .name = "Hector",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_BUGSY,
@@ -35278,21 +35278,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Even though it’s my last Pokémon,\\nBug Pokémon are tough!\\n",
+                .text = "Même si c’est mon dernier Pokémon,\\nles Pokémon Insecte sont coriaces !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Hang in there! Just a little more!\\n",
+                .text = "Tiens bon ! Encore un petit effort !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Aw, that’s the end of it...\\n",
+                .text = "Ah, c’est la fin...\\n",
             },
         },
     },
 
     [714] = {
-        .name = "Whitney",
+        .name = "Blanche",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_WHITNEY,
@@ -35365,21 +35365,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "H-hey! Just one left?\\nBut... I ain’t losin’, you hear?\\n",
+                .text = "H-hé ! Plus qu’un seul ?\\nMais... je ne vais pas perdre,\\ntu m’entends !?\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Poor me!\\n",
+                .text = "Pauvre de moi !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Ugh...\\n",
+                .text = "Arf...\\n",
             },
         },
     },
 
     [715] = {
-        .name = "Morty",
+        .name = "Mortimer",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_MORTY,
@@ -35452,21 +35452,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "No, it’s not over yet--not yet!\\nI still believe we can do it!\\n",
+                .text = "Non, ce n’est pas fini ! Pas encore !\\nJe crois toujours que l’on peut\\ny arriver !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "We’ve got more discipline than\\nanyone else!\\n",
+                .text = "On a plus de discipline que\\nn’importe qui !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "How is this possible...\\n",
+                .text = "Comment est-ce possible...\\n",
             },
         },
     },
 
     [716] = {
-        .name = "Pryce",
+        .name = "Frédo",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_PRYCE,
@@ -35539,15 +35539,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Humph... You are quite the Trainer.\\n",
+                .text = "Pff... Tu es un sacré Dresseur.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Willow is my middle name.\\nWillow is flexible and not easily broken.\\fI’m not giving up yet.\\n",
+                .text = "Saule est mon deuxième prénom.\\nLe saule plie mais ne rompt pas.\\fJe n’abandonne pas encore.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Hmm. Seems as if my luck has run out.\\n",
+                .text = "Hmm. On dirait que ma chance\\nm’a quitté.\\n",
             },
         },
     },
@@ -35626,15 +35626,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Properly tempered steel won’t be made\\nrusty by things like this!\\n",
+                .text = "Un acier bien trempé ne rouille pas\\npour si peu !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Steel will hang on to the very last!\\n",
+                .text = "L’acier tient jusqu’au\\ntout dernier instant !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Well done...\\n",
+                .text = "Bien joué...\\n",
             },
         },
     },
@@ -35713,21 +35713,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "We haven’t lost yet!\\n",
+                .text = "On n’a pas encore perdu !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "No... Not...yet...\\n",
+                .text = "Non... Pas...encore...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "We...lost...\\n",
+                .text = "On...a perdu...\\n",
             },
         },
     },
 
     [719] = {
-        .name = "Clair",
+        .name = "Sandra",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_CLAIR,
@@ -35800,21 +35800,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "One Pokémon left?\\nThis is where the real battle begins!\\n",
+                .text = "Un seul Pokémon ? C’est maintenant\\nque le vrai combat commence !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "You’re kidding, right?\\nI’m supposed to win! I already decided!\\n",
+                .text = "Tu plaisantes, hein ? C’est moi qui\\ndois gagner ! Je l’ai déjà décidé !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I lost? ...\\rI don’t believe it.\\nThere must be some mistake...\\n",
+                .text = "J’ai perdu ? ...\\rJ’y crois pas.\\nIl doit y avoir une erreur...\\n",
             },
         },
     },
 
     [720] = {
-        .name = "Brock",
+        .name = "Pierre",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_BROCK,
@@ -35887,21 +35887,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Ah ha ha! It itches! It itches!\\n",
+                .text = "Ah ha ha ! Ça gratte ! Ça gratte !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Ow ow ow ow ow...\\n",
+                .text = "Aïe aïe aïe aïe aïe...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like you’re the stronger one...\\n",
+                .text = "On dirait que tu es le plus fort...\\n",
             },
         },
     },
 
     [721] = {
-        .name = "Misty",
+        .name = "Ondine",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_MISTY,
@@ -35974,21 +35974,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Hmm... You’re pretty good...\\n",
+                .text = "Hmm... Pas mal du tout...\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Looks like you’re not just someone who\\ngets in the way...\\n",
+                .text = "On dirait que tu n’es pas juste\\nquelqu’un qui gêne le passage...\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like this is it...\\n",
+                .text = "On dirait que c’est la fin...\\n",
             },
         },
     },
 
     [722] = {
-        .name = "Lt. Surge",
+        .name = "Major Bob",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_LT_SURGE,
@@ -36061,15 +36061,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "It’s not over yet. It’s just beginning!\\n",
+                .text = "Ce n’est pas fini. Ça ne fait que commencer !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Oh, last one! Never give up!\\n",
+                .text = "Oh, le dernier ! N’abandonne jamais !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My electric trick...\\n",
+                .text = "Mon tour électrique...\\n",
             },
         },
     },
@@ -36148,15 +36148,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Don’t go easy on me.\\nGive me everything you’ve got!\\n",
+                .text = "Ne me ménage pas.\\nDonne-moi tout ce que t’as !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Wow, that’s a bit harsh!\\n",
+                .text = "Wow, c’est un peu violent !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Looks like I underestimated you...\\n",
+                .text = "On dirait que je t’ai sous-estimé...\\n",
             },
         },
     },
@@ -36235,21 +36235,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "You’ve got a great battle technique!\\n",
+                .text = "Tu as une super technique de combat !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Not good. Seriously not good.\\n",
+                .text = "Pas bon. Vraiment pas bon.\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "...!!!\\nSo... So strong!\\n",
+                .text = "...!!!\\nSi... si fort !\\n",
             },
         },
     },
 
     [725] = {
-        .name = "Sabrina",
+        .name = "Morgane",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_SABRINA,
@@ -36322,21 +36322,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "What will happen after this?\\nI already know.\\n",
+                .text = "Que va-t-il se passer après ça ?\\nJe le sais déjà.\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Was the future I saw...wrong?\\n",
+                .text = "Le futur que j’ai vu... était faux ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I get it...\\n",
+                .text = "Je comprends...\\n",
             },
         },
     },
 
     [726] = {
-        .name = "Blaine",
+        .name = "Auguste",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_SHINY_LOCK,
             .trainerClass = TRAINERCLASS_LEADER_BLAINE,
@@ -36409,15 +36409,15 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "I’ll show you the spirit of my\\ncave Gym!\\n",
+                .text = "Je vais te montrer l’esprit de mon\\nArène souterraine !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "We can still do it!\\n",
+                .text = "On peut encore y arriver !\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "My spirit has not been defeated!\\n",
+                .text = "Mon esprit n’a pas été vaincu !\\n",
             },
         },
     },
@@ -36496,21 +36496,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LAST_POKE,
-                .text = "Heh heh heh... You’re unprepared\\nfor this. We’ll knock you down!\\n",
+                .text = "Héhéhé... Tu n’es pas prêt\\npour ça. On va te mettre à terre !\\n",
             },
             {
                 .type = TRMSG_LAST_POKE_HALF,
-                .text = "Perhaps I’m the one who was\\nunprepared?\\n",
+                .text = "Peut-être que c’est moi qui n’étais\\npas prêt ?\\n",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Just as I expected! No wonder you’ve\\nbecome the Champion...\\n",
+                .text = "Comme je m’y attendais !\\nPas étonnant que tu sois\\ndevenu Champion...\\n",
             },
         },
     },
 
     [728] = {
-        .name = "Charlotte",
+        .name = "Oriane",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_BEAUTY,
@@ -36524,19 +36524,19 @@ const TrainerData sTrainerData[] = {
                 .abilitySlot = TRAINER_POKEMON_ABILITY_1,
                 .level = 21,
                 .species = SPECIES_BELLOSSOM,
-                .ballSeal = 0,
+                .ballSeal = 1,
             },
         },
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Were you really watching?\\n",
+                .text = "Tu regardais vraiment ?\\n",
             },
         },
     },
 
     [729] = {
-        .name = "Duff & Eda",
+        .name = "Ludo&Dalia",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_YOUNG_COUPLE,
@@ -36563,41 +36563,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Duff: Watching over my girlfriend makes\\nmy heart soar!\\r",
+                .text = "Duff : Veiller sur ma petite amie fait\\nbondir mon cœur !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Duff: I was no match for you...\\n",
+                .text = "Duff : Je n’étais pas à la hauteur...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Duff: Thank you for the awe-inspiring\\nbattle! Bye!\\n",
+                .text = "Duff : Merci pour ce combat\\nimpressionnant ! Salut !\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Duff: If you want to fight with us,\\nyou’ll need more than one Pokémon.\\n",
+                .text = "Duff : Si tu veux te battre avec nous,\\nil te faudra plus d’un Pokémon.\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Eda: My heart’s feelings for my\\nboyfriend are as wide and deep as\\fthe ocean.\\r",
+                .text = "Eda : Les sentiments que j’ai pour mon\\npetit ami sont aussi vastes et profonds\\nque l’océan.\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Eda: You’re really something...\\n",
+                .text = "Eda : Tu es vraiment quelque chose...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Eda: You should really find a wonderful\\npartner, too.\\n",
+                .text = "Eda : Toi aussi, tu devrais trouver un\\npartenaire merveilleux.\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Eda: Uh-oh. You’ve only got\\none Pokémon?\\n",
+                .text = "Eda : Oh-oh. Tu n’as qu’un seul\\nPokémon ?\\n",
             },
         },
     },
 
     [730] = {
-        .name = "Thom & Kae",
+        .name = "Serge&Dom",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES,
             .trainerClass = TRAINERCLASS_DOUBLE_TEAM,
@@ -36626,41 +36626,41 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_DBL_INTRO_1,
-                .text = "Thom: One plus one is two. But the two\\nof us together is much stronger!\\r",
+                .text = "Thom : Un plus un égale deux. Mais nous\\ndeux ensemble, on est bien plus forts !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_1,
-                .text = "Thom: That wasn’t what I expected...\\n",
+                .text = "Thom : Ce n’était pas ce que j’attendais...\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_1,
-                .text = "Thom: It seems your power is impossible\\nto predict!\\n",
+                .text = "Thom : Ta puissance est vraiment\\nimprévisible !\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_1,
-                .text = "Thom: You should carry more Pokémon\\nwith you, right?\\n",
+                .text = "Thom : Tu devrais transporter plus de\\nPokémon, non ?\\n",
             },
             {
                 .type = TRMSG_DBL_INTRO_2,
-                .text = "Kae: The two of us aren’t just some\\nboring pair!\\r",
+                .text = "Kae : Nous deux, on n’est pas juste un\\npetit duo ennuyeux !\\r",
             },
             {
                 .type = TRMSG_DBL_LOSE_2,
-                .text = "Kae: You’re unusual, too!\\n",
+                .text = "Kae : Toi aussi, tu es spécial !\\n",
             },
             {
                 .type = TRMSG_DBL_AFTER_2,
-                .text = "Kae: I figured you were an ordinary\\nlone Trainer. Boy, was I wrong!\\n",
+                .text = "Kae : Je pensais que tu étais un simple\\nDresseur solitaire. Je me trompais !\\n",
             },
             {
                 .type = TRMSG_DBL_1POKE_2,
-                .text = "Kae: Didn’t you know you need at\\nleast two Pokémon to battle us?\\n",
+                .text = "Kae : Tu ne savais pas qu’il faut au\\nmoins deux Pokémon pour nous affronter ?\\n",
             },
         },
     },
 
     [731] = {
-        .name = "Devin",
+        .name = "Gabin",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_HIKER,
@@ -36694,21 +36694,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "Longing for others is...what it is...\\rBut battles are battles, so let’s go!\\r",
+                .text = "Désirer les autres, c’est... ce que c’est...\\rMais un combat reste un combat, alors allons-y !\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "Wah ha ha!\\n",
+                .text = "Wah ha ha !\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "After a battle, you should always leave\\nwith a parting laugh!\\n",
+                .text = "Après un combat, il faut toujours partir\\navec un dernier rire !\\n",
             },
         },
     },
 
     [732] = {
-        .name = "Grant",
+        .name = "Titouan",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_NOTHING,
             .trainerClass = TRAINERCLASS_CAMPER,
@@ -36735,21 +36735,21 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_INTRO,
-                .text = "I’m not good with large crowds, so\\nI’m camping out here with my Pokémon!\\fAre you the same way?\\r",
+                .text = "Je ne suis pas à l’aise dans les foules,\\nalors je campe ici avec mes Pokémon !\\fEt toi, tu es pareil ?\\r",
             },
             {
                 .type = TRMSG_LOSE,
-                .text = "I should be headed deeper into the\\nmountain, I guess...\\n",
+                .text = "Je devrais peut-être aller plus loin\\ndans la montagne...\\n",
             },
             {
                 .type = TRMSG_AFTER,
-                .text = "See ya!\\n",
+                .text = "À plus !\\n",
             },
         },
     },
 
     [733] = {
-        .name = "Lance",
+        .name = "Peter",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_CHAMPION,
@@ -36789,13 +36789,13 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Did you see that, Clair?\\n",
+                .text = "Tu as vu ça, Sandra ?\\n",
             },
         },
     },
 
     [734] = {
-        .name = "Clair",
+        .name = "Sandra",
         .data = {
             .trainerType = TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS,
             .trainerClass = TRAINERCLASS_LEADER_CLAIR,
@@ -36835,7 +36835,7 @@ const TrainerData sTrainerData[] = {
         .text = {
             {
                 .type = TRMSG_LOSE,
-                .text = "Oh, I see...\\n",
+                .text = "Oh, je vois...\\n",
             },
         },
     },
